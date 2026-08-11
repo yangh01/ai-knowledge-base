@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "DistributeSummary",
+  "description": "对外分发数据契约：organizer 为 importance=high 条目生成的 Markdown 分发摘要（≤150 字，含标题、核心亮点与原链接），供 OpenClaw 推送至 Telegram / 飞书。",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "source_url",
+    "distribute_summary"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$",
+      "description": "条目 UUID v4"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "description": "条目标题"
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "原链接，便于渠道单独携带"
+    },
+    "distribute_summary": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 150,
+      "description": "Markdown 分发摘要，150 字以内，含标题、核心亮点与原链接"
+    },
+    "channels": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "telegram",
+          "feishu"
+        ]
+      },
+      "description": "目标分发渠道"
+    }
+  }
+}

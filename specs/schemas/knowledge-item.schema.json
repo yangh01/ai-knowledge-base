@@ -1,0 +1,254 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "KnowledgeItem",
+  "description": "已分析/已归档知识条目的统一契约：analyzer 分析阶段产出的单条结果（status=analyzed），也是 organizer 归档到 knowledge/articles/ 的单文件内容（status=analyzed 或 published）。",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "source",
+    "source_url",
+    "summary",
+    "highlights",
+    "score",
+    "importance",
+    "tags",
+    "status",
+    "fetched_at",
+    "analyzed_at"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$",
+      "description": "UUID v4 唯一标识，一经生成不可变（红线：禁止修改 id）"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[^\"]*$",
+      "description": "知识条目标题；内容中禁止出现 ASCII 直双引号，一律使用中文全角引号"
+    },
+    "source": {
+      "enum": [
+        "github_trending",
+        "hacker_news"
+      ],
+      "description": "信息来源，继承自原始数据"
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "原始链接，继承自原始数据"
+    },
+    "original_text": {
+      "type": "string",
+      "description": "原始内容全文，从 WebFetch 获取（可选）"
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 200,
+      "maxLength": 500,
+      "pattern": "^[^\"]*$",
+      "description": "中文摘要，200-500 字；禁止 ASCII 直双引号"
+    },
+    "summary_en": {
+      "type": "string",
+      "description": "英文摘要，仅 importance=high 时必填"
+    },
+    "highlights": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 3,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "maxLength": 50,
+        "pattern": "^[^\"]*$",
+        "description": "单个亮点，不超过 50 字；禁止 ASCII 直双引号"
+      },
+      "description": "2-3 个核心亮点"
+    },
+    "score": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 10,
+      "description": "重要度评分 1-10"
+    },
+    "importance": {
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ],
+      "description": "重要程度：9-10→high、5-8→medium、1-4→low"
+    },
+    "tags": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 6,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "description": "标签 3-6 个，覆盖领域/类型/技术三个维度"
+    },
+    "related_models": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "description": "涉及的 AI 模型名称（可选）"
+    },
+    "status": {
+      "enum": [
+        "analyzed",
+        "published"
+      ],
+      "description": "analyzer 产出为 analyzed；organizer 对 high 条目更新为 published"
+    },
+    "fetched_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 采集时间，继承自原始数据"
+    },
+    "analyzed_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 分析完成时间"
+    },
+    "published_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 分发时间，仅 status=published 时必填"
+    },
+    "distributed_to": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "telegram",
+          "feishu"
+        ]
+      },
+      "description": "已分发渠道列表，仅 status=published 时必填"
+    },
+    "meta": {
+      "type": "object",
+      "description": "来源元数据，继承自原始数据的 popularity 字段",
+      "properties": {
+        "upvotes": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "comments": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "stars": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "title": "scoreImportanceMapping",
+      "description": "score 与 importance 映射一致",
+      "if": {
+        "properties": {
+          "score": {
+            "minimum": 9
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "importance": {
+            "enum": [
+              "high"
+            ]
+          }
+        }
+      },
+      "else": {
+        "if": {
+          "properties": {
+            "score": {
+              "minimum": 5
+            }
+          }
+        },
+        "then": {
+          "properties": {
+            "importance": {
+              "enum": [
+                "medium"
+              ]
+            }
+          }
+        },
+        "else": {
+          "properties": {
+            "importance": {
+              "enum": [
+                "low"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "summaryEnRequiredForHigh",
+      "description": "importance=high 的条目必须提供英文摘要",
+      "if": {
+        "properties": {
+          "importance": {
+            "const": "high"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "summary_en"
+        ]
+      }
+    },
+    {
+      "title": "publishedState",
+      "description": "published 状态：仅 high 条目可发布，且必须携带 published_at 与 distributed_to",
+      "if": {
+        "properties": {
+          "status": {
+            "const": "published"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "published_at",
+          "distributed_to"
+        ],
+        "properties": {
+          "importance": {
+            "const": "high"
+          }
+        }
+      }
+    }
+  ]
+}

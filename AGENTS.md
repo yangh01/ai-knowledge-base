@@ -19,12 +19,18 @@ AI 知识库助手是一个自动化的技术情报聚合与分发系统。它�
 
 ## 编码规范
 
-- **PEP 8**：严格遵循 Python 官方代码风格指南。
-- **命名约定**：变量、函数、方法统一使用 `snake_case`；类名使用 `PascalCase`；常量使用 `UPPER_SNAKE_CASE`。
+- **语言与工具链**：Python 3.11，本项目纯 Python，不涉及 TypeScript。依赖管理使用 `uv`，提交 `uv.lock` 锁文件。
+- **格式化与静态检查**：统一使用 `ruff`（不使用 black）。`ruff format` 格式化，行宽 **88** 字符；`ruff check` 做 lint（含 isort 导入排序）。
+- **类型注解**：所有函数签名必须包含完整的类型注解，并通过 `mypy` **strict** 模式检查。
+- **命名约定**：变量、函数、方法统一使用 `snake_case`；类名使用 `PascalCase`；常量使用 `UPPER_SNAKE_CASE`；异步函数使用 `async_` 前缀，`asyncio.run()` 仅出现在程序入口，禁止同步/异步混用。
+- **枚举管理**：固定值（如 `source` / `status` / `importance` / 渠道名）一律定义 **Python Enum**，禁止裸字符串散落；JSON 序列化时再转为字符串。
 - **Docstring**：所有公开函数/类必须编写 **Google 风格** docstring，包含 `Args`、`Returns`、`Raises` 段落。
-- **日志规范**：使用标准 `logging` 模块输出日志，**绝对禁止裸 `print()`**。
-- **类型注解**：所有函数签名必须包含完整的类型注解，并通过 `mypy` 静态检查。
-- **代码格式化**：使用 `ruff` 进行 lint 与自动格式化。
+- **日志规范**：使用标准 `logging` 模块输出日志，**绝对禁止裸 `print()`**。级别分级：`DEBUG` 调试、`INFO` 流水线节点、`WARNING` 可恢复异常、`ERROR` 阻断失败，日志需携带上下文字段。
+- **网络请求**：HTTP 请求必须设置超时与重试；遵守目标网站 `robots.txt`，采集间隔不低于 30 分钟。
+- **配置与密钥**：使用 `pydantic-settings` 从 `.env` 读取配置，启动时校验必填项，缺失立即报错；禁止硬编码任何密钥。
+- **测试**：使用 `pytest`，行覆盖率 **≥ 80%**（pytest-cov），网络请求类代码可配置排除规则。
+- **Git 规范**：commit message 遵循 **Conventional Commits**（`feat` / `fix` / `refactor` / `docs` 等前缀）。
+- **CI 检查**：GitHub Actions 上执行 `ruff check` + `ruff format --check` + `mypy` + `pytest --cov`；覆盖率低于阈值即失败；**扫描 TODO 关键字，存在即失败**（TODO 禁止合入 main）。
 
 ```python
 # 正确示例

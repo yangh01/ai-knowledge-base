@@ -1,0 +1,162 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "RunManifest",
+  "description": "流水线运行清单契约：追踪指定日期一次运行中 collector/analyzer/organizer 各阶段的开始/完成/失败状态、处理条目数与错误明细。阶段失败即中断（fail-fast），重跑时已完成阶段标记 skipped。",
+  "type": "object",
+  "required": [
+    "manifest_id",
+    "date",
+    "status",
+    "stages",
+    "created_at",
+    "updated_at"
+  ],
+  "properties": {
+    "manifest_id": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$",
+      "description": "本次运行的 UUID v4 唯一标识"
+    },
+    "date": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+      "description": "运行对应的 UTC 日期，格式 YYYY-MM-DD"
+    },
+    "attempt": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "同一天的第几次运行，首次为 1"
+    },
+    "status": {
+      "enum": [
+        "running",
+        "succeeded",
+        "failed"
+      ],
+      "description": "整条流水线状态：任一阶段失败即 failed"
+    },
+    "stages": {
+      "type": "object",
+      "required": [
+        "collector",
+        "analyzer",
+        "organizer"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "collector": {
+          "$ref": "#/definitions/stage"
+        },
+        "analyzer": {
+          "$ref": "#/definitions/stage"
+        },
+        "organizer": {
+          "$ref": "#/definitions/stage"
+        }
+      }
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "运行清单创建时间"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "运行清单最近更新时间"
+    }
+  },
+  "definitions": {
+    "stage": {
+      "type": "object",
+      "required": [
+        "status"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "pending",
+            "running",
+            "succeeded",
+            "failed",
+            "skipped"
+          ],
+          "description": "pending 未开始；running 进行中；succeeded 完成；failed 失败中止；skipped 幂等重跑跳过"
+        },
+        "started_at": {
+          "type": "string",
+          "format": "date-time",
+          "description": "阶段开始时间"
+        },
+        "finished_at": {
+          "type": "string",
+          "format": "date-time",
+          "description": "阶段结束时间"
+        },
+        "items_processed": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "本阶段处理的条目总数"
+        },
+        "items_succeeded": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "成功条目数"
+        },
+        "items_failed": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "失败条目数"
+        },
+        "duplicates_skipped": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "去重跳过的条目数（collector URL 去重 / organizer 多维去重）"
+        },
+        "published_high": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "organizer 阶段发布的高重要度条目数"
+        },
+        "errors": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/error"
+          },
+          "description": "错误明细列表"
+        }
+      }
+    },
+    "error": {
+      "type": "object",
+      "required": [
+        "stage",
+        "message"
+      ],
+      "properties": {
+        "stage": {
+          "enum": [
+            "collector",
+            "analyzer",
+            "organizer"
+          ],
+          "description": "发生错误的阶段"
+        },
+        "item_id": {
+          "type": "string",
+          "description": "关联的条目 id 或原始 URL（单条失败时提供）"
+        },
+        "message": {
+          "type": "string",
+          "minLength": 1,
+          "description": "错误原因描述"
+        },
+        "occurred_at": {
+          "type": "string",
+          "format": "date-time",
+          "description": "错误发生时间"
+        }
+      }
+    }
+  }
+}

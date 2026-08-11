@@ -1,0 +1,9 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "RawFile",
+  "description": "当日原始数据文件 knowledge/raw/YYYY-MM-DD.json 的契约：RawItem 数组，按热度降序排列。采集为空或全被过滤时为合法空数组（合法空结果），不视为错误。",
+  "type": "array",
+  "items": {
+    "$ref": "raw-item.schema.json"
+  }
+}

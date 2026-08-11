@@ -1,0 +1,36 @@
+{
+  "id": "2f3a4b5c-6d7e-4f8a-9d9e-1b2c3d4e5f6a",
+  "title": "ComfyUI-H3-Motion-Context：MiniMax H3 长视频片段拼接节点",
+  "source": "github_trending",
+  "source_url": "https://github.com/NikoDemon80/ComfyUI-H3-Motion-Context",
+  "summary": "为 MiniMax H3 提供视频片段拼接节点，让运动与音频在连接处延续，避免长视频跳变。",
+  "highlights": [
+    "341 颗 Star，提供 clip chaining 片段拼接能力",
+    "解决单段生成时长受限、多段拼接不连贯的核心痛点",
+    "使运动与音频在片段连接处真正延续"
+  ],
+  "score": 6,
+  "score_reason": "针对长视频生成连续性问题的实用节点扩展，解决真实痛点；功能单一、依赖 MiniMax H3 生态，评为 6 分。",
+  "tags": [
+    "视频生成",
+    "ComfyUI",
+    "MiniMax",
+    "长视频"
+  ],
+  "related_models": [
+    "MiniMax H3"
+  ],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-08-11T04:40:00Z",
+  "analyzed_at": "2026-08-11T05:30:00Z",
+  "meta": {
+    "stars": 341,
+    "language": "Python",
+    "non_standard_tags": [
+      "ComfyUI",
+      "MiniMax"
+    ],
+    "score_reason": "针对长视频生成连续性问题的实用节点扩展，解决真实痛点；功能单一、依赖 MiniMax H3 生态，评为 6 分。"
+  }
+}

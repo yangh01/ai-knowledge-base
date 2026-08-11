@@ -1,0 +1,30 @@
+{
+  "id": "d7e8f9a0-b1c2-4d3e-8f4a-5b6c7d8e9f0a",
+  "title": "LoopX：面向长期运行 Agent 团队的循环工程状态内核与控制平面",
+  "source": "github_trending",
+  "source_url": "https://github.com/huangruiteng/loopx",
+  "original_text": "LoopX 是面向长期运行 AI Agent 团队的开源、供应商中立的轻量级循环工程（loop engineering）状态内核与本地优先控制平面。它不替代任何 Agent 运行时，而是让 Codex、Claude Code、Cursor 等运行时在受控的有限回合内执行工作，同时由 LoopX 维护可持久化的控制状态：objective（目标）、gates（门控）、todos（待办）、scope（范围）、evidence（证据）与 quota（配额）。核心循环 tick 只有五个命令：loopx quota should-run（是否该行动）、loopx todo claim（谁拥有该切片）、loopx todo update（改了什么）、loopx refresh-state（下一回合看到什么）、loopx quota spend-slot（结算已验证切片）。特性：生命周期目标（lifetime goals）、具体人工门控（concrete user gates，不模糊“等 owner”）、经审计的安全回退（audited safe fallback）、对等 todo 所有权（peer claims/leases）、配额感知自动唤醒（quota-aware scheduling）、证据回写（evidence writeback）与可验证交接；可将状态投影到飞书/Lark 看板等协作面。Python 3.11+ 实现、标准库零运行时依赖，本地优先、状态源为 .loopx/ 目录。展示案例包括 200+ 小时的开源 PR 贡献弧线、4 天无人值守运行与 7 个已合并 PR 的 Engine 重构等。",
+  "summary": "LoopX 是一个面向长期运行 AI Agent 团队的开源“循环工程”控制平面，定位是“把会干活的 Agent 接成可管理、可复盘、可持续改进的数字员工”。它明确不替代 Codex、Claude Code、Cursor 等 Agent 运行时，而是做一个供应商中立、本地优先的轻量状态内核：持久维护目标、门控、待办、范围、证据与配额六类控制状态，核心循环精简为五个命令（should-run / claim / update / refresh-state / spend-slot），让多 Agent 对等协作具备清晰的所有权、租约、交接与结算语义。它强调“把判断留给人”：遇到需要人工判断的场景会提出具体问题并等待，而非模糊地“等待 owner”；对危险权限、发布与生产写入坚持人工终审。技术实现上仅依赖 Python 标准库，本地 .loopx/ 目录为状态事实源，并提供配额感知自动唤醒、经审计的安全回退、证据回写与可验证交接，可将待办与门控投影到飞书/Lark 看板等协作面。项目提供了 200+ 小时开源 PR 贡献弧线、4 天无人值守运行等真实案例。对 Agent 领域而言，LoopX 代表了“Agent 编排的下一个层次”——从单次会话任务走向跨天、跨回合、多 Agent 的受控长期运行，对构建生产级 Agent 团队协作体系有重要参考价值。",
+  "highlights": [
+    "供应商中立状态内核：目标/门控/待办/证据/配额五元状态",
+    "五个核心命令实现可审计的循环治理与对等交接",
+    "支持飞书/Lark 看板投影，人工门控保证安全边界"
+  ],
+  "score": 6,
+  "tags": [
+    "Agent",
+    "工具调用",
+    "开源项目",
+    "部署",
+    "行业分析"
+  ],
+  "related_models": [],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-08-11T08:30:00Z",
+  "analyzed_at": "2026-08-11T09:00:00Z",
+  "meta": {
+    "stars": 2947,
+    "non_standard_tags": []
+  }
+}

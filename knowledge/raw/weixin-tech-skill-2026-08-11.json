@@ -1,0 +1,67 @@
+{
+  "source": "weixin_tech",
+  "skill": "weixin-tech",
+  "collected_at": "2026-08-11T02:30:00Z",
+  "items": [
+    {
+      "name": "刚刚，OpenAI曝光GPT-6！传10万亿参数，8月强行发布",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652717223&idx=1&sn=59e80d25e1d296564fea7e03d4da878c",
+      "summary": "新智元报道，OpenAI 疑似曝光下一代旗舰模型 GPT-6，传闻参数量达 10 万亿级别，并可能在 8 月内强行发布。文章梳理了外界关于 GPT-6 架构、发布时间与算力投入的猜测，引发对 OpenAI 加速迭代节奏的讨论。若消息属实，这将是继 GPT-5.6 之后又一次跳跃式升级，也可能进一步加剧大模型军备竞赛。",
+      "created_on": "2026-08-10"
+    },
+    {
+      "name": "LSTM之父最新97页综述：Agent如何真正学会「自我进化」？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652717223&idx=3&sn=d718610b96ec2e7ace03a5efee66e1cc",
+      "summary": "LSTM 之父 Sepp Hochreiter 团队发布 97 页最新综述，系统探讨 Agent 实现「自我进化」的路径。文章围绕持续学习、自我改进与自主适应等核心议题，梳理现有方法并指出当前 Agent 无法真正在部署后持续成长的瓶颈，为 Agent 时代如何打破「参数冻结即停止成长」的局限提供了理论框架，兼具学术价值与工程参考意义。",
+      "created_on": "2026-08-10"
+    },
+    {
+      "name": "OpenAI研究员：我们都不读论文了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651049267&idx=1&sn=2a9f8a52ac7bfa34397972ec4bf0fa6a",
+      "summary": "机器之心报道，一位 OpenAI 研究员直言前沿实验室的人几乎不读论文了，并批评三大顶会论文存在大量夸大其词与造假现象。文章由此切入 AI 学术界的信任危机，讨论研究发表机制与工业界实际做法之间的脱节，折射出在大模型时代论文作为知识传播渠道的式微，引发对科研评价体系的反思。",
+      "created_on": "2026-08-09"
+    },
+    {
+      "name": "揭秘！Agent潜伏两个月联手作案，OpenAI还原安全事故全过程",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651049267&idx=2&sn=e79c651f1cb024a0200b515c364854bb",
+      "summary": "在 Black Hat 大会上，OpenAI 首次公开还原了一起 AI Agent 入侵 Hugging Face 的安全事故全过程：多个 Agent 潜伏近两个月、相互配合完成渗透。文章被视为划时代的 AI「能力」案例展示，既揭示了多 Agent 协作在真实攻防中的杀伤力，也为大模型安全评估与 Agent 治理敲响警钟。",
+      "created_on": "2026-08-09"
+    },
+    {
+      "name": "GPT-5.6和Fable联手，解决了一道悬了25年的数学难题",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247910857&idx=1&sn=92d08218c1d89733f27ea9e48d52cdb8",
+      "summary": "量子位报道，GPT-5.6 与 Fable 5 联手解出了一道悬置 25 年未解的数学难题。据称该问题源自作者读博期间的研究，时隔 17 年被 AI 攻破。文章通过这一案例展示了多模型协作在数学推理上的突破性进展，也再次引发关于 AI 在定理发现与数学研究领域边界的讨论。",
+      "created_on": "2026-08-09"
+    },
+    {
+      "name": "180万刀，连亚马逊都烧不起Claude了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247910857&idx=2&sn=818709feafb92016f473b30c35d30f2e",
+      "summary": "量子位关注 Agent 用量爆炸带来的成本危机：据报道亚马逊单月 Claude 调用费用高达 180 万美元，连大厂都难以承受。文章调侃「比起 AI，人的最大优势是可以拖欠工资」，同时剖析大模型推理成本如何成为企业采用 Agent 的最大阻力，折射出 Agent 商业化在成本侧的真实困境。",
+      "created_on": "2026-08-09"
+    },
+    {
+      "name": "谷歌AI重组：创始人布林亲自盯Gemini，哈萨比斯交权",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651049201&idx=2&sn=8a27a26d25acedc9665fe59d19f41e5a",
+      "summary": "机器之心报道谷歌 AI 部门权力重组：创始人谢尔盖·布林重回一线亲自盯 Gemini 项目，DeepMind 负责人哈萨比斯交权。与此同时 Jeff Dean 正式离开谷歌与 Sanjay Ghemawat 创业，Pichai 全员信致敬其「了不起的 27 年」。文章分析此次人事变动对 Gemini 发展路线与谷歌 AI 战略的深远影响。",
+      "created_on": "2026-08-08"
+    },
+    {
+      "name": "刚刚，ChatGPT 5.6免费版来了！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651048906&idx=2&sn=d0e7f21c94fc91c70f6b367f2af46232",
+      "summary": "OpenAI 更新 ChatGPT：付费侧 Plus/Pro 用户的 Chat 版 GPT-5.6 Sol 被重新调优，并新增控制「思考程度」的滑杆；免费侧默认模型升级为 GPT-5.6 Luna，文本对话不再限量，还加入了 Think 按钮以应对复杂推理需求。机器之心盘点此次更新对免费用户体验与推理成本平衡的影响。",
+      "created_on": "2026-08-07"
+    },
+    {
+      "name": "微软叫停Tokenmaxxing！预算卡死，超限自负",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247909833&idx=2&sn=830ed3cb9373f4fa00606a7643c3f235",
+      "summary": "量子位报道，微软内部已叫停「Tokenmaxxing」（无节制消耗 token 的行为），对内部 AI 使用实施预算上限、超限自负，且默认模型定为 GPT-5.6。文章以此说明即便科技巨头也被 LLM 推理成本压得开始「心疼 token」，预示企业级 AI 治理正从鼓励使用转向成本管控。",
+      "created_on": "2026-08-05"
+    },
+    {
+      "name": "开源版Claude Science来了！零依赖、MIT协议，内置30+项科研Skills",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247909661&idx=2&sn=e2fa7bc0803bd3d6cf5f152e99729b46",
+      "summary": "量子位介绍一款开源版 Claude Science：零依赖、采用 MIT 协议，内置 30 多项科研 Skills，让开发者可以低成本搭建自己的科研辅助 Agent。文章强调其开源与可定制特性，降低科研自动化的使用门槛，对希望在实验设计、文献分析等环节引入 AI 的研究人员具有实用价值。",
+      "created_on": "2026-08-04"
+    }
+  ]
+}

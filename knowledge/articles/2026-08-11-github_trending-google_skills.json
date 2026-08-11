@@ -1,0 +1,32 @@
+{
+  "id": "f9a0b1c2-d3e4-4f5a-8f6b-7c8d9e0f1a2b",
+  "title": "google/skills：Google 官方开源 Agent Skills 集合",
+  "source": "github_trending",
+  "source_url": "https://github.com/google/skills",
+  "original_text": "google/skills 是 Google 官方开源的 Agent Skills 集合仓库，为 Google 产品与技术（含 Google Cloud）提供可复用的 Agent 能力，遵循开放 Agent Skills 标准（agentskills.io），处于活跃开发中。仓库包含 100+ 技能，覆盖领域：AI/ML（Agent Platform 系列：推理、部署、模型调优、Prompt 管理、RAG 引擎管理、Eval Flywheel 评估闭环、Model Garden、Gemini API、Gemini Live API、Skill Registry 技能注册表等）、基础设施（GKE 系列：推理、创建、集群、存储、网络、多租户、生产化、可观测性、成本优化等 20+ 技能，Cloud Run、Cloud Storage、Filestore、负载均衡、Terraform 架构等）、数据库与分析（BigQuery、Bigtable、Cloud SQL、Spanner、AlloyDB、Data Lineage、Airflow 迁移等）、安全与身份（GKE 平台/工作负载安全、SecOps 检测覆盖评估）、广告（Google Ads API、Google Mobile Ads SDK、Data Manager API、IMA SDK 等）、Web 与 App 托管（Firebase、Cloud Run）、Well-Architected Framework（六大支柱）等。安装方式：npx skills add google/skills 可选择安装；同时打包 Skills+MCP 的插件市场（plugins），支持 Claude Code（claude plugin marketplace add google/skills）、Codex、Antigravity CLI 等 Agent 宿主。另有 Android、Dart、Flutter、Firestore、Genkit、Google Cloud Storage、ADK 等关联技能仓库。Apache 2.0 许可。",
+  "summary": "google/skills 是 Google 官方开源整理的 Agent Skills 集合仓库，目标是为 Google 产品与技术（尤其是 Google Cloud）提供可直接复用的 Agent 能力，遵循开放的 Agent Skills 标准（agentskills.io），目前处于活跃开发中。仓库已收录 100+ 个技能，覆盖面广且分层清晰：AI/ML 类包括 Agent Platform 全链路技能（模型部署、调优、Prompt 管理、RAG 引擎管理、Eval Flywheel 评估闭环、Model Garden 等）与 Gemini API/Live API；基础设施类以 GKE 系列为主（集群创建、推理、存储、网络、多租户、成本优化、可观测性等 20+ 技能）并含 Cloud Run、云存储、负载均衡等；数据库分析类覆盖 BigQuery、Bigtable、Spanner、AlloyDB 等；另有安全身份、广告（Google Ads API、Mobile Ads SDK）、Well-Architected Framework 等企业级主题。工程上提供两种集成方式：npx skills add google/skills 按需选择安装，或通过插件市场（Skills+MCP 打包）直接接入 Claude Code、Codex、Antigravity CLI 等 Agent 宿主。对 AI/Agent 领域而言，该项目体现了大型厂商“把云服务与产品能力 Agent 化”的趋势——以标准化的 Markdown 技能 + MCP 方式封装企业级 API，是 Agent 生态中“技能仓库 + 插件市场”模式的重要范本。",
+  "highlights": [
+    "100+ 官方技能，覆盖 Google Cloud AI/ML/数据库/安全/广告",
+    "npx 按需安装 + Skills+MCP 插件市场双通道接入",
+    "可直接集成 Claude Code、Codex 等主流 Agent 宿主"
+  ],
+  "score": 6,
+  "tags": [
+    "Agent",
+    "工具调用",
+    "LLM",
+    "RAG",
+    "开源项目"
+  ],
+  "related_models": [
+    "Gemini"
+  ],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-08-11T08:30:00Z",
+  "analyzed_at": "2026-08-11T09:00:00Z",
+  "meta": {
+    "stars": 2159,
+    "non_standard_tags": []
+  }
+}

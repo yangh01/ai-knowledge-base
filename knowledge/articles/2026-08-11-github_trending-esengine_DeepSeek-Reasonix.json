@@ -1,0 +1,34 @@
+{
+  "id": "a1b2c3d4-e5f6-4a8b-9c0d-1e2f3a4b5c6d",
+  "title": "DeepSeek-Reasonix：DeepSeek 原生的终端 AI 编码 Agent（Go 重写）",
+  "source": "github_trending",
+  "source_url": "https://github.com/esengine/DeepSeek-Reasonix",
+  "original_text": "DeepSeek-Reasonix 是 DeepSeek 原生的终端 AI 编码 Agent，现已从 TypeScript 全面重写为 Go（main-v2 分支为默认，单静态二进制、MIT 许可）。核心设计目标：围绕 prefix-cache 稳定性构建，让长会话 token 成本保持低位、可长时间持续运行。四种接入方式：CLI/TUI、桌面应用（Wails）、浏览器与 VS Code 扩展（通过 ACP 协议）。特性：配置驱动（reasonix.toml 声明 providers/agent/工具/插件，无硬编码模型）；多模型可组合（可选执行器 executor + 规划器 planner 双模型并行，各自独立 cache-stable 会话）；插件驱动（MCP 服务器贡献工具/提示词/资源，Extension Protocol v1 sidecar 可拦截运行时事件）；缓存感知的上下文维护（启动注入稳定环境摘要、过期工具输出在摘要压缩前修剪）；零摩擦分发（CGO_ENABLED=0 单二进制，一条命令交叉编译 darwin/linux/windows × amd64/arm64 六目标）；计划模式（plan mode）、权限控制（per-workspace shell 白名单）、工作区沙箱与每轮检查点回退（checkpoints & rewind）。真实用户单日案例：435M 输入 token、99.82% 缓存命中率，成本约 $12（对比无缓存 v4-flash 约 $61）。",
+  "summary": "DeepSeek-Reasonix 是专为 DeepSeek 模型打造的终端 AI 编码 Agent，已用 Go 全面重写（main-v2 为默认分支），以单一静态二进制分发，MIT 开源。它的核心差异化在于将 DeepSeek 的 prefix-cache 机制当作“必须围绕的不变量”来设计整个循环：通过缓存感知的上下文维护（稳定环境摘要注入、过期工具输出修剪、工具 schema 契约固化）与缓存友好的一致性策略，让长时程会话保持极高缓存命中率——真实用户单日 435M 输入 token、99.82% 缓存命中，成本仅约 $12（同样负载在无缓存方案下约需 $61）。接入方式覆盖终端 CLI/TUI、桌面应用、浏览器与 VS Code（经 ACP 协议），reasonix.toml 配置驱动、支持执行器+规划器双模型组合、MCP 插件体系与扩展协议 sidecar。工程上提供计划模式、工作区沙箱、权限白名单与每轮检查点回退，使其适合无人值守的长时程自主编码任务。对 AI 领域意义在于：它示范了“为特定模型（DeepSeek）的缓存经济性做深度定制”的 Agent 设计路线，与通用多模型 Agent 框架形成鲜明对照，对控制 Agent 长期运行成本有重要启发。",
+  "highlights": [
+    "Go 重写单静态二进制，CLI/桌面/浏览器/VS Code 四端接入",
+    "围绕 prefix-cache 设计，99.82% 命中率大幅降本",
+    "reasonix.toml 配置驱动，支持执行器+规划器双模型与 MCP"
+  ],
+  "score": 7,
+  "tags": [
+    "Agent",
+    "LLM",
+    "推理",
+    "工具调用",
+    "开源项目"
+  ],
+  "related_models": [
+    "DeepSeek",
+    "DeepSeek-V3.2",
+    "Claude Opus"
+  ],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-08-11T08:30:00Z",
+  "analyzed_at": "2026-08-11T09:00:00Z",
+  "meta": {
+    "stars": 4109,
+    "non_standard_tags": []
+  }
+}

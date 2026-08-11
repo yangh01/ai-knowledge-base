@@ -1,0 +1,37 @@
+{
+  "id": "0d1e2f3a-4b5c-4d6e-b7c8-9f0a1b2c3d4e",
+  "title": "ComfyUI-MiniMax-H3-Turbo：约 4 步采样大幅提速 MiniMax H3 视频生成",
+  "source": "github_trending",
+  "source_url": "https://github.com/Larryvrh/ComfyUI-MiniMax-H3-Turbo",
+  "summary": "为 MiniMax H3 提供 Turbo LoRA 与 Sampler 节点，图文生视频+音频仅约 4 步采样，降低显存门槛。",
+  "highlights": [
+    "373 颗 Star，图文生视频+同步音频仅约 4 步采样（官方默认约 20 步）",
+    "低显存档无需 80GB 显卡，基础模型流式加载",
+    "不改动官方工作流其余环节即可显著提速"
+  ],
+  "score": 7,
+  "score_reason": "在不改官方工作流的前提下将采样步数从约 20 步降至约 4 步并降低硬件门槛，对 MiniMax H3 创作者直接提效；属生态优化方案而非新模型，评为 7 分。",
+  "tags": [
+    "视频生成",
+    "ComfyUI",
+    "MiniMax",
+    "推理加速",
+    "多模态"
+  ],
+  "related_models": [
+    "MiniMax H3"
+  ],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-08-11T04:40:00Z",
+  "analyzed_at": "2026-08-11T05:30:00Z",
+  "meta": {
+    "stars": 373,
+    "language": "Python",
+    "non_standard_tags": [
+      "ComfyUI",
+      "MiniMax"
+    ],
+    "score_reason": "在不改官方工作流的前提下将采样步数从约 20 步降至约 4 步并降低硬件门槛，对 MiniMax H3 创作者直接提效；属生态优化方案而非新模型，评为 7 分。"
+  }
+}

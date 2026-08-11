@@ -1,0 +1,92 @@
+[
+  {
+    "title": "MoonshotAI/Kimi-K3",
+    "url": "https://github.com/MoonshotAI/Kimi-K3",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 5674
+    },
+    "summary": "月之暗面（Moonshot AI）发布的新一代开源大语言模型 Kimi K3，口号为「开放前沿智能」。这是 Kimi 系列的重要迭代，预计在推理能力、多模态理解和长上下文处理方面有显著提升，延续了月之暗面在 MoE（混合专家）架构上的技术路线。项目上线仅 3 天即收获 5600+ Star，成为本周 GitHub 最热门的 AI 项目，标志着国产大模型开源生态的持续壮大。"
+  },
+  {
+    "title": "slvDev/esp32-ai",
+    "url": "https://github.com/slvDev/esp32-ai",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 2321
+    },
+    "summary": "在 ESP32 微控制器上运行 AI 模型的开源项目。ESP32 是广泛应用于物联网的低成本、低功耗芯片，该项目致力于将 AI 推理能力带到嵌入式设备和边缘计算场景中，让开发者能够在资源严重受限的硬件上部署轻量级 AI 应用，推动端侧智能的普及和边缘 AI 的落地实践。"
+  },
+  {
+    "title": "mshumer/Claude-of-Duty",
+    "url": "https://github.com/mshumer/Claude-of-Duty",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 2244
+    },
+    "summary": "仅通过一条 Claude 提示词生成的《使命召唤》级别画质的 3D 第一人称射击游戏，基于 Three.js 构建。该项目展示了 AI 辅助游戏开发的前沿能力——从场景搭建、物理引擎到交互逻辑，全部由大模型根据自然语言指令驱动完成，体现了提示工程在创意编程领域的巨大潜力，也为 AI 生成复杂交互应用树立了新标杆。"
+  },
+  {
+    "title": "kvcache-ai/AgentENV",
+    "url": "https://github.com/kvcache-ai/AgentENV",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 2097
+    },
+    "summary": "一个用 Rust 编写的分布式 AI Agent 运行环境平台。AgentENV（AENV）旨在大规模运行和管理 Agent 环境，为开发者提供可弹性扩展的 Agent 运行时基础设施。它解决了企业级场景下并行部署大量自主 Agent 的工程挑战，适用于需要高并发、低延迟的 Agent 编排场景，是 Agent 基础设施层的重要开源贡献。"
+  },
+  {
+    "title": "Jakubantalik/thinking-orbs",
+    "url": "https://github.com/Jakubantalik/thinking-orbs",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 1243
+    },
+    "summary": "专为 AI 聊天和 Agent 界面设计的「思考中」加载动画组件库。提供六种精心调校的动态点阵球体状态、两种尺寸规格，并自动适配暗黑/明亮主题。它精准解决了 AI 交互中「等待响应」阶段的用户体验痛点——通过优雅的视觉反馈让用户感知 AI 的思考过程，已被广泛应用于各类 AI 对话产品的前端界面中。"
+  },
+  {
+    "title": "makecindy/cindy",
+    "url": "https://github.com/makecindy/cindy",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 1102
+    },
+    "summary": "开源、开箱即用的 AI Agent，口号是「Consider it done（想到，就能做到）」。cindy 基于 TypeScript 和 Electron 构建，支持 macOS、Windows、iOS、Android 全平台，集成了 Claude Code、Codex 等主流编码 Agent 后端。项目定位为个人通用 AI 助手，覆盖代码编写、任务自动化、信息检索等日常场景，降低了普通用户使用 Agent 的门槛。"
+  },
+  {
+    "title": "mikiarlo3/ai-copywriter",
+    "url": "https://github.com/mikiarlo3/ai-copywriter",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 1046
+    },
+    "summary": "一款融合真实文案技巧与营销知识的 AI 撰稿工具。区别于普通的文本生成器，该项目将专业文案方法论和营销策略深度嵌入 AI 写作流程，能够生成具有人性化语调、符合营销目标的文案内容。它为内容创作者和营销人员提供了从灵感激发到成文输出的完整 AI 辅助写作解决方案，体现了垂直领域 AI 应用的精细化发展趋势。"
+  },
+  {
+    "title": "QoderAI/better-harness",
+    "url": "https://github.com/QoderAI/better-harness",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 948
+    },
+    "summary": "专为编码 Agent 设计的评估和持续改进框架。Better Harness 能够系统性地评估 Claude Code、Codex、Cursor 等编码 Agent 在任务理解、代码变更执行、结果验证等环节的表现，并基于评估数据帮助开发者构建更可靠、可复现、持续进化的 Agent 工作流。它填补了 Agent 工程中「如何衡量 Agent 做得有多好」这一关键空白。"
+  },
+  {
+    "title": "fuadmefleh/Shared-Claude-Chats",
+    "url": "https://github.com/fuadmefleh/Shared-Claude-Chats",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 931
+    },
+    "summary": "Claude 和 Grok 公开对话的归档仓库，将公开分享的 AI 对话从分享链接批量导出为纯 Markdown 格式，并配套两个自动化导出脚本。该项目为研究 AI 对话质量、提示策略和模型行为提供了宝贵的开放数据集，也为开发者提供了学习和借鉴高质量 AI 对话模式的第一手素材。"
+  },
+  {
+    "title": "VictorTaelin/OptMem",
+    "url": "https://github.com/VictorTaelin/OptMem",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 872
+    },
+    "summary": "为 AI Agent 提供的极简永久记忆方案。仅需一个 426 token 的提示词和一个脚本，即插即用，无需复杂的外部依赖。该项目直击当前 Agent 在长对话和多轮交互中遗忘上下文的核心痛点，用轻量级设计实现了 Agent 记忆持久化，对于构建需要长期记忆能力的自主 Agent 具有重要参考价值。"
+  }
+]

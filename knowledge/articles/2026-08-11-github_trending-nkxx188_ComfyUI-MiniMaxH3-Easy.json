@@ -1,0 +1,36 @@
+{
+  "id": "5c6d7e8f-9a0b-4c1d-8a2b-4e5f6a7b8c9d",
+  "title": "ComfyUI-MiniMaxH3-Easy：MiniMax H3 的最易用一键集成工作流",
+  "source": "github_trending",
+  "source_url": "https://github.com/nkxx188/ComfyUI-MiniMaxH3-Easy",
+  "summary": "以单一紧凑工作流集成 MiniMax H3，统一支持文生视频、图生视频、首尾帧与参考视频生成。",
+  "highlights": [
+    "263 颗 Star，单一紧凑工作流开箱即用",
+    "统一支持文生视频、图生视频、首尾帧与参考视频生成",
+    "具备 @ 引用与内联对白块等多媒体统一输入能力"
+  ],
+  "score": 6,
+  "score_reason": "显著降低 MiniMax H3 使用门槛，适合快速上手；功能集成度高但与同生态节点存在重叠、差异化有限，评为 6 分。",
+  "tags": [
+    "视频生成",
+    "ComfyUI",
+    "MiniMax",
+    "多模态"
+  ],
+  "related_models": [
+    "MiniMax H3"
+  ],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-08-11T04:40:00Z",
+  "analyzed_at": "2026-08-11T05:30:00Z",
+  "meta": {
+    "stars": 263,
+    "language": "JavaScript",
+    "non_standard_tags": [
+      "ComfyUI",
+      "MiniMax"
+    ],
+    "score_reason": "显著降低 MiniMax H3 使用门槛，适合快速上手；功能集成度高但与同生态节点存在重叠、差异化有限，评为 6 分。"
+  }
+}

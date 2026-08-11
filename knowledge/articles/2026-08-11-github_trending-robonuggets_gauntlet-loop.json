@@ -1,0 +1,31 @@
+{
+  "id": "4b5c6d7e-8f9a-4b0c-b1f2-3d4e5f6a7b8c",
+  "title": "gauntlet-loop：构建者+评审者对抗式盲评的质量闭环",
+  "source": "github_trending",
+  "source_url": "https://github.com/robonuggets/gauntlet-loop",
+  "summary": "将目标转为短提示词，以构建者+评审者成对盲评循环迭代，直至产出达到质量门槛。",
+  "highlights": [
+    "268 颗 Star，将任意目标转化为短提示词设定质量门槛",
+    "运行构建者+评审者成对机制，盲比结果并循环迭代",
+    "面向编码、写作等高质量输出的 Agent 工作流"
+  ],
+  "score": 6,
+  "score_reason": "「质量闭环」思路是 Agent 工程的重要方向，对抗式生成+盲评循环设计有启发性；实现较新、效果待验证，评为 6 分。",
+  "tags": [
+    "Agent",
+    "Prompt工程",
+    "质量评估",
+    "开源项目"
+  ],
+  "related_models": [],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-08-11T04:40:00Z",
+  "analyzed_at": "2026-08-11T05:30:00Z",
+  "meta": {
+    "stars": 268,
+    "language": null,
+    "non_standard_tags": [],
+    "score_reason": "「质量闭环」思路是 Agent 工程的重要方向，对抗式生成+盲评循环设计有启发性；实现较新、效果待验证，评为 6 分。"
+  }
+}

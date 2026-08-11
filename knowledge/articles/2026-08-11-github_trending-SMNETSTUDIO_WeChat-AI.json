@@ -1,0 +1,35 @@
+{
+  "id": "4d5e6f7a-8b9c-4da0-b1e2-3f4a5b6c7d8e",
+  "title": "WeChat-AI：自托管微信 AI 角色扮演聊天机器人平台",
+  "source": "github_trending",
+  "source_url": "https://github.com/SMNETSTUDIO/WeChat-AI",
+  "summary": "自托管微信 AI 角色扮演机器人平台，经腾讯 iLink 协议接入，支持贴纸、图片理解、语音转写与可视化编排。",
+  "highlights": [
+    "979 颗 Star，TypeScript 实现，经腾讯 iLink 协议接入微信",
+    "内置贴纸回复、图片理解、语音转写与 /chatflow 可视化编排",
+    "采用 Commons Clause 限制商业用途，适合个人与学习场景"
+  ],
+  "score": 6,
+  "score_reason": "微信生态内自建 AI 陪伴/客服机器人的完整工程方案，功能丰富；但受 Commons Clause 商业限制且场景垂直，以参考价值为主，评为 6 分。",
+  "tags": [
+    "Agent",
+    "微信",
+    "聊天机器人",
+    "TypeScript",
+    "开源项目"
+  ],
+  "related_models": [],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-08-11T04:40:00Z",
+  "analyzed_at": "2026-08-11T05:30:00Z",
+  "meta": {
+    "stars": 979,
+    "language": "TypeScript",
+    "non_standard_tags": [
+      "微信",
+      "TypeScript"
+    ],
+    "score_reason": "微信生态内自建 AI 陪伴/客服机器人的完整工程方案，功能丰富；但受 Commons Clause 商业限制且场景垂直，以参考价值为主，评为 6 分。"
+  }
+}

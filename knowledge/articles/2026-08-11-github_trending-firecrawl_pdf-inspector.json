@@ -1,0 +1,29 @@
+{
+  "id": "6c1e8d4f-a2b9-4e3c-8f5a-7d0b2c9e1f64",
+  "title": "pdf-inspector：Firecrawl 开源的 Rust PDF 解析与智能路由库",
+  "source": "github_trending",
+  "source_url": "https://github.com/firecrawl/pdf-inspector",
+  "original_text": "pdf-inspector 是 Firecrawl 开源的纯 Rust PDF 解析库，用于 AI 文档处理管线中的智能路由。核心能力：1) 智能分类——约 10-50ms 内通过采样内容流将 PDF 判定为 TextBased/Scanned/ImageBased/Mixed 四类，返回 0-1 置信度与按页 OCR 路由建议（pages_needing_ocr）；2) 文本提取——位置感知提取（含字体信息、X/Y 坐标）、自动多栏阅读顺序、RTL 支持；3) Markdown 转换——基于字体尺寸比识别 H1-H4 标题、粗体/斜体、有序/无序列表、等宽字体代码块、矩形+启发式双模式表格检测、链接、页面分隔符；4) CID 字体支持——ToUnicode CMap 解码 Type0/Identity-H 字体；5) 编码问题自动标记以便回退 OCR。纯 Rust 实现、无 ML 模型、无外部服务，仅依赖 lopdf。在 opendataloader-bench 基准（200 份文档）上综合得分 0.875（阅读顺序 0.915、表格 0.814、标题 0.788），200 份文档仅 0.470s，优于 liteparse、opendataloader、pymupdf4llm、markitdown。提供 Python（PyO3）、Node.js（napi-rs）与浏览器 WASM 绑定及 CLI（pdf2md/detect-pdf）。MIT 许可。",
+  "summary": "pdf-inspector 是 Firecrawl 开源的高性能 Rust PDF 解析库，专为 AI 文档处理管线设计。其核心创新是“智能路由”：先用约 10-50ms 完成 PDF 类型分类（文本型/扫描型/图片型/混合型）并给出逐页 OCR 路由建议，对约 54% 的纯文本型 PDF 直接本地提取，从而为管线省去昂贵的 OCR 服务调用（OCR 单页需 2-10s）。技术上它纯 Rust 实现、不依赖任何 ML 模型与外部服务，仅基于 PDF 内容流算子（Tj/TJ 与 Do）采样即可完成分类；提取侧支持位置感知文本、多栏阅读顺序、RTL、CID 字体（ToUnicode CMap）解码，以及基于字体尺寸比、等宽字体、矩形绘制算子与文本对齐启发式的 Markdown 结构化转换（标题/列表/代码块/表格）。性能上在 opendataloader-bench 基准 200 份文档上综合得分 0.875、总耗时仅 0.47s，全面超越 pymupdf4llm、markitdown 等主流方案。配套 Python、Node.js、浏览器 WASM 绑定与 CLI，可无缝嵌入 RAG 与文档处理流水线。对 AI 领域意义在于：它把“先分类、再选择处理路径”的路由思想引入文档解析，是构建低成本、低延迟 PDF→Markdown 数据管线的直接可用组件。",
+  "highlights": [
+    "10-50ms 完成 PDF 类型分类，智能跳过 OCR 省钱省时",
+    "opendataloader-bench 综合 0.875，200 份仅 0.47s 全场最快",
+    "纯 Rust 零 ML 依赖，提供 Python/Node/WASM 多语言绑定"
+  ],
+  "score": 7,
+  "tags": [
+    "RAG",
+    "部署",
+    "开源项目",
+    "工具调用"
+  ],
+  "related_models": [],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-08-11T08:30:00Z",
+  "analyzed_at": "2026-08-11T09:00:00Z",
+  "meta": {
+    "stars": 7143,
+    "non_standard_tags": []
+  }
+}

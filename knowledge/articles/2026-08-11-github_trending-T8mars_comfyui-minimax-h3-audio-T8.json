@@ -1,0 +1,37 @@
+{
+  "id": "6f7a8b9c-0d1e-4fa2-b3a4-5b6c7d8e9f0a",
+  "title": "ComfyUI MiniMax H3 音频节点扩展：54 节点覆盖音画联合生成管线",
+  "source": "github_trending",
+  "source_url": "https://github.com/T8mars/comfyui-minimax-h3-audio-T8",
+  "summary": "ComfyUI 的 MiniMax H3 音频节点扩展，注册 54 个节点，覆盖音画条件、对白边界、混音等能力。",
+  "highlights": [
+    "594 颗 Star，注册 54 个节点",
+    "覆盖音画条件、对白边界分析、安全分轨混音、背景底轨锁定等能力",
+    "支持分段长视频续写与 Ref2VA 参考编辑"
+  ],
+  "score": 7,
+  "score_reason": "MiniMax H3 生态中覆盖面最广的音频节点扩展，把视频+音频联合生成管线补齐为可精细控制的创作工具，对 ComfyUI 创作者直接有用；属生态工具而非基础模型创新，评为 7 分。",
+  "tags": [
+    "多模态",
+    "视频生成",
+    "ComfyUI",
+    "MiniMax",
+    "音频"
+  ],
+  "related_models": [
+    "MiniMax H3"
+  ],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-08-11T04:40:00Z",
+  "analyzed_at": "2026-08-11T05:30:00Z",
+  "meta": {
+    "stars": 594,
+    "language": "Python",
+    "non_standard_tags": [
+      "ComfyUI",
+      "MiniMax"
+    ],
+    "score_reason": "MiniMax H3 生态中覆盖面最广的音频节点扩展，把视频+音频联合生成管线补齐为可精细控制的创作工具，对 ComfyUI 创作者直接有用；属生态工具而非基础模型创新，评为 7 分。"
+  }
+}

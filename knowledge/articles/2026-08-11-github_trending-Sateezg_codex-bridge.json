@@ -1,0 +1,39 @@
+{
+  "id": "1e2f3a4b-5c6d-4e7f-8c8d-0a1b2c3d4e5f",
+  "title": "codex-bridge：让 Claude Code 复用 Codex 登录态调用 GPT-5 与图像生成",
+  "source": "github_trending",
+  "source_url": "https://github.com/Sateezg/codex-bridge",
+  "summary": "Shell 脚本桥接层，让 Claude Code 复用 Codex 登录态，无需 OpenAI API Key 调用 gpt-image-2 与 GPT-5 子代理。",
+  "highlights": [
+    "358 颗 Star，Shell 脚本实现",
+    "复用 Codex CLI 登录态，无需 OpenAI API Key",
+    "可调用 gpt-image-2 图像生成与 GPT-5 子代理能力"
+  ],
+  "score": 6,
+  "score_reason": "解决多编码 Agent 工具链重复付费、多套凭据的痛点，轻量实用；但属生态桥接方案、稳定性依赖两侧 CLI 变动，评为 6 分。",
+  "tags": [
+    "Agent",
+    "Claude Code",
+    "Codex",
+    "工具调用",
+    "GPT-5"
+  ],
+  "related_models": [
+    "GPT-5",
+    "gpt-image-2"
+  ],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-08-11T04:40:00Z",
+  "analyzed_at": "2026-08-11T05:30:00Z",
+  "meta": {
+    "stars": 358,
+    "language": "Shell",
+    "non_standard_tags": [
+      "Claude Code",
+      "Codex",
+      "GPT-5"
+    ],
+    "score_reason": "解决多编码 Agent 工具链重复付费、多套凭据的痛点，轻量实用；但属生态桥接方案、稳定性依赖两侧 CLI 变动，评为 6 分。"
+  }
+}

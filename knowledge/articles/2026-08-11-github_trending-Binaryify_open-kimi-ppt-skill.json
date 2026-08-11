@@ -1,0 +1,37 @@
+{
+  "id": "2b3c4d5e-6f7a-4b8c-9d0e-1f2a3b4c5d6e",
+  "title": "open-kimi-ppt-skill：Agent 一键生成可编辑 PPT 的非官方 Kimi Slides 技能包",
+  "source": "github_trending",
+  "source_url": "https://github.com/Binaryify/open-kimi-ppt-skill",
+  "summary": "非官方 Kimi Slides 技能包，让 Agent 生成可编辑 PPTD/PPTX 演示文稿，附带本地浏览器编辑器。",
+  "highlights": [
+    "1606 颗 Star，社区开发的非官方技能包",
+    "可生成可编辑的 PPTD 与 PPTX 格式文件",
+    "附带本地浏览器编辑器，解决生成后无法二次修改的问题"
+  ],
+  "score": 7,
+  "score_reason": "Agent 办公自动化方向的代表性开源尝试，解决 AI 生成 PPT 难以二次编辑的痛点，实用价值直接；但依赖 Kimi 生态、受众相对聚焦，评为 7 分。",
+  "tags": [
+    "Agent",
+    "办公自动化",
+    "Kimi",
+    "开源项目",
+    "生成式AI"
+  ],
+  "related_models": [
+    "Kimi"
+  ],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-08-11T04:40:00Z",
+  "analyzed_at": "2026-08-11T05:30:00Z",
+  "meta": {
+    "stars": 1606,
+    "language": null,
+    "non_standard_tags": [
+      "Kimi",
+      "生成式AI"
+    ],
+    "score_reason": "Agent 办公自动化方向的代表性开源尝试，解决 AI 生成 PPT 难以二次编辑的痛点，实用价值直接；但依赖 Kimi 生态、受众相对聚焦，评为 7 分。"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "1a2b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4c5d",
+  "title": "human-writing：让 AI 中文写作「去机器味」的创作与改稿 Skill",
+  "source": "github_trending",
+  "source_url": "https://github.com/KKKKhazix/human-writing",
+  "summary": "让 AI 写作「去机器味」的中文创作与改稿 Skill，可注入 Claude Code、Codex 等宿主，开箱即用。",
+  "highlights": [
+    "2311 颗 Star，为本批采集热度最高的项目",
+    "可注入 Claude Code、Codex 等 Agent Skills 宿主",
+    "定位通用创作与改稿能力，提升中文语境下 LLM 写作质量"
+  ],
+  "score": 8,
+  "score_reason": "中文语境下提升 LLM 写作质量的实用工程化方案，Star 数最高、通用性强，可直接改善内容创作工作流，属直接有帮助级别；但为方法论封装而非底层技术突破，故未达 9 分。",
+  "tags": [
+    "Agent",
+    "LLM",
+    "中文写作",
+    "Agent Skills",
+    "开源项目"
+  ],
+  "related_models": [],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-08-11T04:40:00Z",
+  "analyzed_at": "2026-08-11T05:30:00Z",
+  "meta": {
+    "stars": 2311,
+    "language": "Python",
+    "non_standard_tags": [
+      "Agent Skills"
+    ],
+    "score_reason": "中文语境下提升 LLM 写作质量的实用工程化方案，Star 数最高、通用性强，可直接改善内容创作工作流，属直接有帮助级别；但为方法论封装而非底层技术突破，故未达 9 分。"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "e8f9a0b1-c2d3-4e4f-8f5a-6b7c8d9e0f1a",
+  "title": "ComfyUI：最强大的模块化扩散模型创作引擎",
+  "source": "github_trending",
+  "source_url": "https://github.com/Comfy-Org/ComfyUI",
+  "original_text": "ComfyUI 是 AIGC 社区最强大的模块化扩散模型创作引擎，采用图/节点式可视化界面，让创作者无需编写代码即可构建图像、视频、3D、音频等生成管线。核心特性：1) 原生支持最新开源 SOTA 模型——图像生成（Stable Diffusion 1.5/SDXL/SD3.5、Flux.1/2、Qwen Image、Z-Image、Hunyuan Image 2.1、Lumina Image 2.0、Ideogram 4、Krea 2 等）、图像编辑（Flux Kontext、Qwen Image Edit、OmniGen2 等）、视频生成（Wan 2.1/2.2、LTX-Video 2/2.3、HunyuanVideo 1.5、CogVideoX、Cosmos Predict2、Mochi 等）、音频（ACE-Step 1.5、Stable Audio 3）、3D（Hunyuan3D 2.1、TripoSplat、Depth Anything 3、SAM 3/3.1）与文本生成（Gemma 3/4、Qwen3、Qwen3.5、Qwen3-VL 多模态）；2) API 节点接入 Nano Banana、Seedance、Hunyuan3D 等闭源模型；3) 高效本地执行——异步队列、部分图重执行、智能 VRAM/RAM 管理与模型卸载、量化模型支持；4) 工作流以 JSON 保存/加载，可从生成媒体中恢复完整工作流与种子；5) 完全离线运行（--disable-api-nodes 强制全内置功能离线）；6) 海量自定义节点生态（ComfyUI-Manager 一键管理）。提供桌面应用、Windows Portable、Cloud 与手动安装，支持 NVIDIA/AMD/Intel/Apple Silicon/Ascend 全平台。每周发布周期，Core/Desktop/Frontend 三仓库协作。",
+  "summary": "ComfyUI 是 AIGC 社区事实上的核心基础设施，被称为“最强大、最模块化的 AI 内容创作引擎”。它以图/节点式可视化界面为核心，让创作者在不写代码的前提下，通过连接节点自由组合图像、视频、3D、音频与文本生成管线。其技术优势体现在三方面：一是原生支持业界最新开源模型矩阵，图像（Stable Diffusion 系列、Flux.1/2、Qwen Image、Hunyuan Image 2.1、Ideogram 4、Lumina 2.0 等）、视频（Wan 2.2、LTX-Video、HunyuanVideo 1.5、CogVideoX、Mochi）、3D（Hunyuan3D 2.1、TripoSplat、Depth Anything 3、SAM 3）、音频（ACE-Step、Stable Audio 3）乃至文本生成（Gemma 3/4、Qwen3-VL 多模态）全覆盖，并通过 API 节点桥接 Nano Banana、Seedance 等闭源模型；二是工程能力扎实，异步队列、部分图重执行、智能显存管理、模型卸载与量化支持让复杂工作流可在消费级硬件上高效运行；三是生态开放，工作流以 JSON 存取、可从生成图片恢复完整工作流、海量自定义节点由 ComfyUI-Manager 一键管理，支持桌面应用与云端部署，覆盖 NVIDIA/AMD/Intel/Apple Silicon/Ascend 全平台。对 AI 领域而言，ComfyUI 是生成式 AI 从模型研究走向创作者生产力的关键中间层，其模块化范式也深刻影响了 AIGC 工具链的设计。",
+  "highlights": [
+    "图/节点式可视化，无需代码构建图像/视频/3D/音频管线",
+    "原生支持 Flux/Qwen Image/Wan/HunyuanVideo 等最新开源模型",
+    "异步队列+部分图重执行+智能显存管理，全平台高效运行"
+  ],
+  "score": 6,
+  "tags": [
+    "多模态",
+    "计算机视觉",
+    "部署",
+    "开源项目",
+    "推理"
+  ],
+  "related_models": [
+    "Stable Diffusion",
+    "Flux",
+    "Qwen Image",
+    "Wan",
+    "HunyuanVideo",
+    "Hunyuan3D",
+    "Gemma 3",
+    "Qwen3"
+  ],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-08-11T08:30:00Z",
+  "analyzed_at": "2026-08-11T09:00:00Z",
+  "meta": {
+    "stars": 2842,
+    "non_standard_tags": []
+  }
+}

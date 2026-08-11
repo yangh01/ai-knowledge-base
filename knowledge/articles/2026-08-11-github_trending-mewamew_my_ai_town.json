@@ -1,0 +1,34 @@
+{
+  "id": "9c0d1e2f-3a4b-4c5d-a6b7-8e9f0a1b2c3d",
+  "title": "my_ai_town：基于 Godot 的 AI 智能体小镇模拟项目",
+  "source": "github_trending",
+  "source_url": "https://github.com/mewamew/my_ai_town",
+  "summary": "基于 Godot 引擎的 AI 智能体小镇模拟，多角色在虚拟小镇中生活、交互与自主行动。",
+  "highlights": [
+    "376 颗 Star，GDScript 开发、运行于 Godot 引擎",
+    "参考生成式 Agent 小镇范式，模拟多智能体社交行为",
+    "为研究 LLM 驱动 Agent 的记忆与协作提供图形化实验载体"
+  ],
+  "score": 6,
+  "score_reason": "把多智能体行为模拟落到可玩的图形化环境，是 LLM Agent 社交研究的直观实验载体；偏教学实验性质、工程规模较小，评为 6 分。",
+  "tags": [
+    "Agent",
+    "多智能体",
+    "Godot",
+    "仿真",
+    "开源项目"
+  ],
+  "related_models": [],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-08-11T04:40:00Z",
+  "analyzed_at": "2026-08-11T05:30:00Z",
+  "meta": {
+    "stars": 376,
+    "language": "GDScript",
+    "non_standard_tags": [
+      "Godot"
+    ],
+    "score_reason": "把多智能体行为模拟落到可玩的图形化环境，是 LLM Agent 社交研究的直观实验载体；偏教学实验性质、工程规模较小，评为 6 分。"
+  }
+}

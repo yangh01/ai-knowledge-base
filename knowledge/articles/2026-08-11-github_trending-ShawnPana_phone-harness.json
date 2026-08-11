@@ -1,0 +1,31 @@
+{
+  "id": "3c4d5e6f-7a8b-4c9d-a0e1-2f3a4b5c6d7e",
+  "title": "phone-harness：让 Agent 控制手机的端侧自动化工具链",
+  "source": "github_trending",
+  "source_url": "https://github.com/ShawnPana/phone-harness",
+  "summary": "用 Python 工具链打通 AI Agent 与手机设备，使智能体调用手机能力完成自动化操作。",
+  "highlights": [
+    "1356 颗 Star，Python 实现",
+    "将 Agent 从云端交互延伸到真实移动设备端",
+    "面向个人自动化与智能体落地场景"
+  ],
+  "score": 7,
+  "score_reason": "端侧 Agent 与设备自动化方向的基础设施思路新颖，为 Agent「动手」操作手机提供参考实现，对相关开发者有直接研究价值；但生态未成规模、成熟度有限，评为 7 分。",
+  "tags": [
+    "Agent",
+    "端侧智能",
+    "设备自动化",
+    "开源项目"
+  ],
+  "related_models": [],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-08-11T04:40:00Z",
+  "analyzed_at": "2026-08-11T05:30:00Z",
+  "meta": {
+    "stars": 1356,
+    "language": "Python",
+    "non_standard_tags": [],
+    "score_reason": "端侧 Agent 与设备自动化方向的基础设施思路新颖，为 Agent「动手」操作手机提供参考实现，对相关开发者有直接研究价值；但生态未成规模、成熟度有限，评为 7 分。"
+  }
+}

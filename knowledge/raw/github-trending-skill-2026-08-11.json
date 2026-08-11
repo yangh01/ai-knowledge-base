@@ -1,0 +1,127 @@
+{
+  "source": "github_trending",
+  "skill": "github-trending",
+  "collected_at": "2026-08-11T04:40:00Z",
+  "items": [
+    {
+      "name": "KKKKhazix/human-writing",
+      "url": "https://github.com/KKKKhazix/human-writing",
+      "summary": "human-writing 是一套让 AI 写作「去机器味」的中文创作与改稿 Skill，目标是让 AI 生成的中文读起来像一个具体的人在说话，定位为通用创作与改稿能力、开箱即用。它属于 Agent Skills 生态，可注入 Claude Code、Codex 等宿主，帮助内容创作者和团队在保持效率的同时获得更自然、更有个人语感的中文输出，是中文语境下提升 LLM 写作质量的实用工程化方案。",
+      "stars": 2311,
+      "language": "Python",
+      "topics": ["agent-skills", "chinese-writing", "creative-writing", "writing-skill"]
+    },
+    {
+      "name": "Binaryify/open-kimi-ppt-skill",
+      "url": "https://github.com/Binaryify/open-kimi-ppt-skill",
+      "summary": "open-kimi-ppt-skill 是社区开发的非官方 Kimi Slides 技能包，让 AI Agent 直接生成可编辑的 PPTD 与 PPTX 格式演示文稿，并附带本地浏览器编辑器。项目把 Kimi 的幻灯片生成能力开放给通用 Agent 工作流，方便开发者在 Claude Code、Codex 等环境中一键产出可继续编辑的 PPT 文件，降低 AI 生成演示文稿后无法二次修改的问题，是 Agent 办公自动化方向的代表性开源尝试。",
+      "stars": 1606,
+      "language": null,
+      "topics": []
+    },
+    {
+      "name": "ShawnPana/phone-harness",
+      "url": "https://github.com/ShawnPana/phone-harness",
+      "summary": "phone-harness 的目标是「让 Agent 控制你的手机」，通过 Python 实现的工具链将 AI Agent 与手机设备打通，使 Agent 能够调用手机能力完成自动化操作。它面向个人自动化与智能体落地场景，把 Agent 从纯云端交互延伸到真实移动设备端，为构建能「动手」操作手机的智能体提供了基础设施思路，适合关注端侧 Agent 与设备自动化方向的开发者。",
+      "stars": 1356,
+      "language": "Python",
+      "topics": []
+    },
+    {
+      "name": "SMNETSTUDIO/WeChat-AI",
+      "url": "https://github.com/SMNETSTUDIO/WeChat-AI",
+      "summary": "WeChat-AI 是自托管的微信 AI 角色扮演聊天机器人平台，通过腾讯 iLink 协议接入微信，以 OpenAI 兼容 LLM 驱动角色扮演与 P2P 对聊，内置贴纸回复、图片理解、语音转写、自定义模型与 /chatflow 可视化编排等能力，并使用 Redis 存储机器人令牌与贴纸、支持多节点同构部署与 OTA 增量更新。项目为在微信生态内自建 AI 陪伴/客服机器人提供了完整可落地的工程方案，同时采用 Commons Clause 限制商业用途，适合个人与学习场景。",
+      "stars": 979,
+      "language": "TypeScript",
+      "topics": []
+    },
+    {
+      "name": "eternityspring/shuohao-skills",
+      "url": "https://github.com/eternityspring/shuohao-skills",
+      "summary": "shuohao-skills 是为 AI 短剧制作设计的 Agent Skill 集合，覆盖拆解角色、生成设定图、编排大纲等短剧生产流程，可在 Claude Code 与 Codex 等宿主中运行。项目把短视频/短剧从创意到分镜的创作方法论封装为可复用技能，帮助创作者用自然语言驱动 Agent 完成角色设定与故事大纲的批量化生产，代表了 AIGC 内容工业化在短剧赛道的落地探索。",
+      "stars": 655,
+      "language": "JavaScript",
+      "topics": []
+    },
+    {
+      "name": "T8mars/comfyui-minimax-h3-audio-T8",
+      "url": "https://github.com/T8mars/comfyui-minimax-h3-audio-T8",
+      "summary": "comfyui-minimax-h3-audio-T8 是面向 ComfyUI 原生 MiniMax H3 的独立节点扩展，当前注册 54 个节点，覆盖音画条件、对白边界分析与安全分轨混音、背景底轨锁定、来源视频音画重绘、双时钟稳定采样、分段长视频续写、总时长编排、Ref2VA 参考编辑及实验性语音链等能力。它把 MiniMax H3 的视频+音频联合生成管线补齐为可精细控制的创作工具，适合在 ComfyUI 中追求专业级音画一致性的 AIGC 创作者。",
+      "stars": 594,
+      "language": "Python",
+      "topics": []
+    },
+    {
+      "name": "sv-number/mcp-server",
+      "url": "https://github.com/sv-number/mcp-server",
+      "summary": "sv-number/mcp-server 是一个面向 AI Agent 的 MCP 服务器，可为 Agent 在 200+ 国家/地区订购私人虚拟手机号，读取短信验证码并回传给 Agent，声称在该类别中覆盖范围最广、一次 API 调用即可核验。项目将手机号与短信验证能力标准化为 Model Context Protocol 服务，帮助注册、风控与账号自动化类 Agent 打通验证环节，是 Agent 工具生态中实用且定位明确的垂直基础设施。",
+      "stars": 565,
+      "language": "JavaScript",
+      "topics": ["ai-agents", "claude", "claude-code", "cline", "cursor", "mcp", "mcp-server", "model-context-protocol", "otp", "phone-verification", "sms", "sms-verification", "typescript", "virtual-phone-number", "windsurf"]
+    },
+    {
+      "name": "antirez/h3.c",
+      "url": "https://github.com/antirez/h3.c",
+      "summary": "h3.c 是 Redis 作者 antirez 用 C 语言为 Mac 电脑编写的 MiniMax H3 推理引擎，让 MiniMax H3 视频生成模型可以在 Mac 本地直接运行。作为极简 C 实现的推理端，项目体现了「小体积、无重型依赖」的端侧 LLM 推理思路，为在 Apple 平台上研究和使用 MiniMax H3 的开发者提供了轻量级参考实现，也展示了资深系统程序员对生成式模型推理的极简主义解构。",
+      "stars": 449,
+      "language": "C",
+      "topics": []
+    },
+    {
+      "name": "mewamew/my_ai_town",
+      "url": "https://github.com/mewamew/my_ai_town",
+      "summary": "my_ai_town（我的AI小镇）是一个 AI 智能体小镇模拟项目，采用 GDScript 开发、运行于 Godot 引擎，让多个 AI 角色在虚拟小镇中生活、交互与自主行动。项目参考生成式 Agent 小镇的范式，把多智能体行为模拟落到可玩的图形化环境中，为研究 LLM 驱动 Agent 的社交行为、记忆与协作提供了直观的实验载体，也降低了爱好者构建 AI 沙盒世界的门槛。",
+      "stars": 376,
+      "language": "GDScript",
+      "topics": []
+    },
+    {
+      "name": "Larryvrh/ComfyUI-MiniMax-H3-Turbo",
+      "url": "https://github.com/Larryvrh/ComfyUI-MiniMax-H3-Turbo",
+      "summary": "ComfyUI-MiniMax-H3-Turbo 为 ComfyUI 提供两个自定义节点（Turbo LoRA 与 Turbo Sampler），让 MiniMax H3 的图文生视频+同步音频流程仅需约 4 步采样即可完成，取代官方默认约 20 步，并通过对基础模型流式加载降低显存需求（低显存档甚至无需 80GB 显卡）。项目在不改动官方工作流其余环节的前提下显著提速，是 MiniMax H3 生态中兼顾画质、速度与硬件门槛的实用优化方案。",
+      "stars": 373,
+      "language": "Python",
+      "topics": []
+    },
+    {
+      "name": "Sateezg/codex-bridge",
+      "url": "https://github.com/Sateezg/codex-bridge",
+      "summary": "codex-bridge 让 Claude Code 复用已有的 Codex CLI 登录态，无需 OpenAI API Key 即可调用 gpt-image-2 图像生成和 GPT-5 子代理能力。项目用 Shell 脚本在 Claude Code 与 Codex 之间搭建桥接层，打通两家编码 Agent 的模型能力，解决了「多 Agent 工具链需要重复付费/多套凭据」的痛点，为开发者混用不同编码 Agent 生态提供了轻量方案。",
+      "stars": 358,
+      "language": "Shell",
+      "topics": ["ai-agents", "claude-code", "claude-code-plugin", "codex", "gpt-5", "gpt-image-2", "image-generation", "openai"]
+    },
+    {
+      "name": "NikoDemon80/ComfyUI-H3-Motion-Context",
+      "url": "https://github.com/NikoDemon80/ComfyUI-H3-Motion-Context",
+      "summary": "ComfyUI-H3-Motion-Context 为 ComfyUI 中的 MiniMax H3 提供视频片段拼接（clip chaining）能力，让运动与音频在片段连接处真正延续，避免生成长视频时的跳变与断裂。项目面向用 MiniMax H3 创作长视频的 ComfyUI 用户，解决了单段生成时长受限、多段拼接不连贯的核心痛点，是视频生成工作流中实现「连续成片」的实用节点扩展。",
+      "stars": 341,
+      "language": "Python",
+      "topics": ["comfyui", "comfyui-nodes", "minimax", "video-generation"]
+    },
+    {
+      "name": "tanishqkancharla/calldiff",
+      "url": "https://github.com/tanishqkancharla/calldiff",
+      "summary": "calldiff 基于 Tree-sitter 的 AST 分析，对比不同 git 提交之间的函数调用栈差异，支持 22 种编程语言，特别适合 Agent 化的代码审查场景。项目让审查者（人或 AI Agent）快速看清一次改动影响了哪些调用链、波及了哪些函数，把传统 diff 从「改了哪几行」提升到「影响了哪些调用关系」，是面向 Agentic 开发与代码评审的轻量工程工具。",
+      "stars": 304,
+      "language": "TypeScript",
+      "topics": []
+    },
+    {
+      "name": "robonuggets/gauntlet-loop",
+      "url": "https://github.com/robonuggets/gauntlet-loop",
+      "summary": "gauntlet-loop 将任意目标转化为一段短提示词，引导 AI Agent 设定真实的质量门槛，运行「构建者+评审者」成对机制，盲比结果并循环迭代直到达到标准。项目面向追求高质量输出的 Agent 工作流，用对抗式生成+盲评循环替代一次成型，提升编码、写作等任务的产出质量，是 Agent 工程中「质量闭环」思路的轻量落地实现。",
+      "stars": 268,
+      "language": null,
+      "topics": []
+    },
+    {
+      "name": "nkxx188/ComfyUI-MiniMaxH3-Easy",
+      "url": "https://github.com/nkxx188/ComfyUI-MiniMaxH3-Easy",
+      "summary": "ComfyUI-MiniMaxH3-Easy 以单一紧凑工作流提供 MiniMax H3 的最易用集成方式，统一支持文生视频、图生视频、首尾帧与参考视频生成，具备多媒体统一输入、强大的 @ 引用与内联对白块能力。项目主打「少接线、多创作控制」，把官方复杂流程压缩为开箱即用的节点配置，显著降低 MiniMax H3 的使用门槛，适合快速上手视频生成的 ComfyUI 用户。",
+      "stars": 263,
+      "language": "JavaScript",
+      "topics": []
+    }
+  ]
+}

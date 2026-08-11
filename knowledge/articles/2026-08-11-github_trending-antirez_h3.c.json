@@ -1,0 +1,36 @@
+{
+  "id": "8b9c0d1e-2f3a-4b4c-9f5a-7d8e9f0a1b2c",
+  "title": "antirez/h3.c：Redis 作者用 C 语言实现的 MiniMax H3 Mac 本地推理引擎",
+  "source": "github_trending",
+  "source_url": "https://github.com/antirez/h3.c",
+  "summary": "Redis 作者 antirez 用 C 编写的 MiniMax H3 推理引擎，让视频生成模型可在 Mac 本地运行。",
+  "highlights": [
+    "449 颗 Star，Redis 作者 antirez 个人项目",
+    "纯 C 极简实现，让 MiniMax H3 在 Mac 本地直接运行",
+    "体现小体积、无重型依赖的端侧 LLM 推理思路"
+  ],
+  "score": 7,
+  "score_reason": "资深系统程序员对生成式模型推理的极简主义解构，为 Apple 平台端侧运行视频生成模型提供轻量参考，示范意义强；但功能精简、受众偏研究，评为 7 分。",
+  "tags": [
+    "推理",
+    "端侧部署",
+    "C语言",
+    "MiniMax",
+    "视频生成"
+  ],
+  "related_models": [
+    "MiniMax H3"
+  ],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-08-11T04:40:00Z",
+  "analyzed_at": "2026-08-11T05:30:00Z",
+  "meta": {
+    "stars": 449,
+    "language": "C",
+    "non_standard_tags": [
+      "MiniMax"
+    ],
+    "score_reason": "资深系统程序员对生成式模型推理的极简主义解构，为 Apple 平台端侧运行视频生成模型提供轻量参考，示范意义强；但功能精简、受众偏研究，评为 7 分。"
+  }
+}

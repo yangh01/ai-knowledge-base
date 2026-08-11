@@ -1,0 +1,92 @@
+[
+  {
+    "title": "OmniRoute — 免费 AI 网关",
+    "url": "https://github.com/diegosouzapw/OmniRoute",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 9420
+    },
+    "summary": "OmniRoute 是一个开源的免费 AI 网关项目，通过单一端点聚合 290+ 模型提供商（含 90+ 免费渠道）和 500+ 模型，统一对接 Claude Code、Codex、Cursor、Copilot 等主流编码 Agent 工具。其内置 19 种路由策略支持配额感知自动降级，RTK + Caveman 压缩组合可节省 15%-95% 的 token 用量，无需任何 API Key 即可开箱使用。"
+  },
+  {
+    "title": "《深入理解 AI Agent：设计原理与工程实践》开源书籍",
+    "url": "https://github.com/bojieli/ai-agent-book",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 8998
+    },
+    "summary": "由李博杰撰写的开源 AI Agent 专著，全书围绕核心公式「Agent = LLM + 上下文 + 工具」展开，共 10 章、93 个配套实验项目。内容覆盖从 Agent 基础、上下文工程、RAG 知识库、MCP 工具协议、Coding Agent、模型后训练到多模态与多 Agent 协作的完整技术栈。支持中、英、日等 9 种语言，提供 PDF/EPUB 离线下载。"
+  },
+  {
+    "title": "WorldMonitor — AI 驱动的全球情报仪表盘",
+    "url": "https://github.com/koala73/worldmonitor",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 8681
+    },
+    "summary": "WorldMonitor 是一个基于 AI 的实时全球情报聚合平台，集成了新闻聚合、地缘政治监控和基础设施追踪功能，通过统一的情境感知界面呈现。项目利用大语言模型对多源信息进行智能分析和摘要，帮助用户快速掌握全球动态，适用于安全分析、供应链风控和国际关系研究等场景。"
+  },
+  {
+    "title": "i-have-adhd — 编码 Agent 的专注力技能",
+    "url": "https://github.com/ayghri/i-have-adhd",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 5544
+    },
+    "summary": "这是一款为编码 Agent（如 Claude Code、Codex）设计的技能模块，通过模仿 ADHD 思维方式让 Agent 在回答时避免冗长铺垫，直接给出简洁可执行的解决方案。仅需一条技能指令即可让 AI 编码助手输出「ADHD 友好」的精简结果，减少了开发者在等待和筛选信息上的时间消耗，体现了 Agent 人机交互体验优化方向。"
+  },
+  {
+    "title": "Pi — AI Agent 工具包",
+    "url": "https://github.com/earendil-works/pi",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 4979
+    },
+    "summary": "Pi 是一个全面的 AI Agent 开发工具包，包含统一的多提供商 LLM API、Agent 运行时核心、终端 UI 和可自扩展的交互式编码 Agent CLI。项目采用 TypeScript 构建，已积累 80k+ Star，由知名开源贡献者 mitsuhiko 和 badlogic 主导维护。其架构将工具调用、状态管理和 LLM 接口解耦，适合构建生产级 AI Agent 应用。"
+  },
+  {
+    "title": "Open Code Review — 阿里巴巴开源代码审查工具",
+    "url": "https://github.com/alibaba/open-code-review",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 4875
+    },
+    "summary": "阿里巴巴开源的高性能代码审查工具，采用「确定性规则引擎 + LLM Agent」混合架构，已在阿里内部大规模实战验证。支持精确到行级别的注释、内置针对 NPE、线程安全、XSS、SQL 注入等场景的调优规则集，兼容 OpenAI 和 Anthropic 接口。该项目将传统静态分析与 AI 能力深度融合，为代码审查自动化树立了新的工程范式。"
+  },
+  {
+    "title": "ego-lite — AI Agent 的极速浏览器",
+    "url": "https://github.com/citrolabs/ego-lite",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 4863
+    },
+    "summary": "ego-lite 是一款专为 AI Agent 设计的轻量浏览器，允许将已登录的浏览器状态分享给 Codex、Claude Code 等 AI Agent 使用，而不会干扰用户的正常浏览操作。具备零成本、零配置的特点，解决了 Agent 浏览器自动化中「会话隔离」和「登录态复用」两大核心痛点，为 AI Agent 与真实 Web 环境交互提供了高效通道。"
+  },
+  {
+    "title": "AI Engineering From Scratch — AI 工程从零到一",
+    "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 2965
+    },
+    "summary": "一个系统性的 AI 工程学习项目，以「学习—构建—交付」为核心理念，涵盖从大模型基础理论、RAG 系统、Agent 开发到模型微调和部署上线的完整实践路径。项目提供端到端的可运行代码示例，帮助开发者跨越从理论到生产落地的鸿沟，是 AI 应用工程师快速上手构建实际产品的重要参考资源。"
+  },
+  {
+    "title": "Kronos — 金融市场语言的基础模型",
+    "url": "https://github.com/shiyu-coder/Kronos",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 2516
+    },
+    "summary": "Kronos 是针对金融市场语言构建的 Foundation Model（基础模型），旨在学习金融数据的潜在模式和交易语言。项目将大模型预训练技术应用于金融垂直领域，探索用深度学习理解市场动态、价格序列和交易行为的可行性，代表了基础模型在金融量化分析方向的前沿尝试。"
+  },
+  {
+    "title": "Text-to-CAD — Agent 技能集：CAD、机器人与硬件设计",
+    "url": "https://github.com/earthtojake/text-to-cad",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 2242
+    },
+    "summary": "Text-to-CAD 是面向 CAD 设计、机器人和硬件开发场景的 AI Agent 技能集合，将自然语言描述转化为可执行的 CAD 建模指令和硬件设计流程。项目通过 Agent 技能封装的方式让大语言模型能够直接操作工业设计工具，打通了从自然语言创意到实体工程图纸的智能化链路，降低了非专业用户使用复杂 CAD 软件的门槛。"
+  }
+]

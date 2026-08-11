@@ -1,0 +1,30 @@
+{
+  "id": "8f3a1c2e-4b7d-4f6a-9e2c-5d1a8b0f3c71",
+  "title": "reverse-skill：面向 AI 编码客户端的网络安全技能路由包",
+  "source": "github_trending",
+  "source_url": "https://github.com/zhaoxuya520/reverse-skill",
+  "original_text": "reverse-skill 是一个面向 AI 编码客户端（Claude Code、Codex、Cursor、OpenCode 等）的网络安全技能路由包，覆盖逆向工程、授权渗透测试与安全研究。核心思想是：当 AI Agent 遇到 APK、二进制、前端 JS 加密、CTF 挑战或渗透测试目标时，不再靠猜测命令，而是通过 RULES.md + MASTER-ROUTING 路由到正确方法论，检测可用工具并执行可复现工作流。项目内置 41 条路由规则（R0-R40，由 routing.json 单一配置驱动）、163 个回归基准用例（test-routing.ps1 校验）与 42 个技能模块，覆盖 APK/Android 逆向、iOS、exe/dll/so/elf 二进制逆向、.NET、前端 JS 逆向、DSL VM、恶意软件分析（YARA）、渗透测试、红队攻击链、CTF 沙箱编排、固件/IoT、补丁 diff 与 N-day、Pwn/漏洞利用、EDR 绕过、API/GraphQL 安全、供应链/SBOM、LLM/AI 安全等场景。跨 Windows + Ubuntu 双平台 CI 验证，核心路由逻辑与具体客户端解耦（client-neutral），客户端适配器为可选组件。支持 PowerShell/Bash 一键刷新工具索引，Kali Linux 有专属脚本。MIT 许可。",
+  "summary": "reverse-skill 是一个面向 AI 编码 Agent 的开源网络安全技能路由包，解决的核心痛点是：AI 编码客户端（Claude Code、Codex、Cursor、OpenCode 等）面对 APK 逆向、二进制分析、前端 JS 加密、CTF 挑战或渗透测试目标时，常常不知道该调用 jadx、Frida、IDA 还是 BurpSuite，导致反复试错。该项目将安全方法论沉淀为结构化技能库：以 routing.json 为单一事实源维护 41 条路由规则（R0-R40），配合 163 个回归基准用例与 42 个技能模块，覆盖 APK/Android 逆向、iOS、二进制（exe/dll/so/elf）、.NET、JS 逆向、恶意软件分析、渗透测试、攻击链编排、固件/IoT、Pwn、EDR 绕过、LLM 安全等 20+ 场景。其技术亮点是“客户端中立”的架构：核心路由逻辑与具体 AI 客户端解耦，通过 master-route 脚本 + 工具索引实现任务→方法论→工具的自动分流，并在 Windows/Ubuntu 双平台 CI 上持续回归验证。对 AI/Agent 领域而言，它是“以 Agent Skills 形式固化专家经验”的典型实践，展示了如何把高门槛、强流程性的安全任务转化为可复现、可测试的 Agent 工作流，对构建垂直领域 Agent 技能库有很强的参考价值。",
+  "highlights": [
+    "41 条路由规则 + 163 个回归用例，客户端中立设计",
+    "覆盖逆向/渗透/CTF/恶意软件等 20+ 安全场景",
+    "Windows + Ubuntu 双平台 CI 持续验证路由正确性"
+  ],
+  "score": 7,
+  "tags": [
+    "Agent",
+    "安全",
+    "工具调用",
+    "开源项目",
+    "Prompt工程"
+  ],
+  "related_models": [],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-08-11T08:30:00Z",
+  "analyzed_at": "2026-08-11T09:00:00Z",
+  "meta": {
+    "stars": 8182,
+    "non_standard_tags": []
+  }
+}

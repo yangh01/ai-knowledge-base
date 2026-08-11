@@ -1,0 +1,36 @@
+{
+  "id": "b5c6d7e8-f9a0-4b1c-8d2e-3f4a5b6c7d8e",
+  "title": "AirLLM：单卡 4GB 显存运行 70B 大模型的推理优化库",
+  "source": "github_trending",
+  "source_url": "https://github.com/lyogavin/airllm",
+  "original_text": "AirLLM 通过分层推理（layer-wise inference）与块级量化压缩技术大幅降低大模型推理显存占用：让 70B 参数模型可在单张 4GB 显存 GPU 上运行，无需量化、蒸馏或剪枝。核心原理：GPU 上同一时刻只保留一个层（one layer at a time），因此所需显存取决于单层大小而非模型总大小；对稀疏 MoE 模型（如 DeepSeek-V3、Kimi K3）则按专家流式加载（per-expert streaming），每 token 只路由需要的专家。实测：Llama 3.1 405B 可在 8GB 显存运行、DeepSeek-V3（671B）约需 12GB、Qwen3-235B 约 3GB、Kimi K3（2.8T，目前最大开源模型）仅需约 3.72GB。最新 v3.0 支持 FP8 模型。用法一行代码：AutoModel.from_pretrained(\"Qwen/Qwen3-32B\")，自动检测模型类型。可选 compression='4bit'/'8bit' 块级量化压缩，仅量化权重部分（瓶颈在磁盘加载），推理速度最高提升 3 倍且精度损失几乎可忽略；支持 prefetching 重叠模型加载与计算（+10% 速度）。支持 MacOS Apple Silicon（mlx）本地推理。覆盖 Llama 2/3/3.1/3.3/4、Qwen 1/2/2.5/3（含 MoE/FP8）、DeepSeek V2/V3/R1、Mistral/Mixtral、Phi、Gemma、ChatGLM、Baichuan、InternLM、Yi 等几乎所有主流开源模型。Apache 2.0 许可。",
+  "summary": "AirLLM 是一个面向低端硬件的 LLM 推理优化库，核心卖点是“让超大模型跑在小显存上”：无需量化、蒸馏或剪枝，即可在单张 4GB 显存 GPU 上运行 70B 模型。其技术原理是分层推理——GPU 上同一时刻仅驻留模型的一层权重，显存占用取决于单层大小而非模型总规模；对于 DeepSeek-V3（671B）、Kimi K3（2.8T）这类稀疏 MoE 模型，进一步采用按专家流式加载，每 token 只把路由到的专家装入显存，从而让 2.8T 的史上最大开源模型仅用约 3.72GB 显存即可推理。此外提供可选的 4bit/8bit 块级量化压缩（只压权重不压激活，精度损失极小），结合磁盘加载瓶颈特性可将推理提速最高 3 倍。使用体验极其简单：AutoModel.from_pretrained 一行代码即可，自动识别模型类型，支持几乎全部主流开源模型家族（Llama 4、Qwen3、DeepSeek-V3、Mixtral、Phi、Gemma 等），并支持 MacOS Apple Silicon 本地推理。对 AI 领域意义在于：它显著降低了超大模型推理的硬件门槛，让个人开发者与边缘设备也能实验 671B/2.8T 级模型，是推理部署降本方向的重要开源参考。",
+  "highlights": [
+    "4GB 显存跑 70B、3.72GB 跑 2.8T Kimi K3（按专家流式加载）",
+    "AutoModel 一行代码接入，覆盖 Llama/Qwen/DeepSeek 等主流模型",
+    "4bit/8bit 块级量化仅压权重，推理提速最高 3 倍"
+  ],
+  "score": 7,
+  "tags": [
+    "LLM",
+    "推理",
+    "部署",
+    "开源项目",
+    "训练"
+  ],
+  "related_models": [
+    "Llama 3.1",
+    "Llama 4",
+    "DeepSeek-V3",
+    "Qwen3",
+    "Kimi K3"
+  ],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-08-11T08:30:00Z",
+  "analyzed_at": "2026-08-11T09:00:00Z",
+  "meta": {
+    "stars": 4042,
+    "non_standard_tags": []
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "4b7d9f2a-8c3e-4a5b-b1d6-2e9f0c7a5d83",
+  "title": "TencentDB-Agent-Memory：腾讯云开源的团队级 Agent 记忆中心",
+  "source": "github_trending",
+  "source_url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+  "original_text": "TencentDB Agent Memory 是腾讯云开源的 Agent 团队级记忆中心，slogan 为 \"Agents remember, Humans innovate\"。架构核心是两层设计：符号化短期记忆（symbolic short-term memory）+ 分层长期记忆（layered long-term memory）。短期记忆采用 Context Offload 技术，将冗长的工具日志卸载到外部 refs/*.md 文件，仅将高密度 Mermaid 符号图留在上下文中，Agent 通过 node_id 按需回溯原文；长期记忆构建 L0 Conversation（原始对话）→ L1 Atom（原子事实）→ L2 Scenario（场景块）→ L3 Persona（用户画像）语义金字塔，上层保留结构与判断、下层保留证据，支持完整可追溯的 drill-down 链路。记忆资产分为四类：Chat Memory、Skill、LLM-Wiki、Code-Graph。提供团队创建、记忆资产治理与共享、私有/团队/ACL 多级访问控制。默认 SQLite + sqlite-vec 本地后端，支持 BM25+向量+RRF 混合检索，兼容 OpenClaw、Hermes 等 Agent 框架。集成 OpenClaw 后 token 使用量降低 61.38%，任务成功率相对提升 51.52%，PersonaMem 基准用户信息理解准确率从 48% 提升至 76%（相对提升 59%）。",
+  "summary": "TencentDB Agent Memory 是腾讯云开源的 Agent 团队级记忆中心，定位是解决“Agent 不记得、用户反复重复说明”的痛点。技术上它明确反对扁平向量库与不可逆压缩，提出两大支柱：符号化短期记忆与分层长期记忆。短期记忆通过 Context Offload 把海量工具日志（可达数十万 token）卸载到外部文件，上下文仅保留 Mermaid 符号图（数百 token），Agent 基于 node_id 精确回溯，兼顾 token 节省与全链路可追溯；长期记忆将碎片化对话蒸馏为 L0 对话→L1 原子事实→L2 场景→L3 人物画像的语义金字塔，上层存结构、下层存证据，压缩不损失可审计性。产品上提供对话记忆、技能库、LLM-Wiki 知识图谱与 Code-Graph 调用图四类资产，支持团队共享与私有/团队/ACL 多级权限，零配置接入 OpenClaw 插件、兼容 Hermes 网关，可本地 SQLite 或腾讯云向量数据库双后端。实测在 OpenClaw 上 token 开销降低 61.38%、长程任务成功率相对提升 51.52%，PersonaMem 基准将用户信息理解准确率从 48% 提升到 76%。该项目的意义在于把 Agent 记忆从“存得下”推向“记得准、省得狠、查得清”，是记忆分层与符号化压缩方向的代表性开源实现。",
+  "summary_en": "TencentDB Agent Memory is Tencent Cloud's open-source team-level memory center for AI agents, built on two pillars: symbolic short-term memory and layered long-term memory. It offloads verbose tool logs to external files while keeping a compact Mermaid symbol graph in context, with node_id-based drill-down for full traceability. Long-term memory is distilled into an L0 conversation → L1 atom → L2 scenario → L3 persona semantic pyramid. It provides four asset types (chat memory, skills, LLM-Wiki, code-graph) with team sharing and private/team/ACL access control. When integrated with OpenClaw it cuts token usage by 61.38%, improves long-horizon task success by 51.52% relatively, and lifts PersonaMem accuracy from 48% to 76%.",
+  "highlights": [
+    "记忆分层 + Mermaid 符号化压缩，token 降低 61.38%",
+    "L0-L3 语义金字塔，压缩不失真、全链路可追溯",
+    "PersonaMem 用户理解准确率 48%→76%（相对提升 59%）"
+  ],
+  "score": 8,
+  "tags": [
+    "Agent",
+    "LLM",
+    "RAG",
+    "开源项目",
+    "部署"
+  ],
+  "related_models": [
+    "DeepSeek-V3.2",
+    "GPT-4o"
+  ],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-08-11T08:30:00Z",
+  "analyzed_at": "2026-08-11T09:00:00Z",
+  "meta": {
+    "stars": 7555,
+    "non_standard_tags": []
+  }
+}

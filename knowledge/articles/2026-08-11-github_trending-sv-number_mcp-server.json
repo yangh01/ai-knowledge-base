@@ -1,0 +1,33 @@
+{
+  "id": "7a8b9c0d-1e2f-4a3b-8e4f-6c7d8e9f0a1b",
+  "title": "sv-number/mcp-server：为 Agent 提供虚拟手机号与短信验证的 MCP 服务器",
+  "source": "github_trending",
+  "source_url": "https://github.com/sv-number/mcp-server",
+  "summary": "面向 AI Agent 的 MCP 服务器，可在 200+ 国家订购虚拟手机号并读取短信验证码回传。",
+  "highlights": [
+    "565 颗 Star，覆盖 200+ 国家/地区的虚拟手机号订购",
+    "读取短信验证码并回传给 Agent，一次 API 调用即可核验",
+    "将手机号与短信验证能力标准化为 MCP 服务"
+  ],
+  "score": 6,
+  "score_reason": "MCP 生态中定位明确的垂直基础设施，为注册、风控类 Agent 打通验证环节，实用性强；但用途较窄、依赖第三方服务，评为 6 分。",
+  "tags": [
+    "Agent",
+    "MCP",
+    "工具调用",
+    "开源项目"
+  ],
+  "related_models": [],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-08-11T04:40:00Z",
+  "analyzed_at": "2026-08-11T05:30:00Z",
+  "meta": {
+    "stars": 565,
+    "language": "JavaScript",
+    "non_standard_tags": [
+      "MCP"
+    ],
+    "score_reason": "MCP 生态中定位明确的垂直基础设施，为注册、风控类 Agent 打通验证环节，实用性强；但用途较窄、依赖第三方服务，评为 6 分。"
+  }
+}

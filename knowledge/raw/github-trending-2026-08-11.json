@@ -1,0 +1,92 @@
+[
+  {
+    "title": "zhaoxuya520/reverse-skill",
+    "url": "https://github.com/zhaoxuya520/reverse-skill",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 8182
+    },
+    "summary": "面向 AI 编码客户端的网络安全技能路由包，覆盖逆向工程、授权渗透测试与安全研究。内置 41 条路由规则（R0-R40）、163 个回归基准用例和 42 个技能模块，支持 Claude Code、Codex、Cursor、OpenCode 等客户端。当 Agent 遇到 APK、二进制、前端 JS 加密、CTF 挑战或渗透测试目标时，自动路由到正确方法论、检测可用工具并执行可复现工作流，跨平台 CI 验证，核心路由逻辑客户端中立。"
+  },
+  {
+    "title": "TencentCloud/TencentDB-Agent-Memory",
+    "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 7555
+    },
+    "summary": "腾讯云开源的 Agent 团队级记忆中心，将对话、文档和代码转化为四类可复用记忆资产：Chat Memory（对话记忆）、Skill（技能库）、LLM-Wiki（文档知识图谱）与 Code-Graph（代码调用图）。提供团队创建、记忆资产治理与共享、私有/团队/ACL 多级访问控制，兼容 OpenClaw、Claude Code、Hermes 等 Agent 框架。PersonaMem 基准测试显示用户信息理解准确率从 48% 提升至 76%（相对提升 59%）。"
+  },
+  {
+    "title": "firecrawl/pdf-inspector",
+    "url": "https://github.com/firecrawl/pdf-inspector",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 7143
+    },
+    "summary": "Firecrawl 开源的 Rust PDF 解析库，用于 AI 文档处理管线中的智能路由。可在 10-50ms 内分类 PDF 类型（文本型/扫描型/图片型/混合型），支持位置感知文本提取、多栏阅读顺序、Markdown 转换（标题/列表/代码块/表格检测）、CID 字体解码等能力，纯 Rust 实现无需 OCR。在 opendataloader-bench 基准上综合得分 0.875，处理 200 份文档仅 0.47s，并提供 Python、Node.js 与浏览器 WASM 绑定。"
+  },
+  {
+    "title": "virgiliojr94/book-to-skill",
+    "url": "https://github.com/virgiliojr94/book-to-skill",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 4113
+    },
+    "summary": "将技术书籍 PDF 转化为结构化 Agent 技能的工具，生成 SKILL.md 核心心智模型、按需加载的分章文件、术语表、模式库与速查表。采用确定性 Python 提取器加规范驱动生成器，支持 PDF/EPUB/DOCX/HTML 等多种格式，章节按需加载，相比整书灌入上下文可节省 24-51 倍 token。兼容 GitHub Copilot CLI、Amp、Claude Code 等遵循 Agent Skills 标准的宿主，全程本地处理保护隐私。"
+  },
+  {
+    "title": "esengine/DeepSeek-Reasonix",
+    "url": "https://github.com/esengine/DeepSeek-Reasonix",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 4109
+    },
+    "summary": "DeepSeek 原生的终端 AI 编码 Agent，Go 编写、单静态二进制分发，支持 CLI/TUI、桌面应用、浏览器与 VS Code（ACP 协议）四种接入方式。围绕 prefix-cache 稳定性设计，可长时间持续运行；采用 reasonix.toml 配置驱动，支持多模型组合（执行器+规划器）、MCP 插件体系、上下文缓存感知维护、计划模式、权限控制与每轮检查点回退，适合自主长时程编码任务。"
+  },
+  {
+    "title": "lyogavin/airllm",
+    "url": "https://github.com/lyogavin/airllm",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 4042
+    },
+    "summary": "AirLLM 通过分层推理与块级量化压缩技术大幅降低大模型推理显存占用，使 70B 参数模型可在单张 4GB 显存 GPU 上运行，无需量化、蒸馏或剪枝。现已支持 Llama 4、Qwen3、DeepSeek-V3（671B 约 12GB）、Kimi K3（2.8T 约 3.72GB）等主流开源模型，一行代码即可通过 AutoModel 调用，并支持 4bit/8bit 压缩加速与 MacOS Apple Silicon 本地推理。"
+  },
+  {
+    "title": "microsoft/AI-For-Beginners",
+    "url": "https://github.com/microsoft/AI-For-Beginners",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 4028
+    },
+    "summary": "微软开源的 AI 入门课程，12 周 24 课时，面向零基础学习者。课程涵盖符号 AI、神经网络与深度学习、计算机视觉（CNN/VAE/GAN）、自然语言处理（Word2Vec/Transformer/BERT/LLM）、遗传算法、强化学习、多智能体系统及 AI 伦理等主题，配套可执行 Jupyter Notebook、测验与实战 Lab，支持 TensorFlow 和 PyTorch 双框架，并提供 50+ 语言翻译，是全球最受欢迎的免费 AI 学习资源之一。"
+  },
+  {
+    "title": "huangruiteng/loopx",
+    "url": "https://github.com/huangruiteng/loopx",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 2947
+    },
+    "summary": "LoopX 是面向长期运行 AI Agent 团队的轻量级循环工程状态内核与本地优先控制平面，提供开放、供应商中立的循环管控。核心维护目标、门控、待办、范围、证据与配额等持久化状态，兼容 Codex、Claude Code、Cursor 等 Agent 运行时，支持配额感知自动唤醒、人工判断门控、证据回写与可验证交接，并可将状态投影到飞书/Lark 看板等协作面，让多 Agent 对等协作可管理、可复盘、可持续改进。"
+  },
+  {
+    "title": "Comfy-Org/ComfyUI",
+    "url": "https://github.com/Comfy-Org/ComfyUI",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 2842
+    },
+    "summary": "ComfyUI 是最强大的模块化扩散模型创作引擎，采用图/节点式可视化界面，让创作者无需编写代码即可构建图像、视频、3D、音频等生成管线。原生支持 Stable Diffusion、Flux、Qwen Image、Wan、HunyuanVideo、Hunyuan3D 等最新开源模型，并提供 API 节点接入 Nano Banana、Seedance 等闭源模型。具备部分图重执行、显存智能管理与量化模型支持，拥有庞大的自定义节点生态，是 AIGC 社区核心基础设施。"
+  },
+  {
+    "title": "google/skills",
+    "url": "https://github.com/google/skills",
+    "source": "github_trending",
+    "popularity": {
+      "stars": 2159
+    },
+    "summary": "Google 官方开源的 Agent Skills 集合，为 Google 产品与技术（含 Google Cloud）提供可复用的 Agent 能力。包含 100+ 技能，覆盖 AI/ML（Agent Platform、Gemini API、RAG 引擎管理）、基础设施（GKE、云存储）、数据库分析（BigQuery、AlloyDB、Spanner）、安全身份与广告（Google Ads、Mobile Ads SDK）等领域，并打包了 Skills+MCP 的插件市场，可通过 npx 安装或直接集成到 Claude Code、Codex 等 Agent 宿主中。"
+  }
+]

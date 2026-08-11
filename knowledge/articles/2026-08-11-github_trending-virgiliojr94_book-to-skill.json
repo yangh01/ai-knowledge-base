@@ -1,0 +1,30 @@
+{
+  "id": "9e4f5b7a-2c8d-4f1e-b3a6-8d5c0e7f2a91",
+  "title": "book-to-skill：将技术书籍转化为结构化 Agent 技能",
+  "source": "github_trending",
+  "source_url": "https://github.com/virgiliojr94/book-to-skill",
+  "original_text": "book-to-skill 是一个将技术书籍 PDF（或文档文件夹/资料集）转化为结构化 Agent 技能的工具，遵循开放 Agent Skills 标准。工作流程三步：1) 指向文件/文件夹/glob（/book-to-skill ./my-book.pdf）；2) 将书蒸馏为技能——框架、决策规则、反模式与分章文件，强调“结构而非摘要”；3) Agent 按需加载，提问 /my-book replication 时读取对应章节并从真实内容作答，避免幻觉。生成产物：SKILL.md（核心心智模型+章节索引，约 4000 token）、chapters/ch01-*.md（每章一个文件，按需加载，各约 1000 token）、glossary.md 术语表（约 1500 token）、patterns.md 模式库（约 2000 token）、cheatsheet.md 速查表（约 1000 token）。架构为“确定性 Python 提取器 + 规范驱动生成器”两半：extractor 按格式选择工具（技术类书籍用 docling 保留代码/表格，文本类用 pdftotext；EPUB 用 ebooklib；DOCX/HTML/RTF/MOBI 各有对应解析器），生成器由 Agent 遵循 SKILL.md 规范产出结构化技能。实测相对“整书灌入上下文”节省 24-51 倍 token（discovery loop tax）。兼容 GitHub Copilot CLI、Amp、Claude Code 等 Agent Skills 宿主，全程本地处理保护隐私，不复制原文段落。MIT 许可。",
+  "summary": "book-to-skill 是一个将技术书籍、文档目录或资料合集转化为结构化 Agent 技能的开源工具，遵循开放的 Agent Skills 标准。它直击一个普遍痛点：买了一本好书、读了一遍，三个月后完全不记得第 7 章讲了什么；而直接搜索 PDF 只得到页码、让 Agent 凭空回答则可能幻觉。解决方案是三步流水线：先用确定性 Python 提取器把书解析为干净文本（按书籍类型自动选择 docling/pdftotext/ebooklib 等工具），再由 Agent 遵循规范驱动生成 SKILL.md 核心心智模型、按需加载的分章文件、术语表、模式库与速查表，形成“结构而非摘要”的可查询技能包。关键技术创新是“章节按需加载”与“一次性支付结构成本”：分章文件不占用技能预算，提问时才加载对应章节，相比把整本书灌入上下文可节省 24-51 倍 token。支持 PDF/EPUB/DOCX/HTML/RTF/MOBI 等格式，兼容 GitHub Copilot CLI、Amp、Claude Code 等遵循 Agent Skills 标准的宿主，全程本地处理、不复制原文段落、明确版权边界。该项目的意义在于探索了“长文档知识如何低成本地内化为 Agent 技能”这一 Agent 知识工程核心问题，对知识库与技能化管理实践很有参考价值。",
+  "highlights": [
+    "章节按需加载，相比整书入上下文节省 24-51 倍 token",
+    "确定性提取器 + 规范驱动生成器，结构而非摘要",
+    "兼容 Copilot CLI/Amp/Claude Code 等 Agent Skills 宿主"
+  ],
+  "score": 6,
+  "tags": [
+    "Agent",
+    "LLM",
+    "Prompt工程",
+    "开源项目",
+    "教程指南"
+  ],
+  "related_models": [],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-08-11T08:30:00Z",
+  "analyzed_at": "2026-08-11T09:00:00Z",
+  "meta": {
+    "stars": 4113,
+    "non_standard_tags": []
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "0e4b8d3f-4c6a-4f9b-8d7e-8a0c2e4f6b34",
+  "title": "Harvey 开源法律领域 Agent 评测基准 harvey-labs",
+  "source": "github_trending",
+  "source_url": "https://github.com/harveyai/harvey-labs",
+  "summary": "harvey-labs 是法律科技公司 Harvey 推出的 Agent 能力评测基准，专门评估与改进 AI Agent 在法律工作场景中的表现。项目覆盖法律检索、文书处理等专业任务，为衡量法律领域 Agent 的实际可用性提供标准化测试集。其意义在于两点：一是垂直行业 Agent 评测的代表性尝试——通用基准往往难以反映专业场景的真实需求，领域化评测成为衡量与迭代 Agent 的关键工具；二是为法律 AI 的工程化落地提供可量化的标尺，帮助团队评估模型在检索准确性、文书质量与合规性方面的表现。对构建行业 Agent 的团队具有方法论参考价值；评测集规模、覆盖面与更新机制仍需进一步了解。",
+  "highlights": [
+    "面向法律检索、文书处理等专业任务的标准化评测集",
+    "是垂直行业 Agent 评测方向的代表性尝试"
+  ],
+  "score": 6,
+  "importance": "medium",
+  "tags": [
+    "Agent",
+    "评估",
+    "开源项目",
+    "法律AI"
+  ],
+  "status": "analyzed",
+  "fetched_at": "2026-08-12T04:40:00Z",
+  "analyzed_at": "2026-08-12T06:20:00Z",
+  "meta": {
+    "stars": 28
+  }
+}

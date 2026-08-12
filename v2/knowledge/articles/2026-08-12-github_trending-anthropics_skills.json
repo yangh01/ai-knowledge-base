@@ -1,0 +1,29 @@
+{
+  "id": "5f9c3e7a-4d1b-4a8c-9e2f-3b5d7f9a1c88",
+  "title": "Anthropic 开源 Agent Skills 官方仓库：Claude 技能生态标准化",
+  "source": "github_trending",
+  "source_url": "https://github.com/anthropics/skills",
+  "summary": "anthropics/skills 是 Anthropic 官方开源的 Agent Skills 公共仓库，汇集了为 Claude 等模型设计的可复用技能定义，并包含 Agent Skills 规范（spec）与技能模板。Skills 机制让 Agent 通过结构化的 SKILL.md 描述动态加载专业能力，覆盖文档处理（docx、pdf、pptx、xlsx）、创意设计、开发测试与企业沟通等场景；技能可随提示词与脚本一起打包，按需注入以提升特定任务表现。该仓库是 Anthropic 推动 Agent 技能生态标准化的重要举措：不仅提供官方示例技能（Apache 2.0），还定义了跨工具的技能规范，为社区贡献与互操作打下基础。对开发者而言，它是学习 Agent 技能设计范式、理解 SKILL.md 结构与最佳实践的第一手资料。",
+  "highlights": [
+    "官方定义 Agent Skills 规范（spec）与 SKILL.md 模板",
+    "覆盖文档、设计、测试、企业沟通等多场景示例技能"
+  ],
+  "score": 8,
+  "importance": "medium",
+  "tags": [
+    "Agent",
+    "Prompt工程",
+    "开源项目",
+    "Anthropic",
+    "教程指南"
+  ],
+  "related_models": [
+    "Claude"
+  ],
+  "status": "analyzed",
+  "fetched_at": "2026-08-12T04:40:00Z",
+  "analyzed_at": "2026-08-12T06:20:00Z",
+  "meta": {
+    "stars": 485
+  }
+}

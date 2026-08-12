@@ -1,0 +1,25 @@
+{
+  "id": "4e8b2d6f-4c3a-4f9b-8d1e-2a4c6e8f0b77",
+  "title": "Addy Osmani 开源生产级 AI 编码 Agent 技能库 agent-skills",
+  "source": "github_trending",
+  "source_url": "https://github.com/addyosmani/agent-skills",
+  "summary": "agent-skills 是 Google Chrome 团队技术负责人 Addy Osmani 开源的生产级 AI 编码 Agent 技能库，沉淀了大量面向真实工程场景的最佳实践。项目把资深工程师的编码经验转化为 Agent 可动态加载的技能模块，覆盖代码规范、工程实践与常见任务处理等主题，帮助 AI 编码工具生成更规范、更贴近生产要求的代码。其价值在于：一是为编码 Agent 提供高质量、可复用的技能资产，直接提升产出质量；二是以真实工程视角展示了如何设计 Agent 技能，是“AI 辅助工程”方向的优质参考资源。对正在构建编码 Agent 工作流、或希望提升团队 AI 编程产出的开发者，值得直接跟进与借鉴。",
+  "highlights": [
+    "沉淀生产级工程实践，将资深工程师经验转化为可复用技能",
+    "直接提升 AI 编码产出的规范性与生产适配度"
+  ],
+  "score": 7,
+  "importance": "medium",
+  "tags": [
+    "Agent",
+    "Prompt工程",
+    "开源项目",
+    "工具调用"
+  ],
+  "status": "analyzed",
+  "fetched_at": "2026-08-12T04:40:00Z",
+  "analyzed_at": "2026-08-12T06:20:00Z",
+  "meta": {
+    "stars": 578
+  }
+}

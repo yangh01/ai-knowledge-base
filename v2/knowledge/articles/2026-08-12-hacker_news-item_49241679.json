@@ -1,0 +1,41 @@
+{
+  "id": "1f5c9a3e-4d7b-4a8c-9e2f-1b3d5f7a9c45",
+  "title": "Meta 发布 Muse Glimmer：30B 开源模型主打常驻本地 Agent 工作流",
+  "source": "hacker_news",
+  "source_url": "https://news.ycombinator.com/item?id=49241679",
+  "summary": "Meta Superintelligence Labs 于 2026 年 8 月 10 日发布 Muse Glimmer，一款约 300 亿参数的开源权重稠密多模态模型，采用 Apache 2.0 许可，由闭源前沿模型 Muse Spark 蒸馏而来，专为“常驻本地”的 Agent 工作流优化。模型支持 120K+ 上下文窗口，内置多步推理、可靠工具调用、故障恢复与多模态感知（文本加图像），可在单张消费级 GPU（约 24 至 32GB 显存档位）上离线运行；通过 4-bit 量化与 DFlash 投机解码等优化，量化后体积可压至 20GB 以内，在 Blackwell Ultra 上可达每秒 2 万 token。Meta 在 MCP Atlas、DeepSearch QA、SWE-Bench 等基准上对比了 Gemma4-31B 与 Qwen3.6-27B，在多项 Agent 任务上领先，部分编码任务仍有差距。该发布标志着开源模型在“端侧常驻 Agent”这一差异化路线上达到实用水平，对本地私有化部署与离线 Agent 应用意义重大。",
+  "summary_en": "Meta Superintelligence Labs released Muse Glimmer on August 10, 2026 — an open-weight ~30B dense multimodal model under Apache 2.0, distilled from the closed frontier model Muse Spark and purpose-built for always-on local agent workflows. It offers a 120K+ context window, multi-step reasoning, reliable tool calling, failure recovery, and text-plus-image multimodal input, running offline on a single consumer GPU (24-32GB class) via 4-bit quantization and DFlash speculative decoding. On benchmarks like MCP Atlas, DeepSearch QA, and SWE-Bench it trades leads with Gemma4-31B and Qwen3.6-27B. The release marks local, always-on agentic models reaching practical viability, with major implications for private and offline agent deployment.",
+  "highlights": [
+    "约 300 亿参数稠密多模态模型，Apache 2.0 开源，由 Muse Spark 蒸馏",
+    "120K+ 上下文，量化后约 20GB，可在单张消费级 GPU 上离线运行",
+    "在 MCP Atlas 等多项 Agent 基准上领先 Gemma4-31B 与 Qwen3.6-27B"
+  ],
+  "score": 9,
+  "importance": "high",
+  "tags": [
+    "LLM",
+    "Agent",
+    "多模态",
+    "模型发布",
+    "部署",
+    "开源"
+  ],
+  "related_models": [
+    "Muse Glimmer",
+    "Muse Spark",
+    "Gemma 4",
+    "Qwen3.6"
+  ],
+  "status": "published",
+  "fetched_at": "2026-08-12T04:40:00Z",
+  "analyzed_at": "2026-08-12T06:20:00Z",
+  "meta": {
+    "points": 1182,
+    "comments": 636
+  },
+  "published_at": "2026-08-12T09:00:00Z",
+  "distributed_to": [
+    "telegram",
+    "feishu"
+  ]
+}

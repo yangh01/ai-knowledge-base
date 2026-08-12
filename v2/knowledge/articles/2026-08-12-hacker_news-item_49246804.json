@@ -1,0 +1,34 @@
+{
+  "id": "5d9a1e7f-4b3c-4e8a-9c6b-8f0a2c4e6b89",
+  "title": "Needle2：14MB 的端侧 Agentic LLM，专为手机与可穿戴设备设计",
+  "source": "hacker_news",
+  "source_url": "https://news.ycombinator.com/item?id=49246804",
+  "summary": "Cactus 发布 Needle2，一个仅 14MB 的端侧 Agentic LLM：45M 参数、2-bit 量化，整个模型是单一二进制文件，完整会话仅需约 28MB 内存，面向手机、可穿戴设备、智能家居与小型机器人。模型基于 Simple Attention Networks（SAN）架构，针对工具调用、设备操控与结构化抽取等 Agent 任务优化，在工具调用与移动设备使用基准上与 LFM2.5 230M、Apple Foundation Model 等大得多的模型互有胜负，而体积小 5 到 70 倍。实测在树莓派 5 上解码速度约 500 token/秒，在 Quest 3S 等设备上可达 400 至 1500 token/秒。项目还提供本地微调流程与置信度评分，支持“端侧初判、低置信度升级云端”的混合部署。它为“边缘 AI”与低成本智能设备提供了新思路，是端侧 Agent 方向的重要进展。",
+  "highlights": [
+    "14MB 二进制、28MB 内存跑完整会话，专为工具调用与设备操控优化",
+    "树莓派 5 解码约 500 token/s，性能可与大 5 至 70 倍的模型互有胜负",
+    "提供置信度评分与本地微调，支持端云混合部署"
+  ],
+  "score": 8,
+  "importance": "medium",
+  "tags": [
+    "LLM",
+    "Agent",
+    "工具调用",
+    "模型发布",
+    "端侧AI",
+    "开源项目"
+  ],
+  "related_models": [
+    "Needle2",
+    "LFM2.5",
+    "Apple Foundation Model"
+  ],
+  "status": "analyzed",
+  "fetched_at": "2026-08-12T04:40:00Z",
+  "analyzed_at": "2026-08-12T06:20:00Z",
+  "meta": {
+    "points": 509,
+    "comments": 171
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "7f1c3a9b-4d5e-4a8c-9e7d-0b2c4e6f8a01",
+  "title": "Anthropic 详解 Claude 如何标记 AI 生成内容：水印与 C2PA 溯源",
+  "source": "hacker_news",
+  "source_url": "https://news.ycombinator.com/item?id=49250109",
+  "summary": "Anthropic 官方文档详解 Claude 标记 AI 生成内容的机制：自 2026 年 8 月 2 日起发布的新 Claude 模型，在生成的文本中嵌入不可感知的水印，并依据 C2PA 开放标准为生成的图片（svg、png、jpg）附加数字签名溯源元数据；该标记在模型层面生效，覆盖 API、Claude Code 等全部产品形态，并在全球范围内应用。此举源于 Anthropic 签署的欧盟 AI 法案第 50(2) 条“AI 生成内容透明度行为准则”。文档同时坦承其局限：检测到标记只说明内容“可能经过 Claude 处理”，不证明 AI 原创；文本被改写、转译或过短时水印可能失效，文件元数据也易被截图、转存剥离。该方案为 AI 内容溯源提供了可规模化的技术路径，也引发关于水印可靠性、隐私权衡与行业标准建设的广泛讨论。",
+  "highlights": [
+    "文本内嵌不可感知水印，文件附 C2PA 数字签名溯源元数据",
+    "在模型层生效、全球适用，覆盖 API 与 Claude Code 全产品线",
+    "官方坦承局限：标记为“处理信号”而非 AI 原创证明"
+  ],
+  "score": 8,
+  "importance": "medium",
+  "tags": [
+    "安全",
+    "LLM",
+    "行业分析",
+    "内容溯源",
+    "Anthropic"
+  ],
+  "related_models": [
+    "Claude"
+  ],
+  "status": "analyzed",
+  "fetched_at": "2026-08-12T04:40:00Z",
+  "analyzed_at": "2026-08-12T06:20:00Z",
+  "meta": {
+    "points": 424,
+    "comments": 391
+  }
+}

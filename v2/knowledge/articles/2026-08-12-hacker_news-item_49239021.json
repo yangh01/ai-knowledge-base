@@ -1,0 +1,31 @@
+{
+  "id": "3f7c9e1b-4d5e-4a8c-9e3d-6b8d0f2a4i67",
+  "title": "Claude Code 自动模式成为默认，编码 Agent 迈向自主执行",
+  "source": "hacker_news",
+  "source_url": "https://news.ycombinator.com/item?id=49239021",
+  "summary": "Anthropic 宣布自 2026 年 8 月 14 日起，Claude Code 的自动模式（Auto mode）将成为 Pro、Max 与 Team 套餐新会话的默认设置，标志着编码 Agent 从“每步确认”向“自主执行”迈进。自动模式下，Claude 会连续完成任务，仅在对不可逆、破坏性或作用于环境之外的操作时请求人工确认。Anthropic 的对照研究（1053 名付费测试者）显示，自动模式捕捉到 89% 的危险操作，而人工审核仅捕捉 13.6%；使用自动模式的团队产出约多 25% 的 PR。同时新增提示注入筛查与自定义硬拒绝规则等安全特性，并支持并行会话之间直接互发消息。该举措意味着行业默认范式正在从“频繁人工确认”转向“分类器守护下的自主执行”，对 Agent 自主性边界、代码审查流程与安全风险评估产生深远影响。",
+  "highlights": [
+    "8 月 14 日起自动模式成为 Pro/Max/Team 套餐默认设置",
+    "对照测试中自动模式捕捉 89% 危险操作，远超人工审核的 13.6%",
+    "新增提示注入筛查、硬拒绝规则与会话间互发消息"
+  ],
+  "score": 8,
+  "importance": "medium",
+  "tags": [
+    "Agent",
+    "工具调用",
+    "产品发布",
+    "Anthropic",
+    "安全"
+  ],
+  "related_models": [
+    "Claude"
+  ],
+  "status": "analyzed",
+  "fetched_at": "2026-08-12T04:40:00Z",
+  "analyzed_at": "2026-08-12T06:20:00Z",
+  "meta": {
+    "points": 289,
+    "comments": 310
+  }
+}

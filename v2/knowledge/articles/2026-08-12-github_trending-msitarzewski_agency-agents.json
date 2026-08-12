@@ -3,19 +3,23 @@
   "title": "agency-agents：以 Shell 脚本打包的多角色 AI 代理团队",
   "source": "github_trending",
   "source_url": "https://github.com/msitarzewski/agency-agents",
-  "summary": "agency-agents 是一个把"AI 代理机构"打包成脚本的开源 Shell 项目，内置前端专家、社区运营、创意注入、现实核查等个性鲜明的 Agent 角色，每个 Agent 都拥有专属流程与可交付成果。项目的核心价值在于以极低门槛演示多 Agent 协作编排：开发者无需构建复杂框架，即可组合出覆盖不同职能的自动化团队，快速体验角色分工、工作流衔接与产出物交接。它适合希望低成本上手多 Agent 编排、或想借鉴角色化 Agent 设计的开发者；其脚本式组织方式也便于阅读、改造与集成到现有自动化流程中。对团队而言，可作为教学范例与原型基础，但生产级能力与可扩展性仍需自行评估。",
+  "summary": "agency-agents 是一个把“AI 代理机构”打包成脚本的开源 Shell 项目，内置前端专家、社区运营、创意注入、现实核查等个性鲜明的 Agent 角色，每个 Agent 都拥有专属流程与可交付成果。项目的核心价值在于以极低门槛演示多 Agent 协作编排：开发者无需构建复杂框架，即可组合出覆盖不同职能的自动化团队，快速体验角色分工、工作流衔接与产出物交接。它适合希望低成本上手多 Agent 编排、或想借鉴角色化 Agent 设计的开发者；其脚本式组织方式也便于阅读、改造与集成到现有自动化流程中。对团队而言，可作为教学范例与原型基础，但生产级能力与可扩展性仍需自行评估。",
   "highlights": [
     "将前端专家、社区运营等角色打包为即取即用的脚本 Agent",
     "无需复杂框架即可体验多角色协作编排与产出交接"
   ],
   "score": 5,
   "importance": "medium",
-  "tags": ["Agent", "开源项目", "工具调用", "多Agent"],
+  "tags": [
+    "Agent",
+    "开源项目",
+    "工具调用",
+    "多Agent"
+  ],
   "status": "analyzed",
   "fetched_at": "2026-08-12T04:40:00Z",
   "analyzed_at": "2026-08-12T06:20:00Z",
   "meta": {
-    "stars": 958,
-    "non_standard_tags": ["多Agent"]
+    "stars": 958
   }
 }

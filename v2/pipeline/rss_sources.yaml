@@ -1,0 +1,55 @@
+# RSS 数据源配置
+#
+# - name: 源名称
+# - url: RSS/Atom 订阅地址
+# - category: 分类（综合技术 / AI研究 / 公司博客 / 中文社区）
+# - enabled: 是否采集（false 表示默认不采集，需按需开启）
+#
+# 说明：高产出源（如 arXiv cs.AI）默认 disabled，避免单次采集量过大；
+# 中文社区源默认 disabled，需先确认 RSS 地址可用后再开启。
+
+sources:
+  - name: Hacker News Best (AI 相关)
+    url: https://hnrss.org/best
+    category: 综合技术
+    enabled: true
+
+  - name: Lobsters AI/ML
+    url: https://lobste.rs/tag/ai.rss
+    category: 综合技术
+    enabled: true
+
+  - name: arXiv cs.AI
+    url: https://rss.arxiv.org/rss/cs.AI
+    category: AI研究
+    enabled: false
+
+  - name: OpenAI Blog
+    url: https://openai.com/blog/rss.xml
+    category: 公司博客
+    enabled: true
+
+  - name: Anthropic Research
+    url: https://www.anthropic.com/rss.xml
+    category: 公司博客
+    enabled: true
+
+  - name: Hugging Face Blog
+    url: https://huggingface.co/blog/feed.xml
+    category: 公司博客
+    enabled: true
+
+  - name: 机器之心
+    url: https://www.jiqizhixin.com/rss
+    category: 中文社区
+    enabled: false
+
+  - name: 量子位
+    url: https://www.qbitai.com/feed
+    category: 中文社区
+    enabled: false
+
+  - name: The Verge (AI)
+    url: https://www.theverge.com/rss/ai-artificial-intelligence/index.xml
+    category: news
+    enabled: true

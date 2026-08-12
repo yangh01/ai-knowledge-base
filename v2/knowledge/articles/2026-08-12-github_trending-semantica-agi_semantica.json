@@ -1,0 +1,21 @@
+{
+  "id": "9b2e7d1f-4a3c-4b8d-9e1f-0a2b3c4d5e33",
+  "title": "Semantica：面向上下文管理与可问责 AI 的图原生基础设施",
+  "source": "github_trending",
+  "source_url": "https://github.com/semantica-agi/semantica",
+  "summary": "Semantica 是一个面向上下文管理与可问责 AI 系统的图原生（graph-native）基础设施开源项目。它以图结构为核心组织 AI 系统的上下文与状态，将信息溯源与可解释性作为一等公民：与传统基于向量的记忆或扁平状态存储不同，图模型能够显式表达实体、事件与决策之间的关联关系，从而支撑对 Agent 行为的追溯与审计。项目定位是可信赖 Agent 系统的底层数据层，对关注 AI 可观测性、长期记忆管理与责任追溯的团队具有参考价值。当前项目处于早期阶段，需关注其与主流 Agent 框架的集成方式、图存储性能以及治理 API 的成熟度。它反映了"可解释、可问责 Agent 基础设施"正在成为重要方向，值得保持跟踪。",
+  "highlights": [
+    "以图结构组织 AI 上下文与状态，显式建模实体与决策关联",
+    "面向可问责 Agent 提供信息溯源与审计支持"
+  ],
+  "score": 6,
+  "importance": "medium",
+  "tags": ["Agent", "RAG", "开源项目", "知识图谱", "可解释性"],
+  "status": "analyzed",
+  "fetched_at": "2026-08-12T04:40:00Z",
+  "analyzed_at": "2026-08-12T06:20:00Z",
+  "meta": {
+    "stars": 893,
+    "non_standard_tags": ["知识图谱", "可解释性"]
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ArchiveLog",
+  "description": "organizer 归档日志契约：记录本次归档任务的处理/新增/跳过/错误/已发布计数与错误明细、已发布条目清单。",
+  "type": "object",
+  "required": [
+    "task_summary"
+  ],
+  "properties": {
+    "task_summary": {
+      "$ref": "#/definitions/task_summary",
+      "description": "归档统计摘要"
+    },
+    "errors": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/error"
+      },
+      "description": "单条失败的错误明细"
+    },
+    "published_items": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/published_item"
+      },
+      "description": "已发布（high）条目清单及其分发摘要"
+    }
+  },
+  "definitions": {
+    "task_summary": {
+      "type": "object",
+      "required": [
+        "total_processed",
+        "new_archived",
+        "duplicates_skipped",
+        "errors",
+        "published_high",
+        "archived_at"
+      ],
+      "properties": {
+        "total_processed": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "本次处理的总条目数"
+        },
+        "new_archived": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "新增归档条目数"
+        },
+        "duplicates_skipped": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "去重跳过条目数"
+        },
+        "errors": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "错误条目数"
+        },
+        "published_high": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "已发布高重要度条目数"
+        },
+        "archived_at": {
+          "type": "string",
+          "format": "date-time",
+          "description": "归档完成时间"
+        }
+      }
+    },
+    "error": {
+      "type": "object",
+      "required": [
+        "id",
+        "reason"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "失败条目的 id 或原始 URL"
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1,
+          "description": "失败原因，如 missing_field: summary is empty"
+        }
+      }
+    },
+    "published_item": {
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "distribute_summary"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$",
+          "description": "条目 UUID v4"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1,
+          "description": "条目标题"
+        },
+        "distribute_summary": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 150,
+          "description": "Markdown 分发摘要，150 字以内，含标题、核心亮点与原链接"
+        }
+      }
+    }
+  }
+}

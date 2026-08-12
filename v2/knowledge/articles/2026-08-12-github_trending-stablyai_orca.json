@@ -1,0 +1,21 @@
+{
+  "id": "c1f5a9e2-4d8b-4c6a-9f2e-1b3d5f7a9c44",
+  "title": "Stability AI 开源 Orca：并行调度多 Agent 的开发环境（ADE）",
+  "source": "github_trending",
+  "source_url": "https://github.com/stablyai/orca",
+  "summary": "Stability AI 推出 Orca，一款面向 Agent 的开发环境（ADE），用于同时调度多个并行 Agent 编队执行任务。Orca 支持接入用户自有订阅的任意编码 Agent，覆盖桌面、移动端与 VPS 等部署场景，目标是把"多 Agent 并行协作"从临时脚本提升为工程化、可托管的基础设施。其核心价值在于降低大规模使用 AI 编码 Agent 的运维门槛：统一管理多个 Agent 实例、并行分派任务并汇总结果，适合需要并发处理大量编码或自动化任务的团队。作为 Stability AI 在 Agent 基础设施方向的布局，Orca 也体现了行业从单一编码助手向 Agent 编队（agent fleet）演进的大趋势。项目的成熟度与稳定性需以实际评测为准，值得保持关注。",
+  "highlights": [
+    "可同时调度多个并行 Agent 编队执行任务",
+    "支持接入用户自有订阅的编码 Agent，覆盖桌面、移动端与 VPS"
+  ],
+  "score": 7,
+  "importance": "medium",
+  "tags": ["Agent", "部署", "开源项目", "工具调用", "多Agent"],
+  "status": "analyzed",
+  "fetched_at": "2026-08-12T04:40:00Z",
+  "analyzed_at": "2026-08-12T06:20:00Z",
+  "meta": {
+    "stars": 875,
+    "non_standard_tags": ["多Agent"]
+  }
+}

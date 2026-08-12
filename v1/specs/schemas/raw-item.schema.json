@@ -1,0 +1,90 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "RawItem",
+  "description": "collector 采集阶段产出的单条原始条目，也是 analyzer 分析阶段的输入。字段约束见 .opencode/agents/collector.md 输出格式。",
+  "type": "object",
+  "required": [
+    "title",
+    "url",
+    "source",
+    "popularity",
+    "summary",
+    "fetched_at"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "description": "条目标题，原始标题或提炼后的中文标题"
+    },
+    "url": {
+      "type": "string",
+      "format": "uri",
+      "description": "原始链接，必须真实可访问"
+    },
+    "source": {
+      "enum": [
+        "github_trending",
+        "hacker_news"
+      ],
+      "description": "信息来源"
+    },
+    "popularity": {
+      "$ref": "#/definitions/popularity",
+      "description": "热度指标：GitHub 含 stars，Hacker News 含 points/comments"
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 100,
+      "maxLength": 200,
+      "description": "中文摘要，100-200 字"
+    },
+    "fetched_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 采集时间，analyzer 将继承此字段"
+    }
+  },
+  "definitions": {
+    "popularity": {
+      "type": "object",
+      "oneOf": [
+        {
+          "title": "GitHubStars",
+          "required": [
+            "stars"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "stars": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "当日新增 Star 数"
+            }
+          }
+        },
+        {
+          "title": "HackerNewsPoints",
+          "required": [
+            "points",
+            "comments"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "points": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "点赞数"
+            },
+            "comments": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "评论数"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

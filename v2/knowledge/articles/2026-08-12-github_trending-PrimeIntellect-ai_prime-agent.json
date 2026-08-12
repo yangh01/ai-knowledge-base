@@ -1,0 +1,22 @@
+{
+  "id": "7f3c9a21-4b5e-4d2a-9f6c-1a2b3c4d5e11",
+  "title": "Prime Intellect 开源自改进 RLM 编码智能体 Prime Agent",
+  "source": "github_trending",
+  "source_url": "https://github.com/PrimeIntellect-ai/prime-agent",
+  "summary": "Prime Intellect 于 2026 年 8 月初开源 Prime Agent，一款面向编码工作流与长时间运行自主任务的自改进智能体，采用 MIT 许可。其核心是两大抽象：递归语言模型（RLM）与持续化框架（Continual Harness）。RLM 以持久化 IPython 内核作为模型的主交互界面，文件操作、Shell 命令、技能调用与子智能体派发都以可执行代码的形式在内核中完成，状态可跨会话与上下文压缩存活；子智能体不再是对接在外的编排层，而是模型可直接调用的 rlm() 函数。Continual Harness 则维护可审查、可回滚的持久记忆、技能与子智能体规格，通过 /refine 循环在不改动基础系统提示词的前提下实现自我改进。官方称其在 ARC-AGI-3 等基准上超过人类专家基线。该项目代表了"自我进化型编码 Agent"的前沿方向，对 Agent 框架设计从固定工具列表转向可编程环境具有重要参考价值。",
+  "highlights": [
+    "以持久化 IPython 内核为核心，Agent 通过写代码完成工具调用与上下文管理",
+    "子智能体以 rlm() 函数形式原生派发，支持并行与后台任务",
+    "Continual Harness 提供可审查、可回滚的自我改进路径，MIT 开源"
+  ],
+  "score": 8,
+  "importance": "medium",
+  "tags": ["Agent", "开源项目", "工具调用", "推理", "RLM"],
+  "status": "analyzed",
+  "fetched_at": "2026-08-12T04:40:00Z",
+  "analyzed_at": "2026-08-12T06:20:00Z",
+  "meta": {
+    "stars": 1138,
+    "non_standard_tags": ["RLM"]
+  }
+}

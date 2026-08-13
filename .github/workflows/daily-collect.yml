@@ -32,9 +32,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-        # 尝试显式指定 Node.js 版本
-        node-version: '24'
 
       - name: Set up Python 3.11
         uses: actions/setup-python@v5
@@ -42,8 +39,6 @@ jobs:
           python-version: '3.11'
           cache: pip
           cache-dependency-path: requirements.txt
-          # 部分 Action 可能支持此参数
-          node-version: '24'
 
       - name: Install dependencies
         run: pip install -r v2/requirements.txt

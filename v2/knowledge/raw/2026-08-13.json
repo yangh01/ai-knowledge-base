@@ -1,0 +1,162 @@
+[
+  {
+    "title": "openclaw/openclaw",
+    "url": "https://github.com/openclaw/openclaw",
+    "source": "github",
+    "popularity": {
+      "stars": 386104
+    },
+    "summary": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 "
+  },
+  {
+    "title": "obra/superpowers",
+    "url": "https://github.com/obra/superpowers",
+    "source": "github",
+    "popularity": {
+      "stars": 271320
+    },
+    "summary": "An agentic skills framework & software development methodology that works."
+  },
+  {
+    "title": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "source": "github",
+    "popularity": {
+      "stars": 239779
+    },
+    "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+  },
+  {
+    "title": "NousResearch/hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "source": "github",
+    "popularity": {
+      "stars": 229664
+    },
+    "summary": "The agent that grows with you"
+  },
+  {
+    "title": "mattpocock/skills",
+    "url": "https://github.com/mattpocock/skills",
+    "source": "github",
+    "popularity": {
+      "stars": 215293
+    },
+    "summary": "Skills for Real Engineers. Straight from my .agents directory."
+  },
+  {
+    "title": "multica-ai/andrej-karpathy-skills",
+    "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+    "source": "github",
+    "popularity": {
+      "stars": 201943
+    },
+    "summary": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls."
+  },
+  {
+    "title": "n8n-io/n8n",
+    "url": "https://github.com/n8n-io/n8n",
+    "source": "github",
+    "popularity": {
+      "stars": 200410
+    },
+    "summary": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations."
+  },
+  {
+    "title": "anomalyco/opencode",
+    "url": "https://github.com/anomalyco/opencode",
+    "source": "github",
+    "popularity": {
+      "stars": 196698
+    },
+    "summary": "The open source coding agent."
+  },
+  {
+    "title": "ultraworkers/claw-code",
+    "url": "https://github.com/ultraworkers/claw-code",
+    "source": "github",
+    "popularity": {
+      "stars": 195070
+    },
+    "summary": "An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention."
+  },
+  {
+    "title": "Significant-Gravitas/AutoGPT",
+    "url": "https://github.com/Significant-Gravitas/AutoGPT",
+    "source": "github",
+    "popularity": {
+      "stars": 186570
+    },
+    "summary": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters."
+  },
+  {
+    "title": "Delta",
+    "url": "https://zed.dev/blog/introducing-delta",
+    "source": "rss",
+    "popularity": {},
+    "summary": "Article URL: https://zed.dev/blog/introducing-delta\nComments URL: https://news.ycombinator.com/item?id=49276574\nPoints: 436\n# Comments: 146"
+  },
+  {
+    "title": "Grok 4.6 scores 61 on the Artificial Analysis Intelligence Index",
+    "url": "https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis",
+    "source": "rss",
+    "popularity": {},
+    "summary": "Article URL: https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis\nComments URL: https://news.ycombinator.com/item?id=49275385\nPoints: 320\n# Comments: 334"
+  },
+  {
+    "title": "From assistance to execution: How enterprises put AI to work",
+    "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
+    "source": "rss",
+    "popularity": {},
+    "summary": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption."
+  },
+  {
+    "title": "How RingCentral builds AI-native work from engineering to ops",
+    "url": "https://openai.com/index/ringcentral",
+    "source": "rss",
+    "popularity": {},
+    "summary": "See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations."
+  },
+  {
+    "title": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
+    "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
+    "source": "rss",
+    "popularity": {},
+    "summary": ""
+  },
+  {
+    "title": "LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge",
+    "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
+    "source": "rss",
+    "popularity": {},
+    "summary": ""
+  },
+  {
+    "title": "Thinking of ACE? We Can Do It with Fewer Tokens",
+    "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
+    "source": "rss",
+    "popularity": {},
+    "summary": ""
+  },
+  {
+    "title": "Twitch streamers can now opt out from training Amazon’s AI",
+    "url": "https://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai",
+    "source": "rss",
+    "popularity": {},
+    "summary": "Twitch users can now opt out of allowing their content to be used to train Amazon's generative AI models. Opting out means that \"your streams, VODs, clips, stream chats, and pictures and text on your channel\" won't be used in \"future training\" of an Amazon AI model \"whose purpose is to generate or s"
+  },
+  {
+    "title": "Guitar company D’Addario admits that AI music was used in a promotional video",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/978982/daddario-guitar-ai-music-suno",
+    "source": "rss",
+    "popularity": {},
+    "summary": "After weeks of controversy and speculation, music company D'Addario has admitted that AI, specifically Suno, was used as part of a recent promotional video. For nearly two weeks, the company has denied the allegations, even as evidence piled up against it. It offered various explanations, from low-q"
+  },
+  {
+    "title": "Google’s Pixel Watch 5 dives deeper into AI and health",
+    "url": "https://www.theverge.com/tech/978094/pixel-watch-5-hands-on-made-by-google-gemini-wearables-smartwatch",
+    "source": "rss",
+    "popularity": {},
+    "summary": "The $399 Google Pixel Watch 5 isn't about the hardware. Sure, there's a new satin pyrite case finish, a few new strap colors, and a Steph Curry Special Edition. Under the hood, there's a slightly faster Qualcomm processor and an itty-bitty battery bump. There's a $50 price hike from last year, too, "
+  }
+]

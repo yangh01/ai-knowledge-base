@@ -17,6 +17,7 @@ import os
 import time
 from abc import ABC, abstractmethod
 from dataclasses import dataclass, field
+from pathlib import Path
 from typing import Any
 
 import httpx
@@ -98,6 +99,15 @@ PRICING: dict[str, dict[str, float]] = {
 DEFAULT_PRICE: dict[str, float] = {"input": 0.002, "output": 0.006}
 
 
+# ── 人民币价格表（每百万 tokens，单位元）────────────────────────────────
+# 按提供商计价，供 CostTracker 估算成本使用。
+PROVIDER_PRICES_CNY: dict[str, dict[str, float]] = {
+    "deepseek": {"input": 1.0, "output": 2.0},
+    "qwen": {"input": 4.0, "output": 12.0},
+    "openai": {"input": 150.0, "output": 600.0},
+}
+
+
 def estimate_cost(model: str, usage: Usage) -> float:
     """估算单次调用的成本（USD）。
 
@@ -116,6 +126,106 @@ def estimate_cost(model: str, usage: Usage) -> float:
     return round(cost, 6)
 
 
+# ── 成本追踪器 ───────────────────────────────────────────────────────────
+
+
+class CostTracker:
+    """LLM 调用成本追踪器（人民币计费）。
+
+    按提供商累计 token 用量，依据 PROVIDER_PRICES_CNY 价格表估算成本。
+
+    Attributes:
+        _records: 提供商名称 → 累计 Usage 的映射。
+    """
+
+    def __init__(self) -> None:
+        """初始化空的成本追踪器。"""
+        self._records: dict[str, Usage] = {}
+
+    def record(self, usage: Usage, provider: str) -> None:
+        """记录一次 API 调用的 token 用量。
+
+        Args:
+            usage: 该次调用的 token 用量。
+            provider: 提供商名称（deepseek / qwen / openai），大小写不敏感。
+        """
+        name = provider.lower()
+        current = self._records.setdefault(name, Usage())
+        current.prompt_tokens += usage.prompt_tokens
+        current.completion_tokens += usage.completion_tokens
+
+    def estimated_cost(self, provider: str) -> float:
+        """返回指定提供商累计的估算成本（元）。
+
+        Args:
+            provider: 提供商名称（deepseek / qwen / openai），大小写不敏感。
+
+        Returns:
+            累计估算成本（人民币元），保留 4 位小数；无记录或价格未知返回 0。
+        """
+        name = provider.lower()
+        usage = self._records.get(name)
+        prices = PROVIDER_PRICES_CNY.get(name)
+        if usage is None or prices is None:
+            return 0.0
+        cost = (
+            usage.prompt_tokens / 1_000_000 * prices["input"]
+            + usage.completion_tokens / 1_000_000 * prices["output"]
+        )
+        return round(cost, 4)
+
+    def report(self, provider: str | None = None) -> str:
+        """打印成本报告。
+
+        Args:
+            provider: 提供商名称，None 时报告全部有记录的提供商。
+
+        Returns:
+            报告文本（多行字符串），同时写入日志。
+        """
+        names = [provider] if provider is not None else sorted(self._records)
+        lines = ["=== LLM 成本报告 ==="]
+        total = 0.0
+        for name in names:
+            usage = self._records.get(name)
+            if usage is None:
+                lines.append(f"{name}: 无调用记录")
+                continue
+            cost = self.estimated_cost(name)
+            total += cost
+            lines.append(
+                f"{name}: 输入 {usage.prompt_tokens} tokens，"
+                f"输出 {usage.completion_tokens} tokens，"
+                f"共 {usage.total_tokens} tokens，估算成本 {cost:.4f} 元"
+            )
+        if not names:
+            lines.append("无调用记录")
+        lines.append(f"总计: {total:.4f} 元")
+        text = "\n".join(lines)
+        logger.info("%s", text)
+        return text
+
+    def save_report(self, filepath: str | Path) -> str:
+        """将成本报告保存到文件。
+
+        Args:
+            filepath: 目标文件路径，父目录不存在时自动创建。
+
+        Returns:
+            写入文件的报告文本。
+        """
+        text = self.report()
+        path = Path(filepath)
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(text + "\n", encoding="utf-8")
+        logger.info("成本报告已保存: %s", path)
+        return text
+
+
+# 全局追踪器：Pipeline 结束时可通过 tracker.report() 输出成本报告。
+tracker = CostTracker()
+
+
 # ── Provider 抽象基类 ────────────────────────────────────────────────────
 
 
@@ -126,13 +236,15 @@ class LLMProvider(ABC):
     工厂配置，无需改动上层调用代码。
 
     Attributes:
+        name: 提供商名称（deepseek / qwen / openai），用于成本追踪。
         api_key: API 密钥。
         base_url: API 基础地址（不含 /chat/completions 后缀）。
         model: 默认使用的模型名称。
         client: httpx 同步客户端，统一设置 60 秒超时。
     """
 
-    def __init__(self, api_key: str, base_url: str, model: str) -> None:
+    def __init__(self, name: str, api_key: str, base_url: str, model: str) -> None:
+        self.name = name
         self.api_key = api_key
         self.base_url = base_url.rstrip("/")
         self.model = model
@@ -279,7 +391,9 @@ def create_provider(provider_name: str | None = None) -> LLMProvider:
     model = os.getenv(config["model_env"], config["default_model"])
 
     logger.info("创建 LLM 客户端: provider=%s, model=%s", name, model)
-    return OpenAICompatibleProvider(api_key=api_key, base_url=base_url, model=model)
+    return OpenAICompatibleProvider(
+        name=name, api_key=api_key, base_url=base_url, model=model
+    )
 
 
 # ── 带重试的调用封装 ─────────────────────────────────────────────────────
@@ -296,7 +410,8 @@ def chat_with_retry(
     """带指数退避重试的聊天调用。
 
     对可恢复的 HTTP 错误（状态码错误、连接失败、超时）最多重试 max_retries
-    次，重试间隔按 2^attempt 秒递增（1s、2s、4s）。
+    次，重试间隔按 2^attempt 秒递增（1s、2s、4s）。调用成功后自动将 token
+    用量记录到全局 tracker，供 Pipeline 结束时汇总成本报告。
 
     Args:
         provider: LLM 提供商实例。
@@ -324,6 +439,7 @@ def chat_with_retry(
             )
             if attempt > 0:
                 logger.info("第 %d 次重试成功", attempt)
+            tracker.record(response.usage, provider.name)
             return response
         except (
             httpx.HTTPStatusError,
@@ -403,6 +519,9 @@ def chat(
 ) -> dict[str, Any]:
     """便捷调用 LLM，返回包含 content 和 usage 的字典。
 
+    调用成功后自动将 token 用量记录到全局 tracker，可通过
+    tracker.report() 输出成本报告。
+
     Args:
         prompt: 用户提示词。
         system: 系统提示词，默认扮演 AI 技术分析助手。
@@ -440,8 +559,12 @@ if __name__ == "__main__":
     print("=== LLM 客户端测试 ===")
     print(f"提供商: {os.getenv('LLM_PROVIDER', 'deepseek')}")
     try:
-        result = quick_chat("用一句话介绍什么是 AI Agent。")
-        print(f"\n回复: {result}")
+        # result = quick_chat("用一句话介绍什么是 AI Agent。")
+        result = chat("用一句话介绍 LangGraph")
+        result1 = chat('用一句话介绍 Python')
+        # print(f"\n回复: {result}")
+        # 打印成本报告
+        tracker.report()
     except Exception as exc:  # noqa: BLE001 — CLI 测试入口需捕获任意异常
         print(f"\n错误: {exc}")
         print("请检查 .env 文件中的 API Key 配置。")

@@ -1,0 +1,20 @@
+{
+  "id": "e3297623-314e-4087-a706-7402843130d8",
+  "title": "超越ACE：用更少Token实现同等效果",
+  "source": "hacker_news",
+  "source_url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
+  "summary": "本文介绍了IBM研究院在Hugging Face博客上发布的一项新技术，旨在解决传统ACE（Agentic Context Engineering）方法中Token消耗过大的问题。ACE是一种通过代理式上下文工程来增强大语言模型（LLM）性能的技术，但其高Token开销限制了其实际应用。IBM研究院提出的新方法（可能名为ALTK-Evolve-SLDD）通过优化上下文构建和演化策略，显著减少了Token使用量，同时保持了与ACE相当或更优的任务表现。文章详细阐述了该方法的原理，包括如何利用轻量级代理、动态上下文选择和增量式知识更新来降低冗余，并提供了实验数据证明其在多个基准测试上的有效性。该技术对于降低LLM应用成本、提高推理效率具有重要意义，尤其适用于资源受限或高并发场景。",
+  "tags": [
+    "Token优化",
+    "上下文工程",
+    "大语言模型",
+    "IBM研究",
+    "效率提升"
+  ],
+  "importance": "high",
+  "status": "analyzed",
+  "fetched_at": "2026-08-13T03:57:01+00:00",
+  "analyzed_at": "2026-08-13T03:57:01+00:00",
+  "summary_en": "This article introduces a new technique from IBM Research, published on the Hugging Face blog, aimed at addressing the high token consumption of traditional ACE (Agentic Context Engineering). ACE enhances large language model (LLM) performance through agentic context engineering, but its token overhead limits practical use. The proposed method (likely named ALTK-Evolve-SLDD) significantly reduces token usage while maintaining comparable or better task performance by optimizing context construction and evolution strategies. The article details the approach, including lightweight agents, dynamic context selection, and incremental knowledge updates, and provides experimental results showing effectiveness across multiple benchmarks. This technique is significant for reducing LLM application costs and improving inference efficiency, especially in resource-constrained or high-concurrency scenarios.",
+  "score": 8
+}

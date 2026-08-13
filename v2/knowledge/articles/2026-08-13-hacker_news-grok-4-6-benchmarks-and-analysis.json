@@ -1,0 +1,20 @@
+{
+  "id": "0c8022eb-3d58-4074-af6b-51dceb449fe4",
+  "title": "Grok 4.6 在人工智能分析指数中得分 61",
+  "source": "hacker_news",
+  "source_url": "https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis",
+  "summary": "根据 Artificial Analysis 的最新评测，xAI 发布的 Grok 4.6 模型在 Artificial Analysis Intelligence Index 上获得了 61 分。该指数综合评估了模型在多个基准测试中的表现，包括推理、数学、编程、知识问答和指令遵循等能力。Grok 4.6 的得分表明其在整体智能水平上处于行业领先地位，但并非最高分，仍有提升空间。文章详细分析了 Grok 4.6 在不同任务上的优势与短板，例如在数学和编程方面表现突出，但在某些知识密集型任务上略逊于顶尖模型。此外，评测还考虑了模型的效率、推理速度和成本等因素。该模型在 Hacker News 上引发了广泛讨论，社区对其性能、开源策略和未来迭代方向存在不同看法。总体而言，Grok 4.6 的发布标志着 xAI 在 AI 竞赛中的持续进步，但竞争格局依然激烈。",
+  "tags": [
+    "Grok 4.6",
+    "AI模型评测",
+    "Artificial Analysis",
+    "xAI",
+    "基准测试"
+  ],
+  "importance": "high",
+  "status": "analyzed",
+  "fetched_at": "2026-08-13T03:57:01+00:00",
+  "analyzed_at": "2026-08-13T03:57:01+00:00",
+  "summary_en": "According to the latest evaluation by Artificial Analysis, xAI's Grok 4.6 model scored 61 on the Artificial Analysis Intelligence Index. This index comprehensively assesses model performance across multiple benchmarks, including reasoning, mathematics, coding, knowledge Q&A, and instruction following. The score indicates that Grok 4.6 is at the forefront of the industry in overall intelligence, but it is not the highest, leaving room for improvement. The article details Grok 4.6's strengths and weaknesses across different tasks, such as strong performance in math and coding, while slightly lagging behind top models in certain knowledge-intensive tasks. Additionally, the evaluation considers factors like efficiency, inference speed, and cost. The model has sparked extensive discussion on Hacker News, with the community holding varied opinions on its performance, open-source strategy, and future iteration direction. Overall, the release of Grok 4.6 marks continued progress for xAI in the AI race, but the competitive landscape remains intense.",
+  "score": 8
+}

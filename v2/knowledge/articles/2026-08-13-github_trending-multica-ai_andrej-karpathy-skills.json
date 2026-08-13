@@ -1,0 +1,23 @@
+{
+  "id": "9bae8148-4738-4608-aa63-59c2affc7549",
+  "title": "基于 Andrej Karpathy 观察的 Claude Code 行为优化配置文件",
+  "source": "github_trending",
+  "source_url": "https://github.com/multica-ai/andrej-karpathy-skills",
+  "summary": "该 GitHub 仓库提供单一 CLAUDE.md 文件，旨在改进 Claude Code 的行为。该文件基于 Andrej Karpathy 对大型语言模型（LLM）编码常见陷阱的观察而生成。Karpathy 是人工智能领域的知名专家，其观点对 LLM 在编程中的应用具有重要指导意义。通过整合这些观察，该配置文件能够帮助 Claude Code 避免常见错误，提升代码生成质量和开发效率。仓库内容简洁，聚焦于实用配置，适合希望优化 AI 辅助编码体验的开发者。该项目的价值在于将专家经验转化为可直接使用的配置，降低了普通用户调优 AI 工具的门槛，具有较高的实用性和推广潜力。",
+  "tags": [
+    "Claude Code",
+    "LLM",
+    "配置优化",
+    "编码陷阱",
+    "Karpathy"
+  ],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-08-13T03:57:01+00:00",
+  "analyzed_at": "2026-08-13T03:57:01+00:00",
+  "summary_en": "This GitHub repository provides a single CLAUDE.md file designed to improve the behavior of Claude Code, derived from Andrej Karpathy's observations on common pitfalls in LLM coding. Karpathy, a renowned AI expert, offers insights that are highly relevant to LLM-assisted programming. The configuration file helps Claude Code avoid common errors, enhancing code quality and development efficiency. The project is concise and practical, lowering the barrier for users to optimize AI coding tools. It holds significant practical value and potential for wider adoption.",
+  "score": 7,
+  "meta": {
+    "stars": 201943
+  }
+}

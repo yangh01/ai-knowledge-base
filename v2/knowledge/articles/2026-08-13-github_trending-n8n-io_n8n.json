@@ -1,0 +1,23 @@
+{
+  "id": "4f2a411e-84b2-4276-8b70-d78ac1b7ff84",
+  "title": "n8n：具备原生AI能力的公平代码工作流自动化平台",
+  "source": "github_trending",
+  "source_url": "https://github.com/n8n-io/n8n",
+  "summary": "n8n是一个基于公平代码（Fair-code）许可的工作流自动化平台，其核心特色在于原生集成人工智能能力。该平台允许用户通过可视化界面构建工作流，同时支持自定义代码，兼顾了易用性与灵活性。n8n提供自托管和云服务两种部署方式，满足不同用户对数据隐私和控制力的需求。平台拥有超过400个集成选项，能够连接众多主流应用和服务，实现跨系统的自动化流程。n8n的公平代码模式意味着其源代码可获取，但使用上受到一定限制，旨在平衡开源与商业可持续性。该平台在自动化领域具有较高的技术价值，尤其适合需要结合AI功能与复杂工作流编排的场景。其可视化构建与代码自定义的结合，降低了自动化门槛，同时保留了高级用户所需的扩展性。n8n的活跃社区和持续更新也保证了其生态的活力。总体而言，n8n是一个功能强大、灵活且具有前瞻性的自动化工具，特别适用于现代企业数字化转型中对于智能自动化流程的需求。",
+  "tags": [
+    "工作流自动化",
+    "AI集成",
+    "公平代码",
+    "自托管",
+    "可视化编程"
+  ],
+  "importance": "high",
+  "status": "analyzed",
+  "fetched_at": "2026-08-13T03:57:01+00:00",
+  "analyzed_at": "2026-08-13T03:57:01+00:00",
+  "summary_en": "n8n is a fair-code workflow automation platform with native AI capabilities. It combines visual building with custom code, supports self-hosted or cloud deployment, and offers over 400 integrations. The platform enables users to create complex automation workflows easily while maintaining flexibility for developers. Its fair-code licensing model balances open-source principles with commercial sustainability. n8n is particularly valuable for scenarios requiring AI integration and advanced workflow orchestration, making it a robust choice for modern digital transformation initiatives.",
+  "score": 9,
+  "meta": {
+    "stars": 200410
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "d6a48773-737f-42e9-a495-58542e585e0d",
+  "title": "吉他公司D'Addario承认宣传视频使用AI音乐",
+  "source": "hacker_news",
+  "source_url": "https://www.theverge.com/ai-artificial-intelligence/978982/daddario-guitar-ai-music-suno",
+  "summary": "吉他公司D'Addario在数周争议和猜测后，最终承认其近期宣传视频中使用了AI音乐，具体为Suno工具。此前近两周，该公司一直否认相关指控，尽管证据不断累积。公司曾给出多种解释，包括低质量音频等，但最终在压力下承认事实。这一事件引发了关于AI在音乐创作中应用的广泛讨论，尤其是在传统乐器行业。D'Addario作为知名品牌，其承认使用AI音乐可能对行业产生示范效应，促使更多企业反思AI技术的使用边界和透明度。该事件也凸显了AI生成内容在商业推广中的伦理和版权问题，以及企业应对公众质疑时的沟通策略。",
+  "tags": [
+    "AI音乐",
+    "D'Addario",
+    "Suno",
+    "伦理争议",
+    "商业推广"
+  ],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-08-13T03:57:01+00:00",
+  "analyzed_at": "2026-08-13T03:57:01+00:00",
+  "summary_en": "Guitar company D'Addario has admitted to using AI music, specifically Suno, in a recent promotional video after weeks of controversy and speculation. The company had denied the allegations for nearly two weeks, offering various explanations despite mounting evidence. This admission has sparked broader discussions about the use of AI in music creation, especially in the traditional instrument industry. The incident highlights ethical and copyright concerns regarding AI-generated content in commercial promotions, as well as the importance of transparent communication in corporate responses to public scrutiny.",
+  "score": 6
+}

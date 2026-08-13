@@ -1,0 +1,23 @@
+{
+  "id": "9baf2f8e-dff6-40f8-aafe-5b59e26e494e",
+  "title": "AutoGPT：人人可用的自主人工智能工具平台",
+  "source": "github_trending",
+  "source_url": "https://github.com/Significant-Gravitas/AutoGPT",
+  "summary": "AutoGPT 是一个由 Significant-Gravitas 团队开发的开源项目，旨在实现“人人可用的 AI”愿景，提供易于使用和构建的工具，让用户专注于重要事务。该项目基于 GPT-4 等大型语言模型，通过自主规划和执行任务，能够自动分解复杂目标、调用外部工具（如网络搜索、文件操作、代码执行等）并迭代优化结果。AutoGPT 的核心价值在于降低 AI 应用的门槛，使非专业开发者也能创建自动化工作流，同时为开发者提供灵活的扩展接口。该项目在 GitHub 上拥有极高的关注度，是自主 AI 代理领域的代表性项目之一，推动了 AI 从对话式交互向任务自动化方向的演进。其开源生态鼓励社区贡献，促进了 AI 技术的民主化。",
+  "tags": [
+    "AutoGPT",
+    "自主AI代理",
+    "开源工具",
+    "任务自动化",
+    "GPT-4"
+  ],
+  "importance": "high",
+  "status": "analyzed",
+  "fetched_at": "2026-08-13T03:57:01+00:00",
+  "analyzed_at": "2026-08-13T03:57:01+00:00",
+  "summary_en": "AutoGPT is an open-source project developed by Significant-Gravitas, aiming to realize the vision of 'AI for everyone' by providing tools that are easy to use and build upon, allowing users to focus on what matters. Based on large language models like GPT-4, it autonomously plans and executes tasks, breaking down complex goals, calling external tools (e.g., web search, file operations, code execution), and iteratively refining results. The core value lies in lowering the barrier to AI application development, enabling non-professional developers to create automated workflows while offering flexible extension interfaces for developers. With high attention on GitHub, it is a representative project in the autonomous AI agent field, driving the evolution of AI from conversational interaction to task automation. Its open-source ecosystem encourages community contributions, promoting the democratization of AI technology.",
+  "score": 9,
+  "meta": {
+    "stars": 186570
+  }
+}

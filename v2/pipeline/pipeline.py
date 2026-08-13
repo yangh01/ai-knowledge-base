@@ -35,7 +35,7 @@ from typing import Any
 import httpx
 import yaml
 from dotenv import load_dotenv
-from model_client import chat_with_retry, create_provider
+from model_client import chat_with_retry, create_provider, tracker
 
 # 显式加载 pipeline/ 目录下的 .env，避免依赖当前工作目录。
 PIPELINE_DIR = Path(__file__).resolve().parent
@@ -1029,7 +1029,14 @@ def main(argv: list[str] | None = None) -> int:
                 )
             )
 
-    return run_pipeline(sources, args.limit, args.dry_run, steps)
+    rc = run_pipeline(sources, args.limit, args.dry_run, steps)
+    if rc == 0:
+        tracker.save_report(
+            PIPELINE_DIR
+            / "logs"
+            / f"cost-{datetime.now(timezone.utc).date().isoformat()}.txt"
+        )
+    return rc
 
 
 if __name__ == "__main__":

@@ -1,0 +1,20 @@
+{
+  "id": "861a8011-6075-4b65-b6e8-48dd7c945afc",
+  "title": "RingCentral 从工程到运维构建 AI 原生工作流：ChatGPT Work 与 Codex 的应用实践",
+  "source": "hacker_news",
+  "source_url": "https://openai.com/index/ringcentral",
+  "summary": "本文介绍了 RingCentral 如何利用 OpenAI 的 ChatGPT Work 和 Codex 加速 AI 产品开发，并统一工程与运维领域的运营智能。RingCentral 作为一家云通信解决方案提供商，将 AI 原生理念贯穿于从代码编写到系统运维的全流程。在工程方面，Codex 被用于辅助代码生成、审查和重构，显著提升了开发效率；ChatGPT Work 则作为内部知识助手，帮助工程师快速检索文档、排查问题。在运维方面，RingCentral 通过集中化的运营智能平台，整合来自不同系统的日志、指标和告警数据，利用 AI 进行异常检测、根因分析和自动化响应，从而减少人工干预并提高系统稳定性。文章强调，这种 AI 原生模式不仅加速了产品迭代，还促进了跨团队协作，使工程和运维团队能够基于统一的数据洞察做出更明智的决策。RingCentral 的实践展示了企业如何将生成式 AI 深度融入现有技术栈，实现从开发到运营的全面智能化转型。",
+  "tags": [
+    "AI原生",
+    "ChatGPT Work",
+    "Codex",
+    "运营智能",
+    "工程效率"
+  ],
+  "importance": "high",
+  "status": "analyzed",
+  "fetched_at": "2026-08-13T03:57:01+00:00",
+  "analyzed_at": "2026-08-13T03:57:01+00:00",
+  "summary_en": "This article discusses how RingCentral leverages OpenAI's ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations. As a cloud communications provider, RingCentral embeds AI-native principles throughout the entire workflow, from code writing to system operations. In engineering, Codex assists with code generation, review, and refactoring, significantly improving development efficiency, while ChatGPT Work serves as an internal knowledge assistant for quick documentation lookup and troubleshooting. In operations, RingCentral builds a centralized operational intelligence platform that aggregates logs, metrics, and alerts from various systems, using AI for anomaly detection, root cause analysis, and automated response, thereby reducing manual intervention and enhancing system stability. The article emphasizes that this AI-native model not only accelerates product iteration but also fosters cross-team collaboration, enabling engineering and operations teams to make more informed decisions based on unified data insights. RingCentral's practice demonstrates how enterprises can deeply integrate generative AI into existing tech stacks to achieve comprehensive intelligent transformation from development to operations.",
+  "score": 8
+}

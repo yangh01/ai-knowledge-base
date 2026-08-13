@@ -13,6 +13,9 @@ Step 4 保存（Save）：将文章写入 knowledge/articles/ 下的独立 JSON 
     python pipeline/pipeline.py --sources github --limit 5
     python pipeline/pipeline.py --sources rss --limit 10
     python pipeline/pipeline.py --sources github --limit 5 --dry-run
+    python pipeline/pipeline.py --step 1               # 只执行 Step 1 采集
+    python pipeline/pipeline.py --step 1,2             # 执行 Step 1-2 采集+分析
+    python pipeline/pipeline.py --step 3,4             # 基于已落盘数据执行整理+保存
     python pipeline/pipeline.py --verbose
 """
 
@@ -47,6 +50,9 @@ ARTICLES_DIR = PROJECT_ROOT / "knowledge" / "articles"
 GITHUB_SEARCH_URL = "https://api.github.com/search/repositories"
 GITHUB_SEARCH_QUERY = "ai OR llm OR agent in:name,description,topics"
 RSS_SOURCES_FILE = PIPELINE_DIR / "rss_sources.yaml"
+
+PIPELINE_STEPS = frozenset({1, 2, 3, 4})
+STATE_DIR = PIPELINE_DIR / ".state"
 
 
 def _load_rss_feeds() -> tuple[str, ...]:
@@ -656,8 +662,135 @@ def save_articles(
     return paths
 
 
-def run_pipeline(sources: list[str], limit: int, dry_run: bool) -> int:
-    """执行完整的四步流水线。
+def _state_file(kind: str) -> Path:
+    """返回流水线中间状态文件的路径（按当天日期命名）。
+
+    Args:
+        kind: 状态类型，可选 analyzed / organized。
+
+    Returns:
+        .state 目录下形如 {kind}-YYYY-MM-DD.json 的路径。
+    """
+    today = datetime.now(timezone.utc).date().isoformat()
+    return STATE_DIR / f"{kind}-{today}.json"
+
+
+def _load_raw_items() -> list[dict[str, Any]] | None:
+    """从 knowledge/raw/YYYY-MM-DD.json 读取原始采集条目。
+
+    Returns:
+        原始条目列表；文件缺失、解析失败或格式非法时返回 None。
+    """
+    today = datetime.now(timezone.utc).date().isoformat()
+    path = RAW_DIR / f"{today}.json"
+    if not path.exists():
+        logger.error("未找到原始数据，请先运行 Step 1: %s", path)
+        return None
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError) as exc:
+        logger.error("读取原始数据失败: %s", exc)
+        return None
+    if not isinstance(data, list):
+        logger.error("原始数据格式非法: %s", path)
+        return None
+    return data
+
+
+def _load_analyzed_items() -> list[tuple[dict[str, Any], dict[str, Any] | None]] | None:
+    """从 .state/analyzed-YYYY-MM-DD.json 读取分析结果。
+
+    Returns:
+        (原始条目, 分析结果或 None) 配对列表；文件缺失或格式非法时返回 None。
+    """
+    path = _state_file("analyzed")
+    if not path.exists():
+        logger.error("未找到分析结果，请先运行 Step 2: %s", path)
+        return None
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError) as exc:
+        logger.error("读取分析结果失败: %s", exc)
+        return None
+    if not isinstance(data, list):
+        logger.error("分析结果格式非法: %s", path)
+        return None
+    return [
+        (entry["item"], entry["analysis"])
+        for entry in data
+        if isinstance(entry, dict) and isinstance(entry.get("item"), dict)
+    ]
+
+
+def _load_organized_items() -> list[dict[str, Any]] | None:
+    """从 .state/organized-YYYY-MM-DD.json 读取整理后的文章。
+
+    Returns:
+        标准文章列表；文件缺失或格式非法时返回 None。
+    """
+    path = _state_file("organized")
+    if not path.exists():
+        logger.error("未找到整理结果，请先运行 Step 3: %s", path)
+        return None
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError) as exc:
+        logger.error("读取整理结果失败: %s", exc)
+        return None
+    if not isinstance(data, list):
+        logger.error("整理结果格式非法: %s", path)
+        return None
+    return data
+
+
+def _save_analyzed_items(
+    analyzed: list[tuple[dict[str, Any], dict[str, Any] | None]],
+    dry_run: bool,
+) -> None:
+    """将分析结果写入 .state/analyzed-YYYY-MM-DD.json。
+
+    Args:
+        analyzed: (原始条目, 分析结果或 None) 配对列表。
+        dry_run: 为 True 时仅打印将要写入的路径，不落盘。
+    """
+    path = _state_file("analyzed")
+    if dry_run:
+        logger.info("[dry-run] 将写入分析结果: %s", path)
+        return
+    STATE_DIR.mkdir(parents=True, exist_ok=True)
+    payload = [{"item": item, "analysis": analysis} for item, analysis in analyzed]
+    path.write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    logger.info("分析结果已保存: %s (%d 条)", path, len(analyzed))
+
+
+def _save_organized_items(articles: list[dict[str, Any]], dry_run: bool) -> None:
+    """将整理后的文章写入 .state/organized-YYYY-MM-DD.json。
+
+    Args:
+        articles: 标准文章列表。
+        dry_run: 为 True 时仅打印将要写入的路径，不落盘。
+    """
+    path = _state_file("organized")
+    if dry_run:
+        logger.info("[dry-run] 将写入整理结果: %s", path)
+        return
+    STATE_DIR.mkdir(parents=True, exist_ok=True)
+    path.write_text(
+        json.dumps(articles, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    logger.info("整理结果已保存: %s (%d 篇)", path, len(articles))
+
+
+def _step_collect(
+    sources: list[str],
+    limit: int,
+    dry_run: bool,
+) -> list[dict[str, Any]] | None:
+    """Step 1 采集：抓取原始内容并写入 knowledge/raw/。
 
     Args:
         sources: 采集源列表（github / rss）。
@@ -665,19 +798,33 @@ def run_pipeline(sources: list[str], limit: int, dry_run: bool) -> int:
         dry_run: 干跑模式，不实际落盘。
 
     Returns:
-        成功返回 0，发生未捕获异常返回 1。
+        采集到的原始条目列表；采集失败返回 None。
     """
     logger.info("=== Step 1 采集 ===")
     try:
         raw_items = collect_sources(sources, limit)
     except httpx.HTTPStatusError as exc:
         logger.error("采集失败: %s", exc)
-        return 1
+        return None
     save_raw_items(raw_items, dry_run)
     if not raw_items:
-        logger.warning("采集结果为空，流水线终止")
-        return 0
+        logger.warning("Step 1 采集结果为空")
+    return raw_items
 
+
+def _step_analyze(
+    raw_items: list[dict[str, Any]],
+    dry_run: bool,
+) -> list[tuple[dict[str, Any], dict[str, Any] | None]]:
+    """Step 2 分析：调用 LLM 对每条原始内容做摘要/评分/标签。
+
+    Args:
+        raw_items: 原始条目列表。
+        dry_run: 干跑模式，不实际落盘。
+
+    Returns:
+        (原始条目, 分析结果或 None) 配对列表。
+    """
     logger.info("=== Step 2 分析 ===")
     try:
         provider = create_provider()
@@ -693,17 +840,109 @@ def run_pipeline(sources: list[str], limit: int, dry_run: bool) -> int:
         analyzed.append((item, analysis))
     if provider is not None:
         provider.close()
+    _save_analyzed_items(analyzed, dry_run)
+    return analyzed
 
+
+def _step_organize(
+    analyzed: list[tuple[dict[str, Any], dict[str, Any] | None]],
+    dry_run: bool,
+) -> list[dict[str, Any]]:
+    """Step 3 整理：去重、标准化并校验文章。
+
+    Args:
+        analyzed: (原始条目, 分析结果或 None) 配对列表。
+        dry_run: 干跑模式，不实际落盘。
+
+    Returns:
+        通过校验的标准文章列表。
+    """
     logger.info("=== Step 3 整理 ===")
     articles = organize_items(analyzed)
+    _save_organized_items(articles, dry_run)
+    return articles
 
+
+def _step_save(articles: list[dict[str, Any]], dry_run: bool) -> list[Path]:
+    """Step 4 保存：将标准文章写入 knowledge/articles/。
+
+    Args:
+        articles: 标准文章列表。
+        dry_run: 干跑模式，不实际落盘。
+
+    Returns:
+        写入（或将要写入）的文章文件路径列表。
+    """
     logger.info("=== Step 4 保存 ===")
-    paths = save_articles(articles, dry_run)
+    return save_articles(articles, dry_run)
+
+
+def run_pipeline(
+    sources: list[str],
+    limit: int,
+    dry_run: bool,
+    steps: set[int] | None = None,
+) -> int:
+    """执行流水线中指定的步骤。
+
+    未指定 steps 时执行全部四步；指定子集时，选中的步骤优先复用本进程
+    内存中已生成的中间结果，否则从落盘状态文件加载前置步骤产物，
+    缺失时以错误码 1 退出。
+
+    Args:
+        sources: 采集源列表（github / rss）。
+        limit: 总采集条数上限。
+        dry_run: 干跑模式，不实际落盘。
+        steps: 要执行的步骤号集合，None 时执行全部四步。
+
+    Returns:
+        成功返回 0，前置数据缺失或采集失败返回 1。
+    """
+    if steps is None:
+        steps = set(PIPELINE_STEPS)
+
+    raw_items: list[dict[str, Any]] | None = None
+    analyzed: list[tuple[dict[str, Any], dict[str, Any] | None]] | None = None
+    articles: list[dict[str, Any]] | None = None
+
+    if 1 in steps:
+        raw_items = _step_collect(sources, limit, dry_run)
+        if raw_items is None:
+            return 1
+        if not raw_items:
+            logger.warning("Step 1 采集结果为空，跳过后续步骤")
+            return 0
+
+    if 2 in steps:
+        if raw_items is None:
+            raw_items = _load_raw_items()
+            if raw_items is None:
+                return 1
+        analyzed = _step_analyze(raw_items, dry_run)
+
+    if 3 in steps:
+        if analyzed is None:
+            analyzed = _load_analyzed_items()
+            if analyzed is None:
+                return 1
+        articles = _step_organize(analyzed, dry_run)
+
+    if 4 in steps:
+        if articles is None:
+            articles = _load_organized_items()
+            if articles is None:
+                return 1
+        paths = _step_save(articles, dry_run)
+        logger.info(
+            "流水线完成（步骤 %s）: 保存 %d 篇",
+            ",".join(str(step) for step in sorted(steps)),
+            len(paths),
+        )
+        return 0
+
     logger.info(
-        "流水线完成: 采集 %d 条 → 分析 %d 条 → 保存 %d 篇",
-        len(raw_items),
-        sum(1 for _, analysis in analyzed if analysis is not None),
-        len(paths),
+        "流水线完成（步骤 %s）",
+        ",".join(str(step) for step in sorted(steps)),
     )
     return 0
 
@@ -733,6 +972,13 @@ def build_parser() -> argparse.ArgumentParser:
         "--dry-run",
         action="store_true",
         help="干跑模式：执行完整流程但不写任何文件",
+    )
+    parser.add_argument(
+        "--step",
+        type=str,
+        default="",
+        metavar="N[,N...]",
+        help="只执行指定步骤（可选 1/2/3/4），逗号分隔，如 --step 1,2；留空执行全部",
     )
     parser.add_argument(
         "--verbose",
@@ -766,7 +1012,24 @@ def main(argv: list[str] | None = None) -> int:
     if args.limit < 1:
         parser.error("--limit 必须大于 0")
 
-    return run_pipeline(sources, args.limit, args.dry_run)
+    steps: set[int] | None = None
+    if args.step:
+        parts = [name.strip() for name in args.step.split(",") if name.strip()]
+        if not parts:
+            parser.error("--step 不能为空")
+        try:
+            steps = {int(part) for part in parts}
+        except ValueError:
+            parser.error("--step 必须是 1-4 的数字，逗号分隔，如 --step 1,2")
+        invalid = steps - set(PIPELINE_STEPS)
+        if invalid:
+            parser.error(
+                "非法步骤: {}（可选 1/2/3/4）".format(
+                    ", ".join(str(step) for step in sorted(invalid))
+                )
+            )
+
+    return run_pipeline(sources, args.limit, args.dry_run, steps)
 
 
 if __name__ == "__main__":

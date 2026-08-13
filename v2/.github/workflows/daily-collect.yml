@@ -1,0 +1,68 @@
+# 每日知识库自动采集工作流
+# - 每天 UTC 08:00（北京时间 16:00）定时运行
+# - 支持手动触发（Actions 页面 → Run workflow）
+# - 仅执行 Step 1 采集原始数据，有新数据时自动 commit + push
+
+name: Daily Knowledge Collect
+
+"on":
+  schedule:
+    # UTC 08:00 == 北京时间 16:00
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: v2
+
+    env:
+      LLM_PROVIDER: ${{ secrets.LLM_PROVIDER }}
+      DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+      QWEN_API_KEY: ${{ secrets.QWEN_API_KEY }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: v2/requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Step 1 collect
+        run: python pipeline/pipeline.py --sources github,rss --limit 20 --step 1
+
+      - name: Validate and check quality of articles
+        run: |
+          if ls knowledge/articles/*.json >/dev/null 2>&1; then
+            python hooks/validate_json.py knowledge/articles/*.json
+            python hooks/check_quality.py knowledge/articles/*.json
+          else
+            echo "本期无文章，跳过校验"
+          fi
+
+      - name: Commit and push if new data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "没有新的数据，跳过提交"
+            exit 0
+          fi
+          date=$(date -u +%Y-%m-%d)
+          count=$(git diff --cached --name-only | wc -l | tr -d ' ')
+          git commit -m "chore: 每日知识采集 ${date}，新增 ${count} 条"
+          git push

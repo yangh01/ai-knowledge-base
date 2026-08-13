@@ -23,3 +23,6 @@ venv/
 
 # Scratch
 .scratch/
+
+# Pipeline 中间状态（分步执行的落盘产物）
+.state/

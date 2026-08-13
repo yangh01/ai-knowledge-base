@@ -39,16 +39,16 @@ jobs:
           cache-dependency-path: v2/requirements.txt
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: pip install -r v2/requirements.txt
 
       - name: Run Step 1 collect
-        run: python pipeline/pipeline.py --sources github,rss --limit 20 --step 1
+        run: python v2/pipeline/pipeline.py --sources github,rss --limit 20 --step 1
 
       - name: Validate and check quality of articles
         run: |
           if ls knowledge/articles/*.json >/dev/null 2>&1; then
-            python hooks/validate_json.py knowledge/articles/*.json
-            python hooks/check_quality.py knowledge/articles/*.json
+            python v2/hooks/validate_json.py knowledge/articles/*.json
+            python v2/hooks/check_quality.py knowledge/articles/*.json
           else
             echo "本期无文章，跳过校验"
           fi

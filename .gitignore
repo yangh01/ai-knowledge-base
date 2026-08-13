@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Lint & type check caches
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# OpenCode 本地配置
+# opencode.json
+# .opencode/
+
+# Scratch
+.scratch/

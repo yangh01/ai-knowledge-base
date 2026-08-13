@@ -30,11 +30,13 @@ from pathlib import Path
 from typing import Any
 
 import httpx
+import yaml
 from dotenv import load_dotenv
 from model_client import chat_with_retry, create_provider
 
 # 显式加载 pipeline/ 目录下的 .env，避免依赖当前工作目录。
-load_dotenv(Path(__file__).resolve().parent / ".env")
+PIPELINE_DIR = Path(__file__).resolve().parent
+load_dotenv(PIPELINE_DIR / ".env")
 
 logger = logging.getLogger(__name__)
 
@@ -44,12 +46,40 @@ ARTICLES_DIR = PROJECT_ROOT / "knowledge" / "articles"
 
 GITHUB_SEARCH_URL = "https://api.github.com/search/repositories"
 GITHUB_SEARCH_QUERY = "ai OR llm OR agent in:name,description,topics"
-RSS_FEEDS: tuple[str, ...] = (
-    "https://huggingface.co/blog/feed.xml",
-    "https://simonwillison.net/atom/everything/",
-    "https://openai.com/blog/rss.xml",
-    "https://blog.google/technology/ai/rss/",
-)
+RSS_SOURCES_FILE = PIPELINE_DIR / "rss_sources.yaml"
+
+
+def _load_rss_feeds() -> tuple[str, ...]:
+    """从 rss_sources.yaml 读取启用的 RSS/Atom 源地址。
+
+    Returns:
+        所有 enabled 为 true 的源 url 元组，保持 YAML 中的声明顺序。
+
+    Raises:
+        FileNotFoundError: 配置文件不存在时抛出。
+        yaml.YAMLError: YAML 解析失败时抛出。
+        ValueError: 配置缺少 sources 字段或条目缺少 url 时抛出。
+    """
+    if not RSS_SOURCES_FILE.exists():
+        raise FileNotFoundError(f"RSS 配置文件不存在: {RSS_SOURCES_FILE}")
+    data = yaml.safe_load(RSS_SOURCES_FILE.read_text(encoding="utf-8")) or {}
+    sources = data.get("sources")
+    if not isinstance(sources, list):
+        raise TypeError(f"{RSS_SOURCES_FILE} 缺少 sources 列表")
+    feeds: list[str] = []
+    for source in sources:
+        if not isinstance(source, dict) or not source.get("enabled", False):
+            continue
+        url = source.get("url")
+        if not isinstance(url, str) or not url:
+            raise ValueError(f"{RSS_SOURCES_FILE} 中启用的源缺少 url: {source}")
+        feeds.append(url)
+    if not feeds:
+        logger.warning("RSS 配置中没有启用的数据源: %s", RSS_SOURCES_FILE)
+    return tuple(feeds)
+
+
+RSS_FEEDS: tuple[str, ...] = _load_rss_feeds()
 
 USER_AGENT = "ai-knowledge-base-pipeline/0.1"
 HTTP_TIMEOUT = 30.0

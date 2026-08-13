@@ -1,0 +1,23 @@
+{
+  "id": "9ce5d3ca-ab02-4e4f-bc7f-944cbdeb55c0",
+  "title": "OpenClaw：跨平台个人AI助手",
+  "source": "github_trending",
+  "source_url": "https://github.com/openclaw/openclaw",
+  "summary": "OpenClaw 是一个开源项目，旨在为用户提供个人AI助手，支持任何操作系统和平台。项目以“龙虾方式”为特色，强调灵活性和适应性。该助手可能集成了自然语言处理、任务自动化、信息检索等功能，能够帮助用户管理日程、回答问题、执行命令等。由于是开源项目，开发者可以自由定制和扩展其功能，社区协作推动其持续改进。项目托管在GitHub上，便于获取源码、文档和参与贡献。目前，该项目可能处于早期阶段，但已展现出跨平台兼容性和个性化助手的潜力。其技术栈可能涉及多种编程语言和框架，以适应不同环境。总体而言，OpenClaw 旨在提供一种通用、可扩展的个人AI解决方案，满足用户在多样化设备上的智能辅助需求。",
+  "tags": [
+    "AI助手",
+    "开源",
+    "跨平台",
+    "个性化",
+    "GitHub"
+  ],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-08-13T03:43:44+00:00",
+  "analyzed_at": "2026-08-13T03:43:44+00:00",
+  "summary_en": "OpenClaw is an open-source project that provides a personal AI assistant supporting any operating system and platform, characterized by the 'lobster way' emphasizing flexibility and adaptability. The assistant likely integrates natural language processing, task automation, and information retrieval to help users manage schedules, answer questions, and execute commands. Being open-source, developers can customize and extend its features, with community collaboration driving continuous improvement. Hosted on GitHub, it offers easy access to source code, documentation, and contribution opportunities. Currently, the project may be in early stages but shows potential for cross-platform compatibility and personalized assistance. Its tech stack may involve multiple programming languages and frameworks to suit diverse environments. Overall, OpenClaw aims to provide a universal, extensible personal AI solution for intelligent assistance across various devices.",
+  "score": 7,
+  "meta": {
+    "stars": 386105
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "ae74c933-bdb2-468a-bd30-07d8d64d2c35",
+  "title": "NousResearch/hermes-agent：与你共同成长的智能代理",
+  "source": "github_trending",
+  "source_url": "https://github.com/NousResearch/hermes-agent",
+  "summary": "NousResearch 推出的 hermes-agent 是一个强调持续演进与个性化适配的智能代理项目。其核心定位为“The agent that grows with you”，即代理能够随着用户的使用习惯、需求变化和交互反馈而不断优化自身行为与能力。该项目基于 NousResearch 在大型语言模型（LLM）领域的积累，可能融合了自适应学习、记忆机制和用户画像建模等技术，旨在提供长期稳定的个性化服务。尽管当前公开信息有限，但该项目的理念反映了 AI 代理从静态工具向动态伙伴演进的趋势，对于研究人机协同、持续学习和个性化系统具有参考价值。其技术实现细节、性能评估和开源生态尚待进一步披露，但作为 NousResearch 的官方项目，其潜在影响力和社区关注度较高。",
+  "tags": [
+    "AI Agent",
+    "个性化",
+    "持续学习",
+    "NousResearch",
+    "智能代理"
+  ],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-08-13T03:43:44+00:00",
+  "analyzed_at": "2026-08-13T03:43:44+00:00",
+  "summary_en": "NousResearch's hermes-agent is an intelligent agent project emphasizing continuous evolution and personalized adaptation. Its core positioning, 'The agent that grows with you,' implies that the agent optimizes its behavior and capabilities over time based on user habits, changing needs, and interaction feedback. Built on NousResearch's expertise in large language models (LLMs), the project likely integrates adaptive learning, memory mechanisms, and user profiling to deliver long-term personalized services. Although public details are currently limited, the concept reflects a trend of AI agents evolving from static tools to dynamic companions, offering reference value for research on human-AI collaboration, continual learning, and personalization. Technical implementation, performance evaluation, and open-source ecosystem remain to be disclosed, but as an official NousResearch project, its potential influence and community attention are notable.",
+  "score": 7,
+  "meta": {
+    "stars": 229667
+  }
+}

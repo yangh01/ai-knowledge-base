@@ -1,0 +1,23 @@
+{
+  "id": "d71fffae-9bf0-4e9b-ba24-e7663f39b98e",
+  "title": "mattpocock/skills：真实工程师技能库",
+  "source": "github_trending",
+  "source_url": "https://github.com/mattpocock/skills",
+  "summary": "该GitHub仓库由知名TypeScript专家Matt Pocock创建，名为“skills”，内容直接来源于其个人.agents目录，旨在为真实工程师提供实用的技能集合。仓库聚焦于工程实践中的关键能力，可能涵盖代码质量、类型安全、开发工具链、最佳实践等方面。由于原始描述极为简洁，具体技能列表未展开，但结合Matt Pocock的背景，可推断其内容与TypeScript、现代前端开发、工程效率提升紧密相关。该仓库的价值在于分享一线工程师的真实工作技能，而非泛泛而谈的理论，适合中高级开发者参考。其重要性中等，因为内容可能高度个人化，但作为开源资源，仍具借鉴意义。技术价值评分6分，反映了其实用性但缺乏详细文档的现状。",
+  "tags": [
+    "TypeScript",
+    "工程实践",
+    "开发工具",
+    "最佳实践",
+    "开源资源"
+  ],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-08-13T03:43:44+00:00",
+  "analyzed_at": "2026-08-13T03:43:44+00:00",
+  "summary_en": "This GitHub repository, created by renowned TypeScript expert Matt Pocock, is named 'skills' and contains content directly from his personal .agents directory, aiming to provide practical skills for real engineers. The repository focuses on key abilities in engineering practice, potentially covering code quality, type safety, development toolchains, and best practices. Given the extremely concise description, the specific skill list is not expanded, but based on Matt Pocock's background, it is likely related to TypeScript, modern frontend development, and engineering efficiency. The value lies in sharing real-world engineer skills rather than generic theory, suitable for mid-to-senior developers. Its importance is medium because the content may be highly personalized, but as an open-source resource, it still offers reference value. The technical value score is 6, reflecting its practicality but lack of detailed documentation.",
+  "score": 6,
+  "meta": {
+    "stars": 215301
+  }
+}

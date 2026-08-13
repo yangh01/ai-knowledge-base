@@ -1,0 +1,22 @@
+{
+  "id": "2afc15c9-792e-4cab-95e8-01f7b44e4b20",
+  "title": "ECC：面向多智能体编码助手的代理性能优化系统",
+  "source": "github_trending",
+  "source_url": "https://github.com/affaan-m/ECC",
+  "summary": "ECC 是一个专注于代理（agent）性能优化的系统，旨在提升 Claude Code、Codex、Opencode、Cursor 等 AI 编码助手的工作效率与可靠性。该系统集成了技能（Skills）、本能（Instincts）、记忆（Memory）、安全（Security）和研究优先（Research-first）的开发理念，为代理提供结构化的能力增强。技能模块允许代理执行特定任务，本能模块提供快速响应机制，记忆模块实现跨会话的上下文保持，安全模块确保操作合规性，研究优先策略则鼓励基于最新研究成果的持续改进。ECC 的设计强调模块化和可扩展性，适用于多种编码环境，帮助开发者更高效地利用 AI 代理进行软件开发。该项目在 GitHub 上开源，吸引了关注代理工程和 AI 辅助编程的开发者，其核心价值在于通过系统化的性能调优，使代理在复杂开发任务中表现更稳定、更智能。",
+  "tags": [
+    "AI代理",
+    "性能优化",
+    "编码助手",
+    "开源工具"
+  ],
+  "importance": "high",
+  "status": "analyzed",
+  "fetched_at": "2026-08-13T03:43:44+00:00",
+  "analyzed_at": "2026-08-13T03:43:44+00:00",
+  "summary_en": "ECC is a system focused on optimizing agent performance, designed to enhance the efficiency and reliability of AI coding assistants such as Claude Code, Codex, Opencode, and Cursor. It integrates skills, instincts, memory, security, and a research-first development philosophy to provide structured capability enhancements for agents. The skills module enables agents to perform specific tasks, the instincts module offers rapid response mechanisms, the memory module maintains context across sessions, the security module ensures operational compliance, and the research-first strategy encourages continuous improvement based on the latest findings. ECC's design emphasizes modularity and extensibility, making it applicable to various coding environments and helping developers use AI agents more effectively in software development. The project is open-sourced on GitHub and attracts developers interested in agent engineering and AI-assisted programming. Its core value lies in systematic performance tuning, making agents more stable and intelligent in complex development tasks.",
+  "score": 8,
+  "meta": {
+    "stars": 239779
+  }
+}

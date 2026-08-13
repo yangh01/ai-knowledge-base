@@ -1,0 +1,20 @@
+{
+  "id": "3b679f71-32b1-4f99-a360-47da7902e051",
+  "title": "Twitch主播现可选择退出亚马逊AI训练数据",
+  "source": "hacker_news",
+  "source_url": "https://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai",
+  "summary": "Twitch平台宣布，用户现在可以选择退出，允许其内容被用于训练亚马逊的生成式AI模型。选择退出后，用户的直播流、视频点播（VOD）、剪辑、聊天记录以及频道上的图片和文字将不会被用于亚马逊AI模型的“未来训练”，该模型旨在生成或合成内容。这一举措是Twitch在用户隐私和AI伦理方面的重要调整，回应了创作者对内容被用于AI训练而缺乏控制的担忧。该功能允许主播主动保护其创作成果，避免被用于商业AI模型的开发。此举也反映了科技行业在AI训练数据使用透明度上的趋势，即给予内容创作者更多选择权。尽管该选项仅影响未来的训练，不追溯已有数据，但它为创作者提供了对个人内容的更大控制权，并可能影响其他平台在AI数据使用政策上的决策。",
+  "tags": [
+    "Twitch",
+    "AI训练",
+    "隐私保护",
+    "内容创作者",
+    "亚马逊AI"
+  ],
+  "importance": "high",
+  "status": "analyzed",
+  "fetched_at": "2026-08-13T03:43:44+00:00",
+  "analyzed_at": "2026-08-13T03:43:44+00:00",
+  "summary_en": "Twitch has announced that users can now opt out of allowing their content to be used for training Amazon's generative AI models. By opting out, streams, VODs, clips, chat logs, and images/text on the channel will be excluded from future training of Amazon AI models designed for generation or synthesis. This move addresses creators' concerns about lack of control over their content in AI training, offering a privacy-focused option. It reflects a broader industry trend toward transparency and user consent in AI data usage, though it only applies to future training and not existing data. This policy may influence other platforms to adopt similar opt-out mechanisms.",
+  "score": 8
+}

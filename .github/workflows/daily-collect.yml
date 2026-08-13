@@ -44,7 +44,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run Step 1 collect
-        run: python pipeline/pipeline.py --sources github,rss --limit 20 --step 1
+        run: python pipeline/pipeline.py --sources github,rss --limit 10
 
       - name: Validate and check quality of articles
         run: |

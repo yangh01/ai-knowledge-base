@@ -4,7 +4,10 @@
 # - 仅执行 Step 1 采集原始数据，有新数据时自动 commit + push
 
 name: Daily Knowledge Collect
-
+# 在 env 部分添加环境变量
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  
 "on":
   schedule:
     # UTC 08:00 == 北京时间 16:00

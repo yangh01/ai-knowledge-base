@@ -1,0 +1,20 @@
+{
+  "id": "a5fd4e0a-aabc-4964-b2ed-29fb7863e7e5",
+  "title": "复现ICML 2200篇论文的经验与启示",
+  "source": "hacker_news",
+  "source_url": "https://huggingface.co/blog/icml-2026-open-reproductions",
+  "summary": "本文总结了作者团队对ICML（国际机器学习大会）2200篇论文进行复现实验的经验与教训。研究发现，尽管ICML是机器学习领域的顶级会议，但论文的可复现性存在显著问题：约30%的论文因缺少代码、数据或详细实验设置而无法复现；在可复现的论文中，约20%的结果与原文存在显著差异。文章提出了提高可复现性的建议，包括强制提交代码、提供完整实验配置、使用标准数据集和评估指标，以及鼓励开放研究过程。作者还分享了复现过程中的技术挑战，如环境依赖、随机种子管理和计算资源限制，并强调了复现工作对科学进步的重要性。该研究为学术社区提供了关于如何改进研究实践和出版规范的宝贵见解。",
+  "tags": [
+    "可复现性",
+    "机器学习",
+    "ICML",
+    "学术研究",
+    "开放科学"
+  ],
+  "importance": "high",
+  "status": "analyzed",
+  "fetched_at": "2026-08-14T08:58:32+00:00",
+  "analyzed_at": "2026-08-14T08:58:32+00:00",
+  "summary_en": "This article summarizes the experiences and lessons learned from reproducing 2,200 papers from ICML (International Conference on Machine Learning). The study found significant reproducibility issues: about 30% of papers could not be reproduced due to missing code, data, or detailed experimental settings; among reproducible papers, about 20% showed significant discrepancies from the original results. The authors propose recommendations to improve reproducibility, including mandatory code submission, complete experimental configurations, standard datasets and metrics, and open research processes. They also share technical challenges such as environment dependencies, random seed management, and computational resource limits, emphasizing the importance of reproduction for scientific progress. This work provides valuable insights for the academic community on improving research practices and publication standards.",
+  "score": 9
+}

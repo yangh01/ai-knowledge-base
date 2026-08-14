@@ -1,0 +1,20 @@
+{
+  "id": "24cfec50-962b-487d-8d37-39302d340111",
+  "title": "微软将Mico从Copilot语音模式中移除，转向Learn Live平台",
+  "source": "hacker_news",
+  "source_url": "https://www.theverge.com/tech/979871/microsoft-copilot-mico-retired",
+  "summary": "微软宣布其AI助手Copilot的语音模式将不再显示名为Mico的黄色情感化虚拟形象。据The Verge报道，微软在一份支持页面中表示，Mico将被迁移至Learn Live平台，该平台将为Mico提供更多可互动的场景。Mico最初随Copilot推出，旨在通过表情和动作增强用户与AI交互时的情感连接。此次调整意味着Copilot语音模式将回归更简洁的界面，而Mico将在教育或演示类场景中继续发挥作用。这一变化反映了微软对AI助手交互设计的持续优化，可能旨在提升语音模式的专注度和效率，同时为Mico探索新的应用场景。目前，微软尚未透露Mico在Learn Live中的具体功能细节，但此举表明其正在重新评估AI虚拟形象在不同产品中的定位。",
+  "tags": [
+    "Microsoft",
+    "Copilot",
+    "Mico",
+    "AI助手",
+    "虚拟形象"
+  ],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-08-14T08:58:32+00:00",
+  "analyzed_at": "2026-08-14T08:58:32+00:00",
+  "summary_en": "Microsoft has announced that its AI assistant Copilot will no longer display the emotive yellow blob character, Mico, in voice mode. According to The Verge, a support page indicates Mico will be moved to the Learn Live platform, where the avatar will have 'more to react to.' Mico was introduced with Copilot to enhance emotional connection through expressions and gestures. This change simplifies the voice mode interface while repurposing Mico for educational or presentation scenarios. The move reflects Microsoft's ongoing refinement of AI interaction design and exploration of new roles for virtual avatars.",
+  "score": 6
+}

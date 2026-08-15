@@ -1,0 +1,20 @@
+{
+  "id": "a302c8c5-2483-4276-8986-9cf2a075fa0d",
+  "title": "走向黑暗：执法黑客时代的到来",
+  "source": "hacker_news",
+  "source_url": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/",
+  "summary": "本文探讨了加密技术普及对执法部门调查能力带来的挑战，以及由此催生的“执法黑客”新时代。文章指出，随着端到端加密成为默认设置，执法机构传统的监控手段（如窃听）逐渐失效，这被称为“走向黑暗”问题。为应对这一困境，执法部门开始转向主动攻击性技术，如利用漏洞入侵嫌疑人的设备、通过恶意软件远程提取数据等。文章分析了这种趋势的法律、伦理和技术影响，包括对隐私权的侵蚀、漏洞披露政策的争议，以及政府与科技公司之间的紧张关系。作者还讨论了“政府黑客”的潜在风险，如漏洞被滥用、攻击面扩大，以及可能引发国际冲突。最后，文章呼吁建立更透明的监管框架，平衡安全与隐私，并指出这一趋势将深刻影响未来网络安全和公民自由的格局。",
+  "tags": [
+    "加密",
+    "执法黑客",
+    "隐私",
+    "网络安全",
+    "漏洞利用"
+  ],
+  "importance": "high",
+  "status": "analyzed",
+  "fetched_at": "2026-08-15T08:16:36+00:00",
+  "analyzed_at": "2026-08-15T08:16:36+00:00",
+  "summary_en": "This article explores the challenges that widespread encryption poses to law enforcement investigations and the emergence of a new era of 'law enforcement hacking.' As end-to-end encryption becomes the default, traditional surveillance methods like wiretapping are becoming obsolete, leading to the 'going dark' problem. In response, law enforcement agencies are turning to offensive techniques, such as exploiting vulnerabilities to hack into suspects' devices and remotely extracting data. The article examines the legal, ethical, and technical implications, including privacy erosion, controversial vulnerability disclosure policies, and tensions between governments and tech companies. It also highlights risks of government hacking, such as misuse of vulnerabilities, expanded attack surfaces, and potential international conflicts. Finally, it calls for transparent regulatory frameworks to balance security and privacy, noting this trend will profoundly shape future cybersecurity and civil liberties.",
+  "score": 9
+}

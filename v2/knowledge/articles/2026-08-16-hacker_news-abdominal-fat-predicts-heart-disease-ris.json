@@ -1,0 +1,20 @@
+{
+  "id": "c7b320fd-d846-4e63-aa90-93adff5a5396",
+  "title": "腹部脂肪比BMI更能预测心脏病风险",
+  "source": "hacker_news",
+  "source_url": "https://www.acc.org/about-acc/press-releases/2026/08/11/14/59/abdominal-fat-predicts-heart-disease-risk-better-than-bmi",
+  "summary": "一项最新研究指出，腹部脂肪（尤其是内脏脂肪）的积累比传统的身体质量指数（BMI）更能准确预测心脏病风险。该研究由美国心脏病学会（ACC）发布，并发表于PMC（PubMed Central）上，研究数据来自大规模人群队列，通过影像学方法（如CT或MRI）测量腹部脂肪分布，并追踪参与者多年来的心血管事件发生情况。结果显示，即使BMI处于正常范围，腹部脂肪过多的人群其心脏病、中风等心血管事件的风险显著升高，而BMI较高但腹部脂肪正常的人群风险相对较低。研究强调，腹部脂肪不仅是肥胖的指标，更是代谢异常和炎症状态的关键驱动因素，可能通过释放促炎因子和游离脂肪酸影响血管健康。研究者建议，临床评估中应结合腰围、腰臀比或影像学脂肪测量，而非仅依赖BMI，以更精准地识别高危个体。该发现对公共卫生策略和个体化预防具有重要意义，提示减重应重点关注减少腹部脂肪，而非单纯降低体重。",
+  "tags": [
+    "腹部脂肪",
+    "心脏病风险",
+    "BMI",
+    "内脏脂肪",
+    "心血管健康"
+  ],
+  "importance": "high",
+  "status": "analyzed",
+  "fetched_at": "2026-08-16T08:17:10+00:00",
+  "analyzed_at": "2026-08-16T08:17:10+00:00",
+  "summary_en": "A recent study reveals that abdominal fat, particularly visceral fat, is a stronger predictor of heart disease risk than traditional body mass index (BMI). Published by the American College of Cardiology and featured in PMC, the research used imaging techniques to measure fat distribution in a large cohort and tracked cardiovascular events over time. Results showed that individuals with excess abdominal fat, even with normal BMI, had significantly higher risks of heart attack and stroke, while those with high BMI but low abdominal fat had lower risks. The study highlights that abdominal fat drives metabolic dysfunction and inflammation, releasing harmful substances that damage blood vessels. The authors recommend incorporating waist circumference or imaging-based fat measures into clinical practice to better identify at-risk individuals, emphasizing that weight loss strategies should focus on reducing belly fat rather than just overall weight.",
+  "score": 8
+}

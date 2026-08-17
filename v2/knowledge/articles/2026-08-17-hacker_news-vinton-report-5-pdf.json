@@ -1,0 +1,20 @@
+{
+  "id": "cba04478-3e9a-410e-a9d5-afb57177ea82",
+  "title": "Direct File 的兴衰：一份技术档案",
+  "source": "hacker_news",
+  "source_url": "https://www.ischool.berkeley.edu/sites/default/files/vinton_report_5.pdf",
+  "summary": "该文档由 Vinton G. Cerf 撰写，详细记录了 Direct File 这一早期互联网文件传输协议的发展历程。Direct File 是 20 世纪 70 年代末至 80 年代初由美国国防部高级研究计划局（DARPA）资助的项目，旨在提供一种简单、可靠的文件传输机制，以补充当时已有的 FTP 协议。文档从技术设计、实现细节、部署情况到最终被 FTP 取代的原因进行了全面回顾。Direct File 的设计强调轻量级和易用性，但受限于当时网络环境的复杂性、安全机制的缺失以及 FTP 的广泛采用，最终未能成为主流标准。文章还探讨了该协议对后续网络协议设计的启示，包括对简单性、可扩展性和互操作性的重视。该文档作为一份历史技术档案，为理解互联网早期协议演进提供了宝贵的第一手资料。",
+  "tags": [
+    "Direct File",
+    "文件传输协议",
+    "互联网历史",
+    "DARPA",
+    "协议演进"
+  ],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-08-17T08:32:06+00:00",
+  "analyzed_at": "2026-08-17T08:32:06+00:00",
+  "summary_en": "This document, authored by Vinton G. Cerf, provides a detailed account of the lifecycle of Direct File, an early internet file transfer protocol developed in the late 1970s and early 1980s under DARPA funding. It was designed as a lightweight and user-friendly alternative to FTP, but faced challenges such as limited security, evolving network complexities, and the dominance of FTP. The document reviews its technical design, implementation, deployment, and eventual decline, offering insights into protocol evolution and lessons for future network design. It serves as a valuable historical reference for understanding early internet standards.",
+  "score": 7
+}

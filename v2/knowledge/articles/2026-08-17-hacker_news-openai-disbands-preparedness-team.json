@@ -1,0 +1,20 @@
+{
+  "id": "06cd6ee9-9dfa-44d4-a98d-ba22ac83aeef",
+  "title": "OpenAI 解散其“准备团队”，引发对 AI 安全治理的担忧",
+  "source": "hacker_news",
+  "source_url": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
+  "summary": "据《金融时报》报道，OpenAI 于上月底解散了其“准备团队”（preparedness team）。该团队的主要职责是评估 AI 模型可能带来的严重风险，并制定相应的缓解措施，例如防止模型失控或恶意攻击其他公司。这一决定发生在 OpenAI 内部安全团队近期出现一系列变动之后，引发了外界对其 AI 安全治理承诺的质疑。解散准备团队可能意味着 OpenAI 在追求商业利益与技术创新时，对安全监管的重视程度有所下降。此举也引发了业界对 AI 发展过程中安全评估和风险防控机制可持续性的讨论。目前，OpenAI 尚未对此事发表正式评论，但该事件凸显了 AI 公司在快速推进技术的同时，如何平衡安全与发展的挑战。",
+  "tags": [
+    "OpenAI",
+    "AI安全",
+    "准备团队",
+    "风险治理",
+    "行业动态"
+  ],
+  "importance": "high",
+  "status": "analyzed",
+  "fetched_at": "2026-08-17T08:32:06+00:00",
+  "analyzed_at": "2026-08-17T08:32:06+00:00",
+  "summary_en": "According to the Financial Times, OpenAI disbanded its preparedness team at the end of last month. The team was responsible for assessing serious risks posed by AI models and developing mitigation strategies, such as preventing models from going rogue or hacking other companies. This move follows a series of recent changes in OpenAI's safety teams, raising concerns about the company's commitment to AI safety governance. The disbandment may indicate a reduced emphasis on safety oversight amid commercial and technological pursuits. The event highlights the ongoing challenge of balancing safety and development in the fast-paced AI industry. OpenAI has not yet officially commented on the matter.",
+  "score": 8
+}

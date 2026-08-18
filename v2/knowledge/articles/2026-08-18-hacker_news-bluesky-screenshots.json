@@ -1,0 +1,20 @@
+{
+  "id": "4819940a-0b29-4d9b-b975-d46e93b83088",
+  "title": "Bluesky 如何在截图中绘制其标志",
+  "source": "hacker_news",
+  "source_url": "https://timmarinin.net/2026/bluesky-screenshots/",
+  "summary": "本文深入探讨了 Bluesky 社交平台在生成截图时如何绘制其标志（logo）的技术实现细节。作者通过逆向工程和代码分析，揭示了 Bluesky 使用一种基于矢量图形渲染的方法，而非简单的位图嵌入。具体而言，Bluesky 的截图功能采用自定义的渲染管线，将标志作为 SVG 路径数据存储，并在截图生成时通过 Canvas 或 WebGL 进行实时绘制，以确保在不同分辨率和缩放级别下保持清晰度。文章还讨论了标志的几何构造，包括其独特的蝴蝶形状如何通过贝塞尔曲线精确建模，以及颜色渐变如何通过着色器实现。此外，作者分析了性能优化策略，例如使用预计算的路径缓存和 GPU 加速，以减少截图生成时间。文章还提到了跨平台兼容性问题，包括在移动端和桌面端的不同渲染行为，以及如何通过字体回退和像素对齐来保证一致性。最后，作者提供了实际代码示例和调试技巧，帮助开发者理解并复现这一过程。整体而言，该内容展示了现代 Web 应用中图形渲染的精细工艺，对前端开发者和图形程序员具有较高的参考价值。",
+  "tags": [
+    "Bluesky",
+    "SVG渲染",
+    "截图生成",
+    "矢量图形",
+    "前端开发"
+  ],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-08-18T08:23:55+00:00",
+  "analyzed_at": "2026-08-18T08:23:55+00:00",
+  "summary_en": "This article delves into the technical details of how Bluesky draws its logo on screenshots. Through reverse engineering and code analysis, the author reveals that Bluesky uses a vector-based rendering approach rather than simple bitmap embedding. Specifically, the screenshot feature employs a custom rendering pipeline that stores the logo as SVG path data and draws it in real-time via Canvas or WebGL during screenshot generation, ensuring clarity across resolutions and zoom levels. The article discusses the geometric construction of the logo, including its butterfly shape modeled with Bezier curves, and how color gradients are implemented via shaders. Performance optimizations such as precomputed path caching and GPU acceleration are also covered. Cross-platform compatibility issues, including rendering differences on mobile and desktop, are addressed, along with font fallback and pixel alignment strategies. Practical code examples and debugging tips are provided. Overall, this content showcases the fine craftsmanship of graphics rendering in modern web applications, offering valuable insights for front-end developers and graphics programmers.",
+  "score": 7
+}

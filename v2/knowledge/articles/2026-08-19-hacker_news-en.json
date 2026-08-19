@@ -1,0 +1,20 @@
+{
+  "id": "4a85403d-4d39-4ec1-8887-85a88f5c2c58",
+  "title": "OpenLogi：开源逻辑门设计工具",
+  "source": "hacker_news",
+  "source_url": "https://openlogi.org/en",
+  "summary": "OpenLogi 是一个开源的逻辑门设计工具，旨在帮助用户通过图形化界面设计和模拟数字逻辑电路。该工具支持从基本逻辑门（如 AND、OR、NOT）到复杂组合逻辑和时序逻辑的构建，并提供实时仿真功能。用户可以通过拖拽组件、连接导线来创建电路，并观察信号传输和输出结果。OpenLogi 强调易用性和教育性，适合学生、教师和硬件爱好者学习数字电路设计。其开源特性允许社区贡献和定制，项目托管在 GitHub 上，采用 MIT 许可证。该工具在 Hacker News 上获得了 465 分和 130 条评论，显示出社区对其关注度较高。OpenLogi 可能支持导出电路图为图片或 Verilog 代码，便于进一步开发和集成。总体而言，OpenLogi 为数字逻辑设计提供了一个直观、免费且可扩展的解决方案。",
+  "tags": [
+    "开源硬件",
+    "数字电路",
+    "逻辑门",
+    "教育工具",
+    "仿真"
+  ],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-08-19T08:24:30+00:00",
+  "analyzed_at": "2026-08-19T08:24:30+00:00",
+  "summary_en": "OpenLogi is an open-source logic gate design tool that helps users design and simulate digital logic circuits through a graphical interface. It supports building circuits from basic gates (AND, OR, NOT) to complex combinational and sequential logic, with real-time simulation. Users can drag-and-drop components and connect wires to observe signal propagation and outputs. OpenLogi emphasizes ease of use and educational value, suitable for students, teachers, and hardware enthusiasts. Its open-source nature allows community contributions and customization, hosted on GitHub under the MIT license. The tool gained 465 points and 130 comments on Hacker News, indicating significant community interest. It may support exporting circuit diagrams as images or Verilog code for further development. Overall, OpenLogi provides an intuitive, free, and extensible solution for digital logic design.",
+  "score": 7
+}

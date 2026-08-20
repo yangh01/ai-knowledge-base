@@ -1,0 +1,20 @@
+{
+  "id": "d78fcb5e-d7d4-44e6-9967-94619b0bb28d",
+  "title": "谷歌Gemini推出专属学生中心，助力新学期学习",
+  "source": "hacker_news",
+  "source_url": "https://www.theverge.com/ai-artificial-intelligence/982425/google-gemini-student-hub",
+  "summary": "随着返校季的临近，谷歌在Gemini中推出了一个全新的专属学生中心。该中心作为一个一站式资源库，帮助学生收集研究资料、创建学习笔记本、制作闪卡、进行练习测验等。此外，谷歌还增强了学习笔记本的功能，支持更多内容格式，以提升学习效率。这一举措旨在利用AI技术为学生提供更便捷、个性化的学习工具，减轻学业压力，提高学习效果。",
+  "tags": [
+    "Google Gemini",
+    "学生中心",
+    "AI教育",
+    "学习工具",
+    "返校季"
+  ],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-08-20T08:26:01+00:00",
+  "analyzed_at": "2026-08-20T08:26:01+00:00",
+  "summary_en": "As the back-to-school season approaches, Google has launched a dedicated student hub within Gemini. This hub serves as a one-stop repository for collecting research in a study notebook, creating flashcards, taking practice quizzes, and more. Additionally, Google is enhancing its study notebooks with support for additional content formats to improve learning efficiency. This initiative aims to leverage AI technology to provide students with more convenient and personalized learning tools, reducing academic stress and enhancing learning outcomes.",
+  "score": 7
+}

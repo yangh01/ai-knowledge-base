@@ -1,0 +1,20 @@
+{
+  "id": "9ccb8d64-c5f8-4f13-bcd6-5fc78a51566b",
+  "title": "谷歌发现（Discover）即将推出AI聊天机器人调校的信息流",
+  "source": "hacker_news",
+  "source_url": "https://www.theverge.com/tech/983088/google-discover-ai-chatbot-feed",
+  "summary": "谷歌宣布将在其Google应用中推出新功能，允许用户通过描述自己的兴趣来个性化定制Discover信息流。该功能将在未来几天内逐步上线，利用人工智能自动调整信息流内容，并记住用户的偏好，以便在后续访问中提供更符合个人需求的推荐。用户可以通过应用内的三个点菜单找到该选项。这一举措标志着谷歌在个性化内容推荐方面进一步整合AI技术，旨在提升用户体验，使信息流更加贴合用户的实时兴趣和需求。",
+  "tags": [
+    "Google Discover",
+    "AI个性化",
+    "信息流定制",
+    "用户偏好",
+    "人工智能"
+  ],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-08-21T08:27:29+00:00",
+  "analyzed_at": "2026-08-21T08:27:29+00:00",
+  "summary_en": "Google has announced a new feature for its Discover feed that will allow users to customize their feed by describing what they want to see. Rolling out to the Google app in the coming days, the feature uses AI to automatically adjust the feed and remember user preferences for future visits. Users can find the option within the three-dot menu. This move marks Google's further integration of AI into personalized content recommendation, aiming to enhance user experience by making the feed more aligned with users' real-time interests and needs.",
+  "score": 7
+}

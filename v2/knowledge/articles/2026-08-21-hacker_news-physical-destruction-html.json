@@ -1,0 +1,20 @@
+{
+  "id": "b4fa3ea6-a5ac-443f-ae3c-b3c5934a0670",
+  "title": "AI公司销毁实体书籍：在不可逆转的损失前扫描珍稀图书",
+  "source": "hacker_news",
+  "source_url": "https://annas-archive.gl/blog/physical-destruction.html",
+  "summary": "文章指出，AI公司为获取训练数据，正在大规模扫描图书馆藏书，但在此过程中，许多珍稀或绝版实体书籍被销毁。作者呼吁在书籍被彻底损毁前，优先进行数字化扫描，以保存人类知识遗产。文章强调，虽然AI技术推动了知识获取的便利，但实体书的物理破坏是不可逆的，可能导致部分文化、历史和技术信息的永久丢失。作者建议图书馆、档案馆和科技公司合作，建立紧急扫描计划，优先处理稀有、脆弱或孤本书籍，并确保扫描数据公开可访问。文章还讨论了版权问题与合理使用的边界，认为在公共利益面前，应允许为保存目的进行复制。整体上，文章是对AI发展过程中忽视文化遗产保护的警示，并提出了具体的行动建议。",
+  "tags": [
+    "AI训练数据",
+    "图书数字化",
+    "文化遗产保护",
+    "版权与合理使用",
+    "知识保存"
+  ],
+  "importance": "high",
+  "status": "analyzed",
+  "fetched_at": "2026-08-21T08:27:29+00:00",
+  "analyzed_at": "2026-08-21T08:27:29+00:00",
+  "summary_en": "The article highlights that AI companies are scanning library books at scale for training data, but in the process, many rare or out-of-print physical books are being destroyed. The author urges prioritizing digitization of rare books before irreversible loss occurs, emphasizing that physical destruction is permanent and may lead to the loss of cultural, historical, and technical knowledge. The article calls for collaboration between libraries, archives, and tech companies to establish emergency scanning programs, focusing on rare, fragile, or unique copies, and ensuring open access to scanned data. It also discusses copyright and fair use, arguing that copying for preservation should be allowed in the public interest. Overall, it serves as a warning about neglecting cultural heritage in AI development and proposes concrete actions.",
+  "score": 8
+}

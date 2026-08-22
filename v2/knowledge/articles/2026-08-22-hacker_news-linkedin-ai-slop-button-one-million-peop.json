@@ -1,0 +1,20 @@
+{
+  "id": "9a0228d3-b28c-4d65-85fa-64dff01a6be8",
+  "title": "超百万人点击LinkedIn的“AI废话”按钮",
+  "source": "hacker_news",
+  "source_url": "https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message",
+  "summary": "LinkedIn于7月30日正式推出了一个名为“Seems like AI slop”的按钮，用户可以通过点击该按钮来标记那些疑似由人工智能生成的低质量内容。据首席产品官Hari Srinivasan在周四的帖子中透露，已有超过一百万人使用了这一功能。该按钮位于内容右上角的三个点菜单中，方便用户快速反馈。这一举措反映了社交平台对AI生成内容泛滥的应对策略，旨在通过用户参与来过滤低质量信息，提升内容质量。然而，该功能也引发了关于内容审核标准、用户隐私以及AI内容识别准确性的讨论。LinkedIn的这一尝试为其他平台提供了参考，展示了如何利用社区反馈来管理AI生成内容。",
+  "tags": [
+    "LinkedIn",
+    "AI内容",
+    "用户反馈",
+    "内容审核",
+    "社交平台"
+  ],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-08-22T08:17:52+00:00",
+  "analyzed_at": "2026-08-22T08:17:52+00:00",
+  "summary_en": "LinkedIn officially launched a 'Seems like AI slop' button on July 30th, allowing users to flag content that appears to be low-quality AI-generated posts. According to a Thursday post by Chief Product Officer Hari Srinivasan, over one million people have already used the button, which is accessible from the three-dot menu on each post. This move reflects social platforms' efforts to combat the proliferation of AI-generated content by leveraging user feedback. The feature has sparked discussions on content moderation standards, user privacy, and the accuracy of AI detection. LinkedIn's initiative offers a model for other platforms to manage AI-generated content through community input.",
+  "score": 6
+}

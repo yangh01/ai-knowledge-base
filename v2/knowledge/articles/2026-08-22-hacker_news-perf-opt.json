@@ -1,0 +1,20 @@
+{
+  "id": "42f35763-fd0d-4eaa-8b73-cdec898c1c26",
+  "title": "软件为何不再需要慢：性能优化的现实与挑战",
+  "source": "hacker_news",
+  "source_url": "https://danluu.com/perf-opt/",
+  "summary": "本文由 Dan Luu 撰写，标题为“There's no reason for software to be slow anymore”，探讨了现代软件性能问题的根源。作者指出，尽管硬件性能大幅提升，但许多软件仍然缓慢，原因并非技术限制，而是工程实践中的忽视和权衡。文章分析了性能优化的常见障碍，包括过早优化、缺乏性能测试、工具链问题以及团队文化对性能的轻视。Luu 强调，通过合理的工程实践，如性能预算、基准测试和性能回归检测，可以在不牺牲开发效率的前提下显著提升软件速度。他还讨论了硬件进步带来的“性能税”，例如解释型语言和抽象层的开销，并呼吁开发者重新审视性能作为核心功能的重要性。文章结合具体案例，展示了优化带来的实际收益，并批判了“先正确后优化”的教条，认为性能应从一开始就纳入设计考量。最终，作者认为，软件慢并非不可避免，而是需要系统性关注和持续投入。",
+  "tags": [
+    "性能优化",
+    "软件工程",
+    "基准测试",
+    "开发文化",
+    "硬件进步"
+  ],
+  "importance": "high",
+  "status": "analyzed",
+  "fetched_at": "2026-08-22T08:17:52+00:00",
+  "analyzed_at": "2026-08-22T08:17:52+00:00",
+  "summary_en": "Dan Luu's article argues that modern software doesn't have to be slow, despite significant hardware improvements. He identifies root causes such as neglect of performance in engineering practices, premature optimization, lack of benchmarking, and cultural biases. The piece advocates for integrating performance considerations into development through budgets, regression testing, and tooling, while critiquing the 'make it work, then optimize' mindset. Luu provides examples of optimization gains and emphasizes that performance should be a first-class feature, not an afterthought.",
+  "score": 9
+}

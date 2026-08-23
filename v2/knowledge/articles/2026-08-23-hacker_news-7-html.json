@@ -1,0 +1,20 @@
+{
+  "id": "c6479fc2-1c4b-4501-ba4b-0931fd8b8eca",
+  "title": "macOS 27 Golden Gate 弃用 hdiutil：开发者迁移指南",
+  "source": "hacker_news",
+  "source_url": "https://lapcatsoftware.com/articles/2026/8/7.html",
+  "summary": "据 Lapcat Software 于 2026 年 8 月 7 日发布的文章，苹果在 macOS 27 Golden Gate 中正式弃用了 hdiutil 命令行工具。hdiutil 长期以来是 macOS 上用于创建、挂载和管理磁盘映像（如 DMG 文件）的核心工具，广泛应用于软件分发、安装程序制作和系统管理脚本中。弃用意味着该工具可能在未来版本中被移除，开发者需要寻找替代方案。文章指出，苹果尚未提供功能完全对等的官方替代品，但开发者可考虑使用新引入的 API 或第三方工具（如 create-dmg 或基于 Swift 的 DiskImage 框架）来迁移现有工作流。这一变化对依赖 hdiutil 的 CI/CD 流水线、安装包生成脚本和系统管理工具影响显著，建议开发者尽早测试并调整相关代码。文章还讨论了弃用背后的可能原因，包括苹果推动更安全的磁盘映像处理方式，以及向更现代的文件系统 API 过渡。目前，hdiutil 在 macOS 27 中仍可运行，但会显示弃用警告，开发者应关注后续版本中的移除时间表。",
+  "tags": [
+    "hdiutil",
+    "macOS 27",
+    "磁盘映像",
+    "弃用",
+    "开发者迁移"
+  ],
+  "importance": "high",
+  "status": "analyzed",
+  "fetched_at": "2026-08-23T08:18:40+00:00",
+  "analyzed_at": "2026-08-23T08:18:40+00:00",
+  "summary_en": "According to an article by Lapcat Software dated August 7, 2026, Apple has deprecated the hdiutil command-line tool in macOS 27 Golden Gate. hdiutil has long been a core utility for creating, mounting, and managing disk images (e.g., DMG files) on macOS, widely used in software distribution, installer creation, and system administration scripts. The deprecation implies the tool may be removed in future releases, prompting developers to seek alternatives. The article notes that Apple has not yet provided a fully equivalent official replacement, but developers can consider new APIs or third-party tools (such as create-dmg or Swift-based DiskImage frameworks) to migrate existing workflows. This change significantly impacts CI/CD pipelines, installer generation scripts, and system management tools that rely on hdiutil, and developers are advised to test and adjust code early. The article also discusses possible reasons behind the deprecation, including Apple's push for safer disk image handling and a transition to more modern file system APIs. Currently, hdiutil still works in macOS 27 but emits deprecation warnings; developers should monitor the timeline for removal in future releases.",
+  "score": 8
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "title": "openclaw/openclaw",
+    "url": "https://github.com/openclaw/openclaw",
+    "source": "github",
+    "popularity": {
+      "stars": 387190
+    },
+    "summary": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 "
+  },
+  {
+    "title": "obra/superpowers",
+    "url": "https://github.com/obra/superpowers",
+    "source": "github",
+    "popularity": {
+      "stars": 276371
+    },
+    "summary": "An agentic skills framework & software development methodology that works."
+  },
+  {
+    "title": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "source": "github",
+    "popularity": {
+      "stars": 242291
+    },
+    "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+  },
+  {
+    "title": "NousResearch/hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "source": "github",
+    "popularity": {
+      "stars": 234502
+    },
+    "summary": "The agent that grows with you"
+  },
+  {
+    "title": "mattpocock/skills",
+    "url": "https://github.com/mattpocock/skills",
+    "source": "github",
+    "popularity": {
+      "stars": 232755
+    },
+    "summary": "Skills for Real Engineers. Straight from my .agents directory."
+  },
+  {
+    "title": "hdiutil is deprecated in macOS 27 Golden Gate",
+    "url": "https://lapcatsoftware.com/articles/2026/8/7.html",
+    "source": "rss",
+    "popularity": {},
+    "summary": "Article URL: https://lapcatsoftware.com/articles/2026/8/7.html\nComments URL: https://news.ycombinator.com/item?id=49402741\nPoints: 179\n# Comments: 74"
+  },
+  {
+    "title": "Introducing AI Futures",
+    "url": "https://openai.com/index/introducing-ai-futures",
+    "source": "rss",
+    "popularity": {},
+    "summary": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom."
+  },
+  {
+    "title": "Measuring benchmark optimization in speech recognition",
+    "url": "https://huggingface.co/blog/asr-benchmark-optimization",
+    "source": "rss",
+    "popularity": {},
+    "summary": ""
+  },
+  {
+    "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
+    "url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+    "source": "rss",
+    "popularity": {},
+    "summary": ""
+  },
+  {
+    "title": "Over 1 million people have clicked LinkedIn’s AI slop button",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message",
+    "source": "rss",
+    "popularity": {},
+    "summary": "LinkedIn actually announced a \"Seems like AI slop\" button on July 30th, and the company says that a lot of people have already used it. According to a Thursday post from chief product officer Hari Srinivasan, \"over a million people\" have clicked on the button, which is accessible from the three dots"
+  }
+]

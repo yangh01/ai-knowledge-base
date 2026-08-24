@@ -1,0 +1,20 @@
+{
+  "id": "ef6dc704-ecbb-4f11-a510-f400f7d9179c",
+  "title": "复杂系统如何失效",
+  "source": "hacker_news",
+  "source_url": "https://how.complexsystems.fail/",
+  "summary": "本文探讨了复杂系统（如医疗系统、航空交通管制、核电站等）失效的本质规律。文章指出，复杂系统本质上是不安全的，其安全性是通过持续的调整和冗余机制来维持的，但系统永远处于接近失效的边缘。失效并非由单一故障引起，而是多个微小事件在特定条件下意外组合的结果。系统在运行中会不断产生“正常”的微小偏差，这些偏差被系统吸收，但累积到一定程度后可能触发级联失效。文章强调，事故是系统内在复杂性的正常产物，而非异常事件，因此无法通过简单增加防护措施来彻底消除。相反，系统设计者应接受失效的必然性，通过提高系统的弹性、监测早期信号、分散风险等方式来降低失效概率和影响。文章还指出，事后追溯事故原因往往过于简化，忽略了系统动态交互的复杂性。最后，作者提出，对复杂系统的管理应注重持续学习和适应，而非追求绝对安全。",
+  "tags": [
+    "复杂系统",
+    "系统失效",
+    "安全性",
+    "弹性工程",
+    "事故分析"
+  ],
+  "importance": "high",
+  "status": "analyzed",
+  "fetched_at": "2026-08-24T08:36:43+00:00",
+  "analyzed_at": "2026-08-24T08:36:43+00:00",
+  "summary_en": "This article explores the fundamental nature of failures in complex systems such as healthcare, air traffic control, and nuclear power plants. It argues that complex systems are inherently unsafe, and safety is maintained through continuous adjustments and redundancies, but they always operate near the edge of failure. Failures are not caused by single faults but by unexpected combinations of multiple small events under specific conditions. The system constantly produces 'normal' small deviations that are absorbed, but accumulated deviations can trigger cascading failures. The article emphasizes that accidents are normal products of system complexity, not anomalies, and cannot be eliminated by simply adding more safeguards. Instead, designers should accept the inevitability of failure and focus on enhancing resilience, monitoring early signals, and distributing risk. It also criticizes post-hoc accident analysis for oversimplifying complex dynamic interactions. Finally, it suggests that managing complex systems requires continuous learning and adaptation rather than pursuing absolute safety.",
+  "score": 9
+}

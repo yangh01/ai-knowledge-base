@@ -1,0 +1,82 @@
+[
+  {
+    "title": "openclaw/openclaw",
+    "url": "https://github.com/openclaw/openclaw",
+    "source": "github",
+    "popularity": {
+      "stars": 387521
+    },
+    "summary": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 "
+  },
+  {
+    "title": "obra/superpowers",
+    "url": "https://github.com/obra/superpowers",
+    "source": "github",
+    "popularity": {
+      "stars": 277258
+    },
+    "summary": "An agentic skills framework & software development methodology that works."
+  },
+  {
+    "title": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "source": "github",
+    "popularity": {
+      "stars": 242998
+    },
+    "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+  },
+  {
+    "title": "NousResearch/hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "source": "github",
+    "popularity": {
+      "stars": 236070
+    },
+    "summary": "The agent that grows with you"
+  },
+  {
+    "title": "mattpocock/skills",
+    "url": "https://github.com/mattpocock/skills",
+    "source": "github",
+    "popularity": {
+      "stars": 235890
+    },
+    "summary": "Skills for Real Engineers. Straight from my .agents directory."
+  },
+  {
+    "title": "iCloud+ Hide My Email addresses will remain on icloud.com",
+    "url": "https://developer.apple.com/news/?id=1ptvdtcm",
+    "source": "rss",
+    "popularity": {},
+    "summary": "Article URL: https://developer.apple.com/news/?id=1ptvdtcm\nComments URL: https://news.ycombinator.com/item?id=49426564\nPoints: 428\n# Comments: 115"
+  },
+  {
+    "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
+    "url": "https://openai.com/index/gpt-5-6-in-kiro",
+    "source": "rss",
+    "popularity": {},
+    "summary": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance."
+  },
+  {
+    "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
+    "url": "https://huggingface.co/blog/gradio-workflow-guide",
+    "source": "rss",
+    "popularity": {},
+    "summary": ""
+  },
+  {
+    "title": "Measuring benchmark optimization in speech recognition",
+    "url": "https://huggingface.co/blog/asr-benchmark-optimization",
+    "source": "rss",
+    "popularity": {},
+    "summary": ""
+  },
+  {
+    "title": "Over 1 million people have clicked LinkedIn’s AI slop button",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message",
+    "source": "rss",
+    "popularity": {},
+    "summary": "LinkedIn actually announced a \"Seems like AI slop\" button on July 30th, and the company says that a lot of people have already used it. According to a Thursday post from chief product officer Hari Srinivasan, \"over a million people\" have clicked on the button, which is accessible from the three dots"
+  }
+]

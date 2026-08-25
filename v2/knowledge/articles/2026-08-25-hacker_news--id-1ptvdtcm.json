@@ -1,0 +1,20 @@
+{
+  "id": "f76393dd-58a5-408e-a13b-45c78c4371ac",
+  "title": "iCloud+ 隐藏邮件地址功能将继续保留在 icloud.com 上",
+  "source": "hacker_news",
+  "source_url": "https://developer.apple.com/news/?id=1ptvdtcm",
+  "summary": "苹果公司近日发布官方声明，确认其 iCloud+ 服务中的“隐藏邮件地址”（Hide My Email）功能将继续保留在 icloud.com 网站上，不会因任何近期调整而移除。该功能允许用户生成随机的一次性电子邮件地址，以保护真实邮箱的隐私，避免垃圾邮件和跟踪。此前有用户担忧苹果可能因服务整合或界面改版而取消该功能，但此次公告明确否定了这一猜测。苹果强调，隐藏邮件地址是 iCloud+ 的核心隐私特性之一，与“通过 iCloud 转发”等机制紧密集成，用户仍可通过网页端管理这些地址，包括创建、停用或删除。这一决定对依赖该功能的用户（如开发者、隐私敏感用户）具有重要意义，确保了跨设备（iOS、macOS、网页）的一致体验。文章还提到，该功能在 Hacker News 上引发了广泛讨论，获得 428 个点赞和 115 条评论，反映出社区对隐私工具持续关注。总体而言，苹果此举旨在巩固其隐私保护承诺，同时维持生态系统的连贯性。",
+  "tags": [
+    "Apple",
+    "iCloud+",
+    "隐私保护",
+    "隐藏邮件地址",
+    "服务更新"
+  ],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-08-25T08:30:28+00:00",
+  "analyzed_at": "2026-08-25T08:30:28+00:00",
+  "summary_en": "Apple has officially confirmed that the 'Hide My Email' feature of iCloud+ will remain available on icloud.com, addressing user concerns about its potential removal. The feature generates random email addresses to protect user privacy and reduce spam. Apple emphasizes it is a core privacy component, integrated with iCloud forwarding, and users can manage addresses via the web interface. The announcement was well-received, with 428 points and 115 comments on Hacker News, highlighting community interest in privacy tools.",
+  "score": 6
+}

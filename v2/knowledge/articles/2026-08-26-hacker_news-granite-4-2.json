@@ -1,0 +1,20 @@
+{
+  "id": "02b6846f-c986-4e0b-87df-bc4bddab294b",
+  "title": "Granite 4.2 大型语言模型：构建方式解析",
+  "source": "hacker_news",
+  "source_url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
+  "summary": "本文介绍了 IBM 发布的 Granite 4.2 系列大型语言模型的技术架构与训练方法。该系列模型基于混合专家（MoE）架构，包含通用模型（如 Granite 4.2 MoE）和专用模型（如 Granite 4.2 Guard），参数规模从 3B 到 47B 不等，支持 128K 上下文长度，并针对工具调用、代码生成、多语言处理等场景进行了优化。训练过程采用两阶段策略：先进行大规模无监督预训练，再进行监督微调和基于人类反馈的强化学习（RLHF），以提升指令遵循和安全性。模型在多个基准测试中表现优异，尤其在函数调用、数学推理和幻觉抑制方面。此外，文章详细介绍了数据治理、安全对齐（如 Guard 模型用于内容审核）以及部署优化（如量化、蒸馏）等工程实践。Granite 4.2 系列模型以 Apache 2.0 许可证开源，旨在为企业级应用提供高效、可靠的 AI 基础。",
+  "tags": [
+    "Granite 4.2",
+    "混合专家模型",
+    "训练方法",
+    "安全对齐",
+    "开源模型"
+  ],
+  "importance": "high",
+  "status": "analyzed",
+  "fetched_at": "2026-08-26T08:31:07+00:00",
+  "analyzed_at": "2026-08-26T08:31:07+00:00",
+  "summary_en": "This article details the technical architecture and training methodology of IBM's Granite 4.2 large language models. The series employs a Mixture-of-Experts (MoE) design, featuring general-purpose models (e.g., Granite 4.2 MoE) and specialized models (e.g., Granite 4.2 Guard), with parameter sizes ranging from 3B to 47B and a 128K context window. Optimizations target tool calling, code generation, and multilingual tasks. Training follows a two-stage pipeline: large-scale unsupervised pretraining followed by supervised fine-tuning and reinforcement learning from human feedback (RLHF) to enhance instruction following and safety. The models achieve strong benchmark results, particularly in function calling, mathematical reasoning, and hallucination reduction. The article also covers data governance, safety alignment (e.g., Guard for content moderation), and deployment optimizations like quantization and distillation. Released under Apache 2.0, Granite 4.2 aims to provide efficient and reliable AI foundations for enterprise applications.",
+  "score": 8
+}

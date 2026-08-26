@@ -1,0 +1,20 @@
+{
+  "id": "ebab324c-ab4b-4efc-88ae-19c86926a6e3",
+  "title": "FDA批准首款可穿戴设备，同时连续监测酮体和血糖水平",
+  "source": "hacker_news",
+  "source_url": "https://www.fda.gov/news-events/press-announcements/fda-authorizes-first-wearable-device-continuously-monitors-both-ketone-levels-and-blood-sugar",
+  "summary": "美国食品药品监督管理局（FDA）近日批准了首款可穿戴设备，该设备能够同时连续监测人体内的酮体水平和血糖水平。这一创新设备旨在帮助糖尿病患者（尤其是1型糖尿病患者）以及遵循生酮饮食的人群更便捷地管理代谢健康。传统上，血糖监测和酮体监测需要分别使用不同的设备，且酮体检测通常依赖尿检或血检，无法实现连续监测。这款新设备通过传感器技术，实时追踪血液中的葡萄糖和酮体浓度，并将数据同步至智能手机应用，使用户能够及时了解自身代谢状态，从而调整饮食、药物或胰岛素用量。FDA的批准基于多项临床研究，证明了该设备在准确性和安全性方面符合标准。该设备的上市标志着可穿戴健康监测技术的重要进步，有望改善糖尿病管理和代谢疾病预防，但专家也提醒，设备数据不能完全替代传统诊断方法，用户应在医疗专业人员指导下使用。",
+  "tags": [
+    "FDA",
+    "可穿戴设备",
+    "血糖监测",
+    "酮体监测",
+    "糖尿病管理"
+  ],
+  "importance": "high",
+  "status": "analyzed",
+  "fetched_at": "2026-08-26T08:31:07+00:00",
+  "analyzed_at": "2026-08-26T08:31:07+00:00",
+  "summary_en": "The U.S. Food and Drug Administration (FDA) has authorized the first wearable device that continuously monitors both ketone levels and blood sugar levels. This innovative device aims to help people with diabetes (especially type 1 diabetes) and those following ketogenic diets manage metabolic health more conveniently. Traditionally, blood glucose and ketone monitoring require separate devices, and ketone testing often relies on urine or blood samples, which do not allow continuous tracking. The new device uses sensor technology to measure glucose and ketone concentrations in real time, syncing data to a smartphone app for users to monitor their metabolic status and adjust diet, medication, or insulin doses accordingly. The FDA's approval was based on clinical studies demonstrating the device's accuracy and safety. This authorization marks a significant advancement in wearable health monitoring technology, potentially improving diabetes management and metabolic disease prevention. However, experts caution that device data should not replace traditional diagnostic methods, and users should use it under medical supervision.",
+  "score": 9
+}

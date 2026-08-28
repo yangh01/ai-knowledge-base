@@ -1,0 +1,82 @@
+[
+  {
+    "title": "openclaw/openclaw",
+    "url": "https://github.com/openclaw/openclaw",
+    "source": "github",
+    "popularity": {
+      "stars": 387934
+    },
+    "summary": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 "
+  },
+  {
+    "title": "obra/superpowers",
+    "url": "https://github.com/obra/superpowers",
+    "source": "github",
+    "popularity": {
+      "stars": 279005
+    },
+    "summary": "An agentic skills framework & software development methodology that works."
+  },
+  {
+    "title": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "source": "github",
+    "popularity": {
+      "stars": 243944
+    },
+    "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+  },
+  {
+    "title": "mattpocock/skills",
+    "url": "https://github.com/mattpocock/skills",
+    "source": "github",
+    "popularity": {
+      "stars": 240109
+    },
+    "summary": "Skills for Real Engineers. Straight from my .agents directory."
+  },
+  {
+    "title": "NousResearch/hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "source": "github",
+    "popularity": {
+      "stars": 237705
+    },
+    "summary": "The agent that grows with you"
+  },
+  {
+    "title": "GLM-5.3 is now open-weight",
+    "url": "https://huggingface.co/zai-org/GLM-5.3",
+    "source": "rss",
+    "popularity": {},
+    "summary": "https://twitter.com/Zai_org/status/2093354097122455713https://z.ai/blog/glm-5.3\n\nComments URL: https://news.ycombinator.com/item?id=49479878\nPoints: 390\n# Comments: 139"
+  },
+  {
+    "title": "Supporting Thailand’s next generation of AI startups",
+    "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+    "source": "rss",
+    "popularity": {},
+    "summary": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products."
+  },
+  {
+    "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
+    "url": "https://huggingface.co/blog/train-multi-vector-encoder",
+    "source": "rss",
+    "popularity": {},
+    "summary": ""
+  },
+  {
+    "title": "Granite 4.2 LLMs: How They&apos;re Built",
+    "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
+    "source": "rss",
+    "popularity": {},
+    "summary": ""
+  },
+  {
+    "title": "Trump’s EPA wants to let data centers hide their air pollution",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/986176/data-center-pollution-epa-rule-change-air-permit",
+    "source": "rss",
+    "popularity": {},
+    "summary": "Just as new data centers face growing backlash from neighboring communities, the US Environmental Protection Agency (EPA) is about to make it harder for people to weigh in on any pollution those centers create. The EPA plans to toss out a federal rule requiring public notice and an opportunity to co"
+  }
+]

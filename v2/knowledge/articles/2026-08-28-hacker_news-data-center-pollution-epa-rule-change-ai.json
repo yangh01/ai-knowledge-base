@@ -1,0 +1,20 @@
+{
+  "id": "ddef29ec-ada1-4cc3-a0d7-586095d08a91",
+  "title": "美国环保署拟放宽数据中心污染排放公开要求",
+  "source": "hacker_news",
+  "source_url": "https://www.theverge.com/ai-artificial-intelligence/986176/data-center-pollution-epa-rule-change-air-permit",
+  "summary": "美国环保署（EPA）正计划废除一项联邦法规，该法规要求数据中心在排放空气污染物前必须进行公众通知并提供公众参与机会。这一举措正值新建数据中心因能源消耗和环境影响而面临周边社区日益强烈的反对之际。若该规则被废除，数据中心将无需在获得空气许可证前公开其污染排放细节，从而减少公众对数据中心环境影响的知情权和监督渠道。此举可能进一步加剧社区与科技公司之间的紧张关系，并引发对环保监管透明度的担忧。EPA表示此举旨在简化审批流程，但批评者认为这将削弱环境保护和公众参与。",
+  "tags": [
+    "EPA",
+    "数据中心",
+    "空气污染",
+    "环境监管",
+    "公众参与"
+  ],
+  "importance": "high",
+  "status": "analyzed",
+  "fetched_at": "2026-08-28T19:46:22+00:00",
+  "analyzed_at": "2026-08-28T19:46:22+00:00",
+  "summary_en": "The US Environmental Protection Agency (EPA) plans to repeal a federal rule that requires data centers to provide public notice and an opportunity for community input before emitting air pollutants. This move comes as new data centers face growing backlash from neighboring communities over their environmental impact. If the rule is eliminated, data centers would no longer need to disclose pollution details before obtaining air permits, reducing public oversight and transparency. Critics argue this undermines environmental protection and public participation, while the EPA claims it aims to streamline approval processes.",
+  "score": 8
+}

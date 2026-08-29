@@ -1,0 +1,20 @@
+{
+  "id": "401a0dc5-a75c-4aa9-be60-5bd7bd0385a3",
+  "title": "OpenAI 决定终止向 SpaceX 旗下 Cursor 提供模型服务",
+  "source": "hacker_news",
+  "source_url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+  "summary": "OpenAI 宣布，在 Cursor 被 SpaceX 收购后，将终止与 Cursor 的合同，停止向其提供 OpenAI 模型。这一决定意味着 Cursor 将无法继续使用 OpenAI 的模型，可能影响其产品功能和技术路线。OpenAI 未详细说明原因，但推测与 SpaceX 的收购背景有关，可能涉及战略调整或商业考量。此举对 AI 编程工具市场可能产生一定影响，Cursor 用户或需寻找替代方案。",
+  "tags": [
+    "OpenAI",
+    "Cursor",
+    "SpaceX",
+    "AI编程工具",
+    "商业合作"
+  ],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-08-29T13:28:58+00:00",
+  "analyzed_at": "2026-08-29T13:28:58+00:00",
+  "summary_en": "OpenAI announced that it will wind down its contract providing OpenAI models to Cursor following Cursor's acquisition by SpaceX. This decision means Cursor will no longer have access to OpenAI models, potentially impacting its product features and technical direction. OpenAI did not elaborate on the reasons, but it is speculated that the acquisition context may involve strategic adjustments or commercial considerations. This move could have implications for the AI coding tool market, and Cursor users may need to seek alternatives.",
+  "score": 6
+}

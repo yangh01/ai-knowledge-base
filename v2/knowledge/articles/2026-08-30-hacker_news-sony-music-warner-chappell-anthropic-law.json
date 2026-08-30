@@ -1,0 +1,20 @@
+{
+  "id": "76eb3885-3415-4bca-8851-a764675d8129",
+  "title": "索尼音乐出版与华纳查普尔起诉Anthropic侵犯版权",
+  "source": "hacker_news",
+  "source_url": "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright",
+  "summary": "索尼音乐出版公司和华纳查普尔音乐公司已在美国加州北区联邦地区法院对人工智能公司Anthropic提起诉讼，指控其侵犯了“数万件”受版权保护的音乐作品的权益。原告要求每件作品最高15万美元的赔偿，并且对于每次被识别的侵权行为，额外索赔最高2.5万美元。诉讼的核心在于Anthropic的AI模型（如Claude）在训练和生成内容时，未经授权使用了大量受版权保护的歌词和音乐作品。此案反映了创意产业与AI开发者在版权使用上的激烈冲突，可能对AI训练数据的合法使用边界产生重要影响。原告主张，Anthropic的行为不仅损害了版权持有者的经济利益，也威胁到音乐创作的激励机制。该诉讼的判决结果可能为AI版权纠纷树立先例，影响未来AI公司获取训练数据的方式。目前，Anthropic尚未公开回应，但此案已引起科技和音乐行业的广泛关注。",
+  "tags": [
+    "AI版权",
+    "Anthropic",
+    "音乐产业",
+    "法律诉讼",
+    "训练数据"
+  ],
+  "importance": "high",
+  "status": "analyzed",
+  "fetched_at": "2026-08-30T13:25:09+00:00",
+  "analyzed_at": "2026-08-30T13:25:09+00:00",
+  "summary_en": "Sony Music Publishing and Warner Chappell Music have filed a lawsuit against Anthropic in the U.S. District Court for the Northern District of California, alleging infringement of 'tens of thousands' of copyrighted musical works. The plaintiffs seek up to $150,000 per work and an additional $25,000 for each identified instance of infringement. The core issue is that Anthropic's AI models, such as Claude, allegedly used copyrighted lyrics and music without authorization during training and content generation. This case highlights the growing conflict between the creative industry and AI developers over copyright use, potentially setting a precedent for the legal boundaries of AI training data. The outcome could significantly impact how AI companies obtain training data and the economic incentives for music creation. Anthropic has not yet publicly responded, but the lawsuit has drawn widespread attention from both the tech and music sectors.",
+  "score": 8
+}

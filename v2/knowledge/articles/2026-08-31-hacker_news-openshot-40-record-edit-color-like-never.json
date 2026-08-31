@@ -1,0 +1,20 @@
+{
+  "id": "44d33fc2-15f0-4ba6-90ba-03d417811b4f",
+  "title": "OpenShot 4.0：录制、编辑与调色，前所未有的体验",
+  "source": "hacker_news",
+  "source_url": "https://www.openshot.org/blog/2026/08/30/openshot-40-record-edit-color-like-never-before/",
+  "summary": "OpenShot 4.0 是开源视频编辑器的一次重大版本更新，重点引入了全新的录制功能、增强的编辑工具以及革命性的色彩分级系统。该版本旨在为用户提供更流畅、更专业的视频制作体验，同时保持开源和免费的特性。新版本在用户界面、性能优化和功能丰富度上均有显著提升，尤其适合独立创作者、教育工作者和中小型团队使用。文章详细介绍了新功能的亮点，包括屏幕录制、摄像头录制、多轨时间线改进、实时预览、以及基于 AI 的自动色彩校正和高级调色工具。此外，OpenShot 4.0 还加强了与硬件加速的兼容性，提升了导出速度，并增加了对更多格式的支持。社区反馈积极，Hacker News 上的讨论热度较高，用户普遍期待这一版本能缩小与商业软件之间的差距。整体而言，OpenShot 4.0 代表了开源视频编辑领域的一次重要进步，有望吸引更多专业用户。",
+  "tags": [
+    "OpenShot",
+    "视频编辑",
+    "开源软件",
+    "色彩分级",
+    "录制功能"
+  ],
+  "importance": "high",
+  "status": "analyzed",
+  "fetched_at": "2026-08-31T15:40:22+00:00",
+  "analyzed_at": "2026-08-31T15:40:22+00:00",
+  "summary_en": "OpenShot 4.0 is a major update to the open-source video editor, introducing new recording capabilities, enhanced editing tools, and a revolutionary color grading system. The release focuses on providing a smoother and more professional video creation experience while remaining free and open-source. Key improvements include screen and webcam recording, refined multi-track timeline, real-time preview, AI-based auto color correction, and advanced color grading features. The update also improves hardware acceleration compatibility, faster export speeds, and broader format support. Community response has been positive, with active discussion on Hacker News, as users anticipate this version narrowing the gap with commercial software. Overall, OpenShot 4.0 marks a significant step forward in open-source video editing, potentially attracting more professional users.",
+  "score": 8
+}

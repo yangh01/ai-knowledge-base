@@ -1,0 +1,20 @@
+{
+  "id": "7fdfedc4-7c16-455a-86d8-4bf6262c0585",
+  "title": "OpenAI支持加州青少年AI安全法案，推动适龄保护与学习机会并重",
+  "source": "hacker_news",
+  "source_url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
+  "summary": "OpenAI近日公开表示支持加利福尼亚州参议院第1119号法案（SB 1119），该法案旨在为青少年建立强有力的、适龄的AI安全防护措施，同时确保他们仍能充分利用AI技术进行学习、创造和探索。OpenAI在官方声明中强调，支持这一法案是其在AI安全领域持续努力的一部分，特别是在保护未成年人免受潜在风险方面。该法案要求AI服务提供商在设计、开发和部署面向青少年的AI产品时，必须考虑年龄适宜性，并实施相应的安全机制，如内容过滤、使用限制和透明度报告等。OpenAI认为，合理的监管框架不仅不会阻碍创新，反而能增强公众对AI技术的信任，为青少年创造一个更安全的数字环境。此外，OpenAI还提到，他们正在与政策制定者、教育工作者和家长合作，以确保AI教育资源的可及性和安全性。这一表态反映了科技行业在AI治理上日益增强的责任意识，也为其他AI公司提供了政策参与的范例。该法案的推进可能对AI产品的设计标准产生广泛影响，尤其是在未成年人保护方面，或将成为其他州乃至联邦层面立法的参考。",
+  "tags": [
+    "AI安全",
+    "青少年保护",
+    "政策法规",
+    "OpenAI",
+    "加州法案"
+  ],
+  "importance": "high",
+  "status": "analyzed",
+  "fetched_at": "2026-09-01T12:53:05+00:00",
+  "analyzed_at": "2026-09-01T12:53:05+00:00",
+  "summary_en": "OpenAI has publicly expressed support for California Senate Bill 1119, which aims to establish robust, age-appropriate AI safety safeguards for teenagers while preserving their opportunities to learn, create, and explore. The company emphasizes that reasonable regulation can enhance trust in AI and create a safer digital environment for youth. OpenAI is collaborating with policymakers, educators, and parents to ensure accessible and safe AI education resources. This stance reflects a growing sense of responsibility in the tech industry regarding AI governance and may influence design standards and legislation beyond California.",
+  "score": 8
+}

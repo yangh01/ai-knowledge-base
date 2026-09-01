@@ -1,0 +1,20 @@
+{
+  "id": "eeae9f66-963b-4bb6-8497-36a8048d9195",
+  "title": "AnkiDroid 因 Google Play 政策调整，移除 Open Collective 捐赠链接",
+  "source": "hacker_news",
+  "source_url": "https://github.com/ankidroid/Anki-Android/issues/21656",
+  "summary": "AnkiDroid 是一款流行的开源间隔重复记忆软件，其 GitHub 问题页面报告称，Google Play 商店不再允许应用内包含 Open Collective 捐赠链接。该问题由用户提出，引发了关于开源项目在 Google Play 上筹款方式的讨论。Google Play 的政策通常限制开发者引导用户使用其官方支付系统以外的支付方式，以避免绕过其 15%-30% 的服务费。AnkiDroid 团队可能因此被迫移除或调整捐赠链接，这影响了项目的资金来源和社区支持方式。该问题在 Hacker News 上获得 231 分和 37 条评论，反映了开发者社区对平台政策与开源可持续性之间冲突的关注。核心信息是：Google Play 的政策变化对开源项目的捐赠模式构成挑战，开发者需要寻找替代方案，如通过官网或 GitHub Sponsors 进行捐赠。",
+  "tags": [
+    "AnkiDroid",
+    "Google Play",
+    "开源捐赠",
+    "平台政策",
+    "开源可持续性"
+  ],
+  "importance": "high",
+  "status": "analyzed",
+  "fetched_at": "2026-09-01T12:53:05+00:00",
+  "analyzed_at": "2026-09-01T12:53:05+00:00",
+  "summary_en": "AnkiDroid, a popular open-source spaced repetition software, reported on its GitHub issue page that Google Play no longer allows Open Collective donation links in the app. The issue sparked discussions about fundraising methods for open-source projects on Google Play, as the platform's policies typically restrict developers from directing users to payment systems outside its official billing, avoiding service fees. The AnkiDroid team may be forced to remove or adjust the donation link, impacting project funding and community support. The issue gained 231 points and 37 comments on Hacker News, highlighting the conflict between platform policies and open-source sustainability. The core information is that Google Play's policy changes challenge donation models for open-source projects, requiring alternative solutions like official websites or GitHub Sponsors.",
+  "score": 8
+}

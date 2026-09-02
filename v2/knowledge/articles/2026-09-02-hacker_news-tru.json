@@ -1,0 +1,20 @@
+{
+  "id": "9a7fcc84-9c98-46d6-bf1a-50c2a230760d",
+  "title": "真实失业率",
+  "source": "hacker_news",
+  "source_url": "https://www.lisep.org/tru",
+  "summary": "本文讨论了美国官方失业率（U-3）与更广泛的真实失业率（U-6）之间的差异。U-3仅统计积极寻找工作的失业者，而U-6还包括因经济原因从事兼职工作以及丧失信心不再寻找工作的人员。文章指出，官方失业率可能低估了劳动力市场的疲软程度，尤其是在经济衰退或复苏缓慢时期。通过分析历史数据和当前经济指标，作者认为真实失业率通常比官方数据高出2-3个百分点。文章还探讨了失业率统计方法对政策制定、公众认知和社会福利分配的影响，并呼吁采用更全面的指标来衡量就业健康状况。内容基于经济数据和研究，旨在提供对劳动力市场更准确的解读。",
+  "tags": [
+    "失业率",
+    "劳动力市场",
+    "经济指标",
+    "U-6",
+    "就业统计"
+  ],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-09-02T12:23:24+00:00",
+  "analyzed_at": "2026-09-02T12:23:24+00:00",
+  "summary_en": "This article discusses the difference between the official unemployment rate (U-3) and the broader true unemployment rate (U-6) in the United States. U-3 only counts unemployed individuals actively seeking work, while U-6 also includes those working part-time for economic reasons and discouraged workers who have stopped looking. The article argues that the official rate may underestimate labor market weakness, especially during recessions or slow recoveries. By analyzing historical data and current economic indicators, the author suggests that the true unemployment rate is typically 2-3 percentage points higher than the official figure. The article also explores how unemployment measurement methods affect policy-making, public perception, and social welfare distribution, calling for more comprehensive metrics to assess employment health. The content is based on economic data and research, aiming to provide a more accurate interpretation of the labor market.",
+  "score": 6
+}

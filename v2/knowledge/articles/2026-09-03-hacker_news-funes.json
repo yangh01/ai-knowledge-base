@@ -1,0 +1,20 @@
+{
+  "id": "cc1b36b4-3840-44d7-938c-16e936703fc7",
+  "title": "为你的编码智能体赋予自主可控的记忆能力",
+  "source": "hacker_news",
+  "source_url": "https://huggingface.co/blog/funes",
+  "summary": "本文介绍了 Funes，一个为编码智能体设计的记忆层解决方案，旨在解决大型语言模型在长期任务中缺乏持久记忆的问题。Funes 允许开发者将对话历史、代码状态和用户偏好等关键信息存储在自己拥有的基础设施中（如本地文件或云存储），而不是依赖第三方专有记忆服务。文章详细阐述了 Funes 的核心架构，包括记忆的写入、检索和更新机制，并强调了其与主流编码工具（如 VS Code 插件和 CLI）的集成方式。通过将记忆数据以开放格式（如 JSON 或 Markdown）保存，Funes 赋予用户完全的数据所有权和可移植性，同时支持跨会话、跨项目的上下文共享。文中还讨论了记忆的隐私与安全考量，以及如何通过自定义记忆策略来优化智能体的行为。整体而言，Funes 为开发者提供了一种灵活、透明且可控的记忆管理方案，有助于提升编码智能体的连续性和个性化表现。",
+  "tags": [
+    "编码智能体",
+    "记忆管理",
+    "数据所有权",
+    "LLM工具",
+    "开发者体验"
+  ],
+  "importance": "high",
+  "status": "analyzed",
+  "fetched_at": "2026-09-03T12:21:08+00:00",
+  "analyzed_at": "2026-09-03T12:21:08+00:00",
+  "summary_en": "This article introduces Funes, a memory layer designed for coding agents, addressing the lack of persistent memory in large language models during long-term tasks. Funes allows developers to store key information such as conversation history, code state, and user preferences in their own infrastructure (e.g., local files or cloud storage), rather than relying on third-party proprietary memory services. The article details Funes's core architecture, including memory writing, retrieval, and update mechanisms, and emphasizes its integration with mainstream coding tools like VS Code extensions and CLIs. By saving memory data in open formats (e.g., JSON or Markdown), Funes grants users full data ownership and portability, while supporting context sharing across sessions and projects. The article also discusses privacy and security considerations, as well as customizing memory strategies to optimize agent behavior. Overall, Funes offers developers a flexible, transparent, and controllable memory management solution to enhance the continuity and personalization of coding agents.",
+  "score": 8
+}

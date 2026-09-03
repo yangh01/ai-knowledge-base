@@ -1,0 +1,20 @@
+{
+  "id": "641ac69b-18ba-4676-a851-5cf3c570ea92",
+  "title": "ATV大跳台巡回赛借助ChatGPT将三天工作压缩至三小时",
+  "source": "hacker_news",
+  "source_url": "https://openai.com/index/atv-big-air-tour",
+  "summary": "ATV Big Air Tour（全地形车大跳台巡回赛）利用OpenAI的ChatGPT Work（即ChatGPT Enterprise或面向企业的版本）大幅提升了营销和商品化等业务流程的效率。该赛事组织者通过ChatGPT Work自动化处理了原本需要三天才能完成的营销物料制作、商品设计等工作，将时间缩短至三小时。此外，他们还利用ChatGPT将商品照片快速转化为一个库存管理网站，整个过程仅耗时15分钟。这一案例展示了生成式AI在活动运营和电商领域的实际应用潜力，体现了AI工具在内容生成、数据整理和快速开发方面的价值。ChatGPT Work不仅帮助团队节省了大量时间，还降低了技术门槛，使非技术人员也能完成复杂的数字化任务。该案例是OpenAI官方发布的客户成功故事，旨在展示其企业级AI产品的实际效益。",
+  "tags": [
+    "ChatGPT",
+    "AI应用",
+    "效率提升",
+    "营销自动化",
+    "企业AI"
+  ],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-09-03T12:21:08+00:00",
+  "analyzed_at": "2026-09-03T12:21:08+00:00",
+  "summary_en": "The ATV Big Air Tour leveraged ChatGPT Work (OpenAI's enterprise solution) to dramatically accelerate marketing, merchandising, and other operational tasks. By using ChatGPT, the team reduced a three-day workload to just three hours, and even transformed merchandise photos into an inventory website in 15 minutes. This case demonstrates the practical applications of generative AI in event management and e-commerce, highlighting its ability to streamline content creation, data processing, and rapid prototyping. It underscores the value of AI tools in reducing time and technical barriers for non-technical teams.",
+  "score": 7
+}

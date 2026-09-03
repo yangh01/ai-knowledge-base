@@ -1,0 +1,20 @@
+{
+  "id": "7c36be94-898b-465b-83b0-89f38c3e0545",
+  "title": "谷歌发布Gemini 3.8 Flash：推理能力增强，定价与上代持平",
+  "source": "hacker_news",
+  "source_url": "https://www.theverge.com/ai-artificial-intelligence/988742/google-gemini-3-8-flash",
+  "summary": "谷歌近日推出了新一代AI模型Gemini 3.8 Flash，距离其前代3.7 Flash发布仅数周。谷歌宣称，新模型在复杂任务上会执行更多推理步骤，并能够迭代式地调用工具，从而“更加努力地工作”，以提升任务完成质量。在定价方面，Gemini 3.8 Flash的初始价格与3.7 Flash保持一致，为每百万token 0.75美元，但文章暗示实际使用成本可能因推理步骤增加而上升。这一发布延续了谷歌在AI模型领域快速迭代的策略，旨在通过增强推理能力和工具使用能力，在竞争激烈的AI市场中保持领先。新模型可能对需要复杂问题解决、多步骤推理和工具调用的应用场景（如智能代理、自动化工作流）产生重要影响，但其更高的计算开销也值得开发者关注。",
+  "tags": [
+    "Gemini",
+    "谷歌",
+    "AI模型",
+    "推理能力",
+    "工具调用"
+  ],
+  "importance": "high",
+  "status": "analyzed",
+  "fetched_at": "2026-09-03T12:21:08+00:00",
+  "analyzed_at": "2026-09-03T12:21:08+00:00",
+  "summary_en": "Google has launched Gemini 3.8 Flash, arriving just weeks after its predecessor. The company claims the new model 'works harder' by performing more reasoning steps on complex tasks and calling tools iteratively. The introductory pricing remains the same as 3.7 Flash at $0.75 per million tokens, but actual costs may rise due to increased reasoning. This rapid iteration aims to enhance problem-solving and tool-use capabilities, potentially impacting agentic and workflow applications.",
+  "score": 8
+}

@@ -1,0 +1,20 @@
+{
+  "id": "10b0f8c0-e69c-40b2-a314-b0bc7043b50a",
+  "title": "美国民众对政府腐败感知创历史新高：89%认为腐败普遍存在",
+  "source": "hacker_news",
+  "source_url": "https://news.gallup.com/poll/713933/record-high-say-government-corruption-widespread.aspx",
+  "summary": "根据盖洛普最新发布的民调数据，美国民众对政府腐败的感知达到了历史最高水平，89%的受访者认为政府腐败现象普遍存在。这一比例较以往显著上升，反映出公众对政府信任度的持续下滑。民调还显示，不同政治派别的受访者对此问题的看法存在差异，但整体趋势表明，腐败问题已成为美国社会关注的焦点。分析人士指出，这一结果可能与近期一系列政治丑闻、利益冲突事件以及公众对政府透明度和问责制的不满有关。尽管民调未直接衡量实际腐败程度，但高感知率本身可能影响公民的政治参与度和对公共机构的支持。该数据发布后，在技术社区（如Hacker News）引发广泛讨论，评论者从制度设计、媒体影响、数据解读等角度展开辩论，部分人质疑民调方法的局限性，也有人将其与全球腐败感知指数进行对比。总体而言，这一民调结果凸显了美国治理体系面临的信任挑战，并可能对政策制定和选举政治产生潜在影响。",
+  "tags": [
+    "盖洛普民调",
+    "政府腐败",
+    "公众信任",
+    "美国政治",
+    "社会调查"
+  ],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-09-05T11:28:46+00:00",
+  "analyzed_at": "2026-09-05T11:28:46+00:00",
+  "summary_en": "According to the latest Gallup poll, public perception of government corruption in the U.S. has reached a record high, with 89% of respondents saying corruption is widespread. This marks a significant increase from previous years, reflecting declining public trust in government. The poll shows variations across political affiliations, but the overall trend indicates corruption has become a major concern. Analysts link this to recent political scandals, conflicts of interest, and dissatisfaction with transparency and accountability. While the poll does not measure actual corruption, high perception may affect civic engagement and support for public institutions. The data sparked extensive discussion on Hacker News, with debates on methodology, institutional design, and media influence. The findings highlight trust challenges in U.S. governance and could impact policymaking and elections.",
+  "score": 5
+}

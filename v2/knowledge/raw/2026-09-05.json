@@ -1,0 +1,82 @@
+[
+  {
+    "title": "openclaw/openclaw",
+    "url": "https://github.com/openclaw/openclaw",
+    "source": "github",
+    "popularity": {
+      "stars": 388923
+    },
+    "summary": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 "
+  },
+  {
+    "title": "obra/superpowers",
+    "url": "https://github.com/obra/superpowers",
+    "source": "github",
+    "popularity": {
+      "stars": 281934
+    },
+    "summary": "An agentic skills framework & software development methodology that works."
+  },
+  {
+    "title": "mattpocock/skills",
+    "url": "https://github.com/mattpocock/skills",
+    "source": "github",
+    "popularity": {
+      "stars": 251379
+    },
+    "summary": "Skills for Real Engineers. Straight from my .agents directory."
+  },
+  {
+    "title": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "source": "github",
+    "popularity": {
+      "stars": 249007
+    },
+    "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+  },
+  {
+    "title": "NousResearch/hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "source": "github",
+    "popularity": {
+      "stars": 241723
+    },
+    "summary": "The agent that grows with you"
+  },
+  {
+    "title": "Record-High 89% in U.S. Say Government Corruption Widespread",
+    "url": "https://news.gallup.com/poll/713933/record-high-say-government-corruption-widespread.aspx",
+    "source": "rss",
+    "popularity": {},
+    "summary": "Article URL: https://news.gallup.com/poll/713933/record-high-say-government-corruption-widespread.aspx\nComments URL: https://news.ycombinator.com/item?id=49570772\nPoints: 440\n# Comments: 337"
+  },
+  {
+    "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
+    "url": "https://openai.com/index/daybreak-for-frontline-defenders",
+    "source": "rss",
+    "popularity": {},
+    "summary": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services."
+  },
+  {
+    "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+    "url": "https://huggingface.co/blog/Hcompany/neomme",
+    "source": "rss",
+    "popularity": {},
+    "summary": ""
+  },
+  {
+    "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
+    "url": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
+    "source": "rss",
+    "popularity": {},
+    "summary": ""
+  },
+  {
+    "title": "OpenAI admits to German wiki ‘incident’",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
+    "source": "rss",
+    "popularity": {},
+    "summary": "OpenAI says it needs to overhaul how and when it reports instances of AI models attacking real-world targets. The acknowledgement comes as the company manages the fallout from reports that a swarm of its out-of-control agents hijacked a German wiki site. Regarding the \"'wiki incident,' where our age"
+  }
+]

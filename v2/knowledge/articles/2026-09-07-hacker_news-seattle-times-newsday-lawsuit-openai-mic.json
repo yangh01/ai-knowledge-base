@@ -1,0 +1,20 @@
+{
+  "id": "70ac7a8b-2300-451c-b0d2-86a784cab4c4",
+  "title": "《西雅图时报》与《新闻日报》起诉OpenAI和微软侵犯版权",
+  "source": "hacker_news",
+  "source_url": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
+  "summary": "《西雅图时报》和《新闻日报》成为最新起诉OpenAI和微软的媒体机构，指控其未经许可使用新闻报道作为AI模型训练数据，并在用户查询时经常复制报道内容。这起诉讼反映了新闻行业与AI公司之间日益加剧的版权冲突，涉及生成式AI技术对原创内容的依赖与合理使用边界问题。案件可能对AI训练数据的合法获取方式、版权法在AI时代的适用性以及新闻机构的商业利益保护产生重要影响。",
+  "tags": [
+    "版权",
+    "OpenAI",
+    "微软",
+    "新闻媒体",
+    "AI训练数据"
+  ],
+  "importance": "high",
+  "status": "analyzed",
+  "fetched_at": "2026-09-07T13:47:41+00:00",
+  "analyzed_at": "2026-09-07T13:47:41+00:00",
+  "summary_en": "The Seattle Times and Newsday have filed a lawsuit against OpenAI and Microsoft, alleging copyright infringement for using their journalism as training data without permission and reproducing passages in AI responses. This case highlights the growing tension between news publishers and AI companies over content usage, potentially shaping future legal standards for AI training data and copyright.",
+  "score": 8
+}

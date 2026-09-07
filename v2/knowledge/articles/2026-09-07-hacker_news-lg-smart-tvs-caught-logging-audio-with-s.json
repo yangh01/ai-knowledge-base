@@ -1,0 +1,20 @@
+{
+  "id": "764a3683-c96c-4bbb-b36f-461a533d047a",
+  "title": "LG智能电视被曝在屏幕关闭时记录音频并探测本地设备",
+  "source": "hacker_news",
+  "source_url": "https://www.notebookcheck.net/LG-smart-TVs-caught-logging-audio-with-screen-off-and-snooping-on-local-devices.1391214.0.html",
+  "summary": "据NotebookCheck报道，LG智能电视被发现存在隐私问题：即使在屏幕关闭的情况下，电视仍会记录音频，并主动扫描和探测本地网络中的其他设备。这一行为引发了用户对隐私安全的担忧。报道指出，LG电视的语音识别功能可能始终处于监听状态，且电视会向LG服务器发送数据，包括音频片段和设备信息。此外，电视还会主动探测局域网内的其他设备，如智能手机、电脑等，以收集设备信息。这些行为未明确告知用户，且缺乏透明的隐私政策。该问题在Hacker News上引发热议，获得402分和232条评论，表明社区对此高度关注。用户普遍认为，智能电视的隐私设置应更透明，并建议用户关闭不必要的语音功能或使用网络隔离措施。目前LG尚未对此事做出正式回应。",
+  "tags": [
+    "LG智能电视",
+    "隐私泄露",
+    "语音监听",
+    "网络探测",
+    "智能家居安全"
+  ],
+  "importance": "high",
+  "status": "analyzed",
+  "fetched_at": "2026-09-07T13:47:41+00:00",
+  "analyzed_at": "2026-09-07T13:47:41+00:00",
+  "summary_en": "LG smart TVs have been found to log audio even when the screen is off and actively probe local network devices, raising privacy concerns. The TVs' voice recognition may always be listening, sending audio clips and device info to LG servers without clear user consent. The issue sparked discussion on Hacker News with 402 points and 232 comments, highlighting the need for transparent privacy practices and user control over smart TV features.",
+  "score": 8
+}

@@ -1,0 +1,20 @@
+{
+  "id": "1a6880b9-b86f-4506-92c0-42099f4c17aa",
+  "title": "Navier-Stokes方程研究进展：Tristan Buckmaster的学术陈述",
+  "source": "hacker_news",
+  "source_url": "https://cims.nyu.edu/~tristanb/statement.pdf",
+  "summary": "该内容为Tristan Buckmaster在纽约大学Courant数学科学研究所发布的学术陈述PDF，主要围绕Navier-Stokes方程的研究。Navier-Stokes方程是流体力学中的核心偏微分方程，描述粘性流体的运动。Buckmaster是国际知名的数学家，在流体动力学和偏微分方程领域有重要贡献，尤其以对Navier-Stokes方程正则性和奇点问题的研究著称。该陈述可能总结了他在该领域的最新成果，包括对Navier-Stokes方程弱解的非唯一性、湍流模型以及Onsager猜想等关键问题的突破性进展。这些研究对理解流体运动的数学理论、解决千禧年大奖难题之一的Navier-Stokes方程光滑性问题具有重要意义。内容在Hacker News上获得316分和175条评论，表明其受到技术社区的高度关注。",
+  "tags": [
+    "Navier-Stokes方程",
+    "偏微分方程",
+    "流体力学",
+    "数学研究",
+    "千禧年问题"
+  ],
+  "importance": "high",
+  "status": "analyzed",
+  "fetched_at": "2026-09-08T12:23:00+00:00",
+  "analyzed_at": "2026-09-08T12:23:00+00:00",
+  "summary_en": "This content is an academic statement by Tristan Buckmaster, published as a PDF at NYU's Courant Institute, focusing on the Navier-Stokes equations. Buckmaster is a renowned mathematician known for contributions to fluid dynamics and PDEs, particularly on regularity and singularity issues of Navier-Stokes. The statement likely summarizes his recent breakthroughs, including non-uniqueness of weak solutions, turbulence models, and Onsager's conjecture. These results are crucial for understanding fluid motion mathematically and for solving the Millennium Prize problem on Navier-Stokes smoothness. The content gained 316 points and 175 comments on Hacker News, indicating high interest from the technical community.",
+  "score": 9
+}

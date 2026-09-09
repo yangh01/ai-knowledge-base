@@ -1,0 +1,20 @@
+{
+  "id": "a4ccba24-0a06-48ed-8517-327ac6463ff7",
+  "title": "GPT-5.6 Sol与Codex在量子计算实验中的自主应用",
+  "source": "hacker_news",
+  "source_url": "https://openai.com/index/codex-quantum-computing-experiments",
+  "summary": "本文介绍了MIT研究员如何利用OpenAI的GPT-5.6 Sol模型与Codex工具，自主运行量子计算实验、分析实验结果并校准量子比特。该研究展示了大型语言模型在科学计算自动化中的潜力，特别是在量子计算这一高度专业化的领域。通过自然语言指令，GPT-5.6 Sol能够控制实验设备、编写和修改代码、处理数据，并根据结果进行迭代优化。这一应用显著降低了量子实验的操作门槛，提高了实验效率，并可能加速量子计算技术的研发进程。文章强调了AI与量子计算交叉领域的创新前景，但未提供具体实验细节或性能数据。",
+  "tags": [
+    "GPT-5.6",
+    "量子计算",
+    "Codex",
+    "自动化实验",
+    "AI科学应用"
+  ],
+  "importance": "high",
+  "status": "analyzed",
+  "fetched_at": "2026-09-09T12:34:41+00:00",
+  "analyzed_at": "2026-09-09T12:34:41+00:00",
+  "summary_en": "This article describes how an MIT researcher uses OpenAI's GPT-5.6 Sol model with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits. The work demonstrates the potential of large language models in automating scientific workflows, particularly in the specialized field of quantum computing. Through natural language instructions, GPT-5.6 Sol can control experimental equipment, write and modify code, process data, and iteratively optimize based on results. This application lowers the barrier to operating quantum experiments, improves efficiency, and may accelerate quantum computing research. The article highlights the innovative intersection of AI and quantum computing but lacks specific experimental details or performance metrics.",
+  "score": 8
+}

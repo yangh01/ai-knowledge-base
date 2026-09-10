@@ -1,0 +1,20 @@
+{
+  "id": "2d8856ea-6e1b-4fe0-875d-8d18e51bf6b1",
+  "title": "数学家要求OpenAI证明未使用其未发表成果",
+  "source": "hacker_news",
+  "source_url": "https://www.theverge.com/ai-artificial-intelligence/993263/where-does-openai-get-mathematics-training-data",
+  "summary": "近日，又一位数学家公开质疑OpenAI，要求其证明在训练日益强大的数学模型时，没有使用未发表的学术成果。此前数日，已有关于OpenAI模型是否受益于未公开研究的激烈争论。这位数学家的指控进一步加剧了围绕AI训练数据来源的争议，特别是涉及数学领域时，未发表的工作往往具有高度价值。OpenAI尚未对此作出详细回应。事件引发了对AI公司数据获取伦理和透明度的广泛关注，尤其是在学术领域，未发表成果的使用可能涉及知识产权和学术诚信问题。随着AI模型在数学发现上表现越来越出色，训练数据的合法性和透明度成为亟待解决的焦点。",
+  "tags": [
+    "OpenAI",
+    "训练数据",
+    "数学研究",
+    "学术伦理",
+    "知识产权"
+  ],
+  "importance": "high",
+  "status": "analyzed",
+  "fetched_at": "2026-09-10T12:29:14+00:00",
+  "analyzed_at": "2026-09-10T12:29:14+00:00",
+  "summary_en": "Another mathematician has publicly challenged OpenAI, demanding proof that its models did not use unpublished academic work in training. This follows a recent bitter dispute over whether OpenAI's models benefited from non-public research. The accusation intensifies the debate over AI training data provenance, especially in mathematics, where unpublished work can be highly valuable. OpenAI has not yet responded in detail. The incident raises broader concerns about ethics and transparency in AI data acquisition, particularly regarding intellectual property and academic integrity in academia. As AI models excel in mathematical discovery, the legality and transparency of training data become critical issues.",
+  "score": 8
+}

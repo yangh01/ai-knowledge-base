@@ -1,0 +1,20 @@
+{
+  "id": "48d6446b-9549-47e3-b61b-09638704e13f",
+  "title": "Slack 推出新功能：可在聊天中通过 AI 构建交互式图表和报告",
+  "source": "hacker_news",
+  "source_url": "https://www.theverge.com/tech/989853/slackforce-surfaces-launch",
+  "summary": "Slack 即将推出一项名为 Slackforce Surfaces 的新功能，允许用户直接在聊天界面中构建交互式报告、投票、仪表盘、演示文稿、微型网站等工具。用户只需向 Slackbot 描述需求，该功能便会利用 AI 从相关对话中收集信息并自动生成所需内容。这一功能旨在将 Slack 从单纯的沟通工具扩展为轻量级应用构建平台，提升团队协作和信息整合效率。该功能由 The Verge 报道，具体上线时间尚未公布。",
+  "tags": [
+    "Slack",
+    "AI",
+    "协作工具",
+    "低代码",
+    "交互式报告"
+  ],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-09-11T12:26:31+00:00",
+  "analyzed_at": "2026-09-11T12:26:31+00:00",
+  "summary_en": "Slack is introducing a new feature called Slackforce Surfaces that allows users to build interactive reports, polls, dashboards, presentations, microsites, and other tools directly within a chat. Users can describe their needs to Slackbot, and the feature uses AI to gather information from relevant conversations. This aims to transform Slack from a communication tool into a lightweight app-building platform, enhancing team collaboration and information integration. The feature was reported by The Verge, with a launch date yet to be announced.",
+  "score": 7
+}

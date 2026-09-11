@@ -1,0 +1,20 @@
+{
+  "id": "63828142-3e12-41e3-98f3-f4e76d61931d",
+  "title": "研究人员利用Codex和ChatGPT从现存与灭绝基因组中寻找新型抗菌分子",
+  "source": "hacker_news",
+  "source_url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+  "summary": "OpenAI发布案例研究，介绍César de la Fuente实验室利用Codex和ChatGPT加速抗菌肽的发现。该实验室通过AI模型分析现存及已灭绝生物的基因组数据，预测并筛选具有抗菌活性的候选分子，以应对日益严重的耐药性感染问题。Codex用于自动化生成和优化代码，处理大规模基因组数据；ChatGPT则辅助文献分析、假设生成和实验设计。这一方法将传统需要数年的抗菌分子发现周期大幅缩短，展示了生成式AI在生物医学研究中的实际应用潜力，为抗生素研发提供了新范式。",
+  "tags": [
+    "AI药物发现",
+    "抗菌肽",
+    "基因组挖掘",
+    "Codex",
+    "ChatGPT"
+  ],
+  "importance": "high",
+  "status": "analyzed",
+  "fetched_at": "2026-09-11T12:26:31+00:00",
+  "analyzed_at": "2026-09-11T12:26:31+00:00",
+  "summary_en": "OpenAI presents a case study on how César de la Fuente's lab uses Codex and ChatGPT to accelerate the discovery of antimicrobial peptides. The lab analyzes genomic data from living and extinct organisms to predict and screen for antimicrobial candidates to combat drug-resistant infections. Codex automates code generation and optimization for large-scale genomic data processing, while ChatGPT assists with literature analysis, hypothesis generation, and experimental design. This approach significantly shortens the traditional years-long discovery cycle for antimicrobial molecules, demonstrating the practical potential of generative AI in biomedical research and offering a new paradigm for antibiotic development.",
+  "score": 9
+}

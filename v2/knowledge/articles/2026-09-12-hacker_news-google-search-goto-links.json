@@ -1,0 +1,20 @@
+{
+  "id": "f247d11f-82c2-4cbb-8eb1-0667bdb7658d",
+  "title": "google.com/goto：谷歌的反爬虫更新",
+  "source": "hacker_news",
+  "source_url": "https://www.autom.dev/blog/google-search-goto-links",
+  "summary": "这篇文章讨论了谷歌搜索结果中出现的 google.com/goto 链接形式，这被视为谷歌针对爬虫和自动化抓取行为的一项反爬虫更新。文章指出，谷歌将搜索结果中的跳转链接改为经由 google.com/goto 重定向，使得爬虫难以直接获取目标 URL，也增加了自动化工具解析搜索结果的难度。该变化在 Hacker News 上引发广泛讨论，获得 459 分和 361 条评论，社区关注点集中在反爬虫机制对合法抓取、SEO 工具、隐私以及搜索引擎开放性的影响。总体而言，这是谷歌在搜索链接层面加强反自动化访问的一次技术调整。",
+  "tags": [
+    "反爬虫",
+    "谷歌搜索",
+    "网络抓取",
+    "SEO",
+    "隐私"
+  ],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-09-12T11:47:40+00:00",
+  "analyzed_at": "2026-09-12T11:47:40+00:00",
+  "summary_en": "This article discusses the appearance of google.com/goto links in Google search results, which is seen as an anti-scraping update by Google. Instead of exposing direct destination URLs, Google routes search result clicks through a google.com/goto redirect, making it harder for scrapers and automated tools to extract target URLs or parse search results at scale. The change sparked extensive discussion on Hacker News, receiving 459 points and 361 comments, with the community debating its impact on legitimate scraping, SEO tooling, privacy, and the openness of search results. Overall, it represents a technical adjustment by Google to strengthen anti-automation controls at the search-link level.",
+  "score": 6
+}

@@ -1,0 +1,20 @@
+{
+  "id": "ba8c283e-ccec-4692-a835-80afb5b070cc",
+  "title": "微软发布人文主义AI行为准则，强调人比AI更重要",
+  "source": "hacker_news",
+  "source_url": "https://www.theverge.com/news/994566/microsoft-humanist-ai-code-of-conduct",
+  "summary": "微软今日发布了一份长达37页的“人文主义AI行为准则”，旨在应对日益增长的AI模型安全担忧。此举正值AI安全争议升温之际：Anthropic CEO Dario Amodei于上周末呼吁协调放缓AI开发速度，此前有研究人员警告AI模型进展可能超出社会适应能力。微软的准则强调“人比AI更重要”，试图在推动AI创新的同时，确保技术发展符合人类价值观和安全要求。该准则的发布反映了科技巨头在AI伦理和安全治理方面的最新努力，可能为行业树立新的自律标准。",
+  "tags": [
+    "AI伦理",
+    "微软",
+    "AI安全",
+    "行为准则",
+    "技术治理"
+  ],
+  "importance": "high",
+  "status": "analyzed",
+  "fetched_at": "2026-09-14T14:33:45+00:00",
+  "analyzed_at": "2026-09-14T14:33:45+00:00",
+  "summary_en": "Microsoft today published a 37-page 'humanist AI code of conduct' amid growing safety concerns over AI model progress. Anthropic CEO Dario Amodei called for a coordinated slowdown of AI development over the weekend, after researchers warned that AI model progress could outpace our ability to adapt. Microsoft's code emphasizes that 'people matter more than AI,' aiming to ensure technology development aligns with human values and safety requirements while promoting innovation. The release reflects the latest efforts by tech giants in AI ethics and safety governance, potentially setting a new self-regulatory standard for the industry.",
+  "score": 8
+}

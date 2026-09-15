@@ -1,0 +1,20 @@
+{
+  "id": "bf5d428d-8bd9-4f60-b158-da14e0c6889a",
+  "title": "Fyxer 如何打造值得信赖的 AI 行政助理",
+  "source": "hacker_news",
+  "source_url": "https://openai.com/index/fyxer",
+  "summary": "Fyxer 利用 OpenAI 的模型、微调技术、记忆机制以及真实用户反馈，构建了一款能够整理收件箱并以用户个人风格起草电子邮件的 AI 行政助理。该产品通过持续学习用户偏好和写作习惯，旨在提供高度个性化的邮件管理体验，从而提升工作效率并赢得用户信任。",
+  "tags": [
+    "AI 助理",
+    "邮件管理",
+    "OpenAI",
+    "个性化",
+    "微调"
+  ],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-09-15T12:59:13+00:00",
+  "analyzed_at": "2026-09-15T12:59:13+00:00",
+  "summary_en": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user's voice. The product aims to provide a highly personalized email management experience by continuously learning user preferences and writing styles, thereby improving efficiency and building trust.",
+  "score": 7
+}

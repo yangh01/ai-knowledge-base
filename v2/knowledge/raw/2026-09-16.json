@@ -1,0 +1,82 @@
+[
+  {
+    "title": "openclaw/openclaw",
+    "url": "https://github.com/openclaw/openclaw",
+    "source": "github",
+    "popularity": {
+      "stars": 389836
+    },
+    "summary": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 "
+  },
+  {
+    "title": "obra/superpowers",
+    "url": "https://github.com/obra/superpowers",
+    "source": "github",
+    "popularity": {
+      "stars": 287456
+    },
+    "summary": "An agentic skills framework & software development methodology that works."
+  },
+  {
+    "title": "mattpocock/skills",
+    "url": "https://github.com/mattpocock/skills",
+    "source": "github",
+    "popularity": {
+      "stars": 263311
+    },
+    "summary": "Skills for Real Engineers. Straight from my .agents directory."
+  },
+  {
+    "title": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "source": "github",
+    "popularity": {
+      "stars": 259753
+    },
+    "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+  },
+  {
+    "title": "NousResearch/hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "source": "github",
+    "popularity": {
+      "stars": 246047
+    },
+    "summary": "The agent that grows with you"
+  },
+  {
+    "title": "EU chief opens door for Canada to become 'associate member'",
+    "url": "https://www.bbc.com/news/articles/cjwyzrr9d3dko",
+    "source": "rss",
+    "popularity": {},
+    "summary": "Article URL: https://www.bbc.com/news/articles/cjwyzrr9d3dko\nComments URL: https://news.ycombinator.com/item?id=49724141\nPoints: 386\n# Comments: 380"
+  },
+  {
+    "title": "How Fyxer built an AI executive assistant people trust",
+    "url": "https://openai.com/index/fyxer",
+    "source": "rss",
+    "popularity": {},
+    "summary": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice."
+  },
+  {
+    "title": "Your Agent Aced the Task. Will It Do It Again?",
+    "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+    "source": "rss",
+    "popularity": {},
+    "summary": ""
+  },
+  {
+    "title": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
+    "url": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
+    "source": "rss",
+    "popularity": {},
+    "summary": ""
+  },
+  {
+    "title": "A brief history of AI executives calling for regulation",
+    "url": "https://www.theverge.com/policy/995534/a-brief-history-of-ai-executives-calling-for-regulation",
+    "source": "rss",
+    "popularity": {},
+    "summary": "Over the past few days, a lot of people who stand to make a lot of money from AI all publicly agreed that it's time to make everyone slow down before we lose control - including OpenAI CEO Sam Altman, Anthropic CEO Dario Amodei, Google DeepMind cofounder Demis Hassabis, Microsoft CEO Satya Nadella, "
+  }
+]

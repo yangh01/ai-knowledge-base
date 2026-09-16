@@ -1,0 +1,19 @@
+{
+  "id": "4a1f6521-4284-4ce1-8343-2761d688cab3",
+  "title": "AI高管呼吁监管简史",
+  "source": "hacker_news",
+  "source_url": "https://www.theverge.com/policy/995534/a-brief-history-of-ai-executives-calling-for-regulation",
+  "summary": "过去几天，多位从AI中获利丰厚的高管公开一致认为，在失去控制之前，是时候让所有人放慢脚步了。这些高管包括OpenAI CEO Sam Altman、Anthropic CEO Dario Amodei、Google DeepMind联合创始人Demis Hassabis、微软CEO Satya Nadella等。文章回顾了AI高管呼吁监管的历史，指出这些呼吁往往来自既得利益者，可能旨在塑造有利于自身的监管环境，而非真正减缓AI发展。",
+  "tags": [
+    "AI监管",
+    "科技政策",
+    "行业动态",
+    "AI伦理"
+  ],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-09-16T12:56:16+00:00",
+  "analyzed_at": "2026-09-16T12:56:16+00:00",
+  "summary_en": "Over the past few days, many people who stand to make a lot of money from AI have publicly agreed that it's time to make everyone slow down before we lose control - including OpenAI CEO Sam Altman, Anthropic CEO Dario Amodei, Google DeepMind cofounder Demis Hassabis, Microsoft CEO Satya Nadella, and others. The article reviews the history of AI executives calling for regulation, noting that these calls often come from those with vested interests and may aim to shape a regulatory environment favorable to themselves rather than genuinely slowing down AI development.",
+  "score": 6
+}

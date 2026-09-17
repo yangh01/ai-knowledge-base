@@ -1,0 +1,20 @@
+{
+  "id": "da45db74-7510-417e-b650-88dd67d6a22a",
+  "title": "OpenAI 与 AARP 合作帮助老年人学习使用 AI",
+  "source": "hacker_news",
+  "source_url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+  "summary": "OpenAI 宣布与非营利组织 AARP 合作，在美国 10 个城市为 1000 名老年人提供免费的 ChatGPT 实操工作坊。该计划旨在帮助老年群体建立实用的 AI 技能，并确保他们能够安全地使用人工智能工具。工作坊采用动手实践的形式，让参与者直接体验 ChatGPT 的功能，学习如何在日常生活中应用 AI。此举反映了 AI 技术普及过程中对数字鸿沟问题的关注，尤其是老年人在新技术采纳方面面临的挑战。通过与企业和社会组织的合作，OpenAI 试图扩大其技术的可及性，同时推动 AI 素养的普及。该计划也体现了 AI 行业在推动负责任使用和包容性发展方面的努力。",
+  "tags": [
+    "AI 普及",
+    "老年人",
+    "数字鸿沟",
+    "ChatGPT",
+    "AI 素养"
+  ],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-09-17T12:52:38+00:00",
+  "analyzed_at": "2026-09-17T12:52:38+00:00",
+  "summary_en": "OpenAI and AARP are partnering to bring free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities. The initiative aims to build practical AI skills and promote safe use of AI tools among seniors. The workshops offer hands-on experience with ChatGPT, helping participants apply AI in everyday life. This effort highlights growing attention to the digital divide and the challenges older adults face in adopting new technologies. By collaborating with a major advocacy group, OpenAI seeks to broaden access to its technology and advance AI literacy, reflecting the industry's push for responsible and inclusive AI adoption.",
+  "score": 6
+}

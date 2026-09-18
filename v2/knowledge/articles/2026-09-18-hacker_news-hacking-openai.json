@@ -1,0 +1,20 @@
+{
+  "id": "52f848ef-0001-455f-a201-8b3c4be67e4a",
+  "title": "堆溢出与SSO配置错误导致OpenAI内部仓库被入侵",
+  "source": "hacker_news",
+  "source_url": "https://www.hacktron.ai/blog/hacking-openai",
+  "summary": "该文章披露了一次针对OpenAI内部代码仓库的攻击链，结合了堆溢出漏洞与单点登录（SSO）配置错误两个弱点。攻击者首先利用堆溢出实现内存破坏，可能获得代码执行或权限提升；随后借助SSO配置不当绕过身份验证，横向移动至内部仓库。文章在Hacker News上获得371点热度与159条评论，引发对AI公司内部基础设施安全性的讨论。核心教训包括：内存安全漏洞仍是高危入口，SSO等身份基础设施的配置审计不可忽视，以及内部代码仓库应实施最小权限与网络隔离。该事件凸显AI企业在快速迭代中面临的安全债务，对依赖类似架构的组织具有警示意义。",
+  "tags": [
+    "安全漏洞",
+    "堆溢出",
+    "SSO配置错误",
+    "OpenAI",
+    "内部仓库安全"
+  ],
+  "importance": "high",
+  "status": "analyzed",
+  "fetched_at": "2026-09-18T12:28:28+00:00",
+  "analyzed_at": "2026-09-18T12:28:28+00:00",
+  "summary_en": "The article discloses an attack chain against OpenAI's internal code repositories that combined a heap overflow vulnerability with a single sign-on (SSO) misconfiguration. The attacker first exploited the heap overflow to achieve memory corruption, potentially leading to code execution or privilege escalation, and then abused the SSO misconfiguration to bypass authentication and move laterally into internal repositories. The story gained 371 points and 159 comments on Hacker News, sparking discussion about the security of AI companies' internal infrastructure. Key takeaways include: memory safety flaws remain a high-risk entry point, configuration audits of identity infrastructure such as SSO must not be neglected, and internal code repositories should enforce least privilege and network isolation. The incident highlights the security debt AI organizations face during rapid iteration and serves as a warning to others with similar architectures.",
+  "score": 8
+}

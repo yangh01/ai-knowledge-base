@@ -1,0 +1,20 @@
+{
+  "id": "76fe2e54-0253-4dd6-8736-f0d3bfe4d50b",
+  "title": "Cooley 如何利用 ChatGPT 加速 IPO 工作",
+  "source": "hacker_news",
+  "source_url": "https://openai.com/index/cooley-gopublic",
+  "summary": "Cooley 是一家知名律师事务所，其构建了名为 GO Public 的工具，并借助 ChatGPT Work 将智能能力引入 IPO（首次公开募股）流程。该工具的核心目标是帮助律师更早地发现潜在问题，并将专业判断力集中在最关键的事项上。通过将 ChatGPT 的能力嵌入 IPO 工作流，Cooley 希望提升法律审查的效率和准确性，减少人工重复性劳动，同时让律师能够更专注于需要经验与判断的高价值环节。这一案例展示了生成式 AI 在法律与资本市场服务领域的实际应用，尤其是在高度复杂、文档密集且时间敏感的 IPO 场景中，AI 可作为辅助工具提升问题识别速度与工作质量。整体来看，该实践反映了专业服务机构正积极探索将大语言模型融入核心业务流程，以增强竞争力并优化客户服务体验。",
+  "tags": [
+    "ChatGPT",
+    "IPO",
+    "法律科技",
+    "生成式AI",
+    "专业服务"
+  ],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-09-18T12:28:28+00:00",
+  "analyzed_at": "2026-09-18T12:28:28+00:00",
+  "summary_en": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most. This case illustrates how a leading law firm applies generative AI to a complex, document-heavy, and time-sensitive capital markets workflow, aiming to improve issue detection and allow lawyers to concentrate on high-value judgment tasks.",
+  "score": 7
+}

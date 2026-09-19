@@ -1,0 +1,20 @@
+{
+  "id": "0bf4cb68-ac45-44a0-8c4e-6ea4311a4709",
+  "title": "OpenAI与微软内部文件承认AI训练引发网络“末日循环”",
+  "source": "hacker_news",
+  "source_url": "https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero",
+  "summary": "最新解封的法庭文件显示，在《纽约时报》诉OpenAI和微软一案中，两家公司的内部文档警告称，其AI模型训练正在引发一个“末日循环”，将对网络生态造成损害。文件将大规模抓取数据训练模型的行为描述为“史上最大规模的劳动窃取”。这些内部通信表明，OpenAI和微软在推进AI技术时，已预见到对内容创作者和开放网络的潜在破坏性影响，但仍继续实施。此案可能对AI数据使用的法律和伦理标准产生深远影响。",
+  "tags": [
+    "AI伦理",
+    "版权诉讼",
+    "数据抓取",
+    "OpenAI",
+    "微软"
+  ],
+  "importance": "high",
+  "status": "analyzed",
+  "fetched_at": "2026-09-19T12:09:10+00:00",
+  "analyzed_at": "2026-09-19T12:09:10+00:00",
+  "summary_en": "Recently unsealed court documents in the New York Times' case against OpenAI and Microsoft reveal that the companies' own internal documentation warned of starting a 'doom loop' that would damage the web. The documents characterize their scraping of data to train AI models as the 'largest theft of labor in history.' These internal communications indicate that both companies were aware of the potential destructive impact on content creators and the open web but proceeded anyway. The case could have far-reaching implications for legal and ethical standards in AI data usage.",
+  "score": 8
+}

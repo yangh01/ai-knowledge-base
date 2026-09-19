@@ -1,0 +1,20 @@
+{
+  "id": "9f0ac8de-ecf7-4be9-ba50-cc9239454ef6",
+  "title": "AI生成的活动海报不必难看",
+  "source": "hacker_news",
+  "source_url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
+  "summary": "本文是作者 John Hartnup 于 2026 年 6 月 7 日发布的一篇博客文章，讨论如何利用 AI 生成质量尚可、不令人反感的活动海报。文章在 Hacker News 上引发广泛讨论，获得 248 分和 164 条评论，说明该话题在技术社区中具有较高关注度。文章的核心观点是：AI 生成海报之所以常常显得糟糕，并非模型能力不足，而是提示词设计、排版控制、字体处理和视觉层次等环节缺乏人工干预与审美把控。作者可能分享了具体的工作流程、工具组合或提示技巧，说明如何通过迭代、约束和后期调整，让 AI 输出可用于真实活动宣传的海报，而不是充满拼写错误、构图混乱和风格割裂的失败案例。该内容属于生成式 AI 在平面设计领域的应用实践，对设计师、活动组织者和 AI 工具使用者具有参考价值。由于原文正文未提供，摘要基于标题、来源和社区热度进行客观概括。",
+  "tags": [
+    "AI生成设计",
+    "海报设计",
+    "生成式AI",
+    "提示工程",
+    "Hacker News"
+  ],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-09-19T12:09:10+00:00",
+  "analyzed_at": "2026-09-19T12:09:10+00:00",
+  "summary_en": "This is a blog post by John Hartnup published on June 7, 2026, discussing how to use AI to generate event posters that are not horrible. The article gained significant attention on Hacker News with 248 points and 164 comments, indicating strong interest from the tech community. The core argument is that AI-generated posters often look bad not because of model limitations, but due to poor prompt design, lack of typographic control, font handling issues, and weak visual hierarchy. The author likely shares a workflow, toolset, or prompting techniques for iterating, constraining, and post-editing AI outputs so they become usable for real event promotion rather than error-ridden, poorly composed failures. This falls under generative AI applications in graphic design and is useful for designers, event organizers, and AI tool users. Since the full text is not provided, this summary is based on the title, source, and community engagement.",
+  "score": 6
+}

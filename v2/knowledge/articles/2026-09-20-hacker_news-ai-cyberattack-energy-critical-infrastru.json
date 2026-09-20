@@ -1,0 +1,20 @@
+{
+  "id": "a57c8664-98fa-4716-875e-28dd517654e5",
+  "title": "人类而非失控AI仍是能源系统最大网络安全风险",
+  "source": "hacker_news",
+  "source_url": "https://www.theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure",
+  "summary": "近期备受瞩目的黑客攻击引发了AI可能“杀死所有人类”的担忧，但能源系统早已在网络安全攻击面前脆弱不堪，且风险正在加剧。专家Joshua Corman指出，我们一直是猎物，只是勉强在捕食者的胃口下生存。文章强调，尽管AI可能带来新的攻击手段，但当前能源系统面临的最大威胁仍是人类攻击者，而非失控的AI。能源基础设施的脆弱性、老旧系统以及人为因素共同构成了主要风险，需要优先关注人为失误、内部威胁和针对性攻击。",
+  "tags": [
+    "网络安全",
+    "能源系统",
+    "AI风险",
+    "关键基础设施",
+    "人为因素"
+  ],
+  "importance": "high",
+  "status": "analyzed",
+  "fetched_at": "2026-09-20T12:44:55+00:00",
+  "analyzed_at": "2026-09-20T12:44:55+00:00",
+  "summary_en": "Recent high-profile hacks have raised fears of AI potentially 'killing all humans,' but energy systems were already disturbingly vulnerable to cyberattacks, and the risk is growing. 'We were always prey. We were just kind of surviving at the appetite of our predators,' said Joshua Corman. The article emphasizes that despite AI potentially enabling new attack methods, the biggest threat to energy systems today remains human attackers, not rogue AI. Vulnerabilities in energy infrastructure, legacy systems, and human factors collectively pose the primary risk, requiring priority attention to human error, insider threats, and targeted attacks.",
+  "score": 8
+}

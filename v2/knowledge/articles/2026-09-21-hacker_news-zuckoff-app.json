@@ -1,0 +1,20 @@
+{
+  "id": "f9f557dd-4f1b-4869-86f8-d04b0e71fdc5",
+  "title": "ZuckOff：检测房间内是否存在摄像头",
+  "source": "hacker_news",
+  "source_url": "https://zuckoff.app/",
+  "summary": "ZuckOff 是一个在 Hacker News 上引发广泛讨论的项目，其名称带有对 Meta 首席执行官马克·扎克伯格的调侃意味，核心功能是帮助用户判断当前房间内是否存在摄像头。该条目在 HN 上获得 476 分和 198 条评论，显示出较高的社区关注度。从标题和链接来看，该项目很可能是一个网页应用或工具，用户可通过访问 zuckoff.app 使用。其技术原理可能涉及检测设备摄像头状态、扫描网络中的摄像头设备、分析 Wi-Fi 信号或利用浏览器 API 感知摄像头活动等。由于原始内容仅包含链接和 HN 讨论入口，未提供具体实现细节，因此无法确认其检测机制、准确率、隐私政策及适用平台。该话题之所以受关注，与公众对隐私监控、智能设备摄像头滥用的担忧密切相关，尤其是在智能家居和远程办公普及的背景下。HN 评论可能涉及技术可行性、隐私伦理、误报问题以及类似开源方案的对比。总体而言，这是一个面向隐私保护的工具型项目，技术价值中等，但社会关注度较高。",
+  "tags": [
+    "隐私保护",
+    "摄像头检测",
+    "Hacker News",
+    "开源工具",
+    "监控安全"
+  ],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-09-21T14:41:06+00:00",
+  "analyzed_at": "2026-09-21T14:41:06+00:00",
+  "summary_en": "ZuckOff is a project that gained significant attention on Hacker News, with its name playfully referencing Meta CEO Mark Zuckerberg. Its core purpose is to help users determine whether a camera is present in the room. The submission received 476 points and 198 comments, indicating strong community interest. Based on the title and link, it is likely a web app or tool accessible via zuckoff.app. Its technical approach may involve detecting camera status, scanning for networked camera devices, analyzing Wi-Fi signals, or using browser APIs to sense camera activity. Since the original content only includes links and an HN discussion entry, specific implementation details, accuracy, privacy policy, and supported platforms cannot be confirmed. The topic resonates due to growing public concern over surveillance and camera misuse in smart homes and remote work environments. HN comments may cover technical feasibility, privacy ethics, false positives, and comparisons with similar open-source solutions. Overall, it is a privacy-oriented tool with moderate technical value but high social relevance.",
+  "score": 6
+}

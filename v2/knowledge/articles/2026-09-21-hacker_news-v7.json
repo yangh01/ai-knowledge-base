@@ -1,0 +1,20 @@
+{
+  "id": "655ef075-876f-415e-96a9-ef7e46e81f75",
+  "title": "V7 如何为 AI 智能体构建机构记忆",
+  "source": "hacker_news",
+  "source_url": "https://openai.com/index/v7",
+  "summary": "OpenAI 发布的一篇介绍性文章指出，V7 借助 GPT-5.6 模型，将企业内部散落各处的文件整合为可供 AI 智能体使用的上下文，从而赋予智能体所谓的“机构记忆”。其核心思路是：企业日常积累的大量文档、资料往往分散在不同系统和格式中，难以被 AI 直接利用；V7 通过将这些零散文件转化为结构化、可检索的上下文，使智能体能够完成复杂的、需要引用来源的工作，并保证输出内容可溯源到原始文件。文章强调“source-linked work”，即智能体在执行任务时能够关联并引用具体来源，提升结果的可信度与可审计性。该方案面向企业级 AI 应用场景，试图解决智能体缺乏长期组织知识、难以处理复杂业务流程的痛点，让 AI 从通用助手转变为具备企业上下文理解能力的执行者。整体来看，这是 OpenAI 在智能体与企业知识管理结合方向上的一次产品化展示，重点在于上下文构建与来源可追溯，而非模型本身的推理能力突破。",
+  "tags": [
+    "AI 智能体",
+    "企业知识管理",
+    "GPT-5.6",
+    "上下文工程",
+    "来源可追溯"
+  ],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-09-21T14:41:06+00:00",
+  "analyzed_at": "2026-09-21T14:41:06+00:00",
+  "summary_en": "An OpenAI article explains how V7 uses GPT-5.6 to turn scattered company files into context that AI agents can use to complete complex, source-linked work. The core idea is to convert fragmented enterprise documents into structured, retrievable context, giving agents a form of institutional memory. This enables agents to handle complex tasks while citing and linking back to original sources, improving trust and auditability. The approach targets enterprise AI scenarios where agents lack long-term organizational knowledge, aiming to move AI from general assistant to context-aware executor.",
+  "score": 6
+}

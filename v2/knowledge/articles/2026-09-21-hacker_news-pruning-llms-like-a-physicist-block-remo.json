@@ -1,0 +1,20 @@
+{
+  "id": "dbcfbd5a-2412-4337-a5b4-774e31549f01",
+  "title": "像物理学家一样剪枝大语言模型：将块移除视为伊辛优化问题",
+  "source": "hacker_news",
+  "source_url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
+  "summary": "本文介绍了一种将大语言模型（LLM）结构化剪枝中的块移除问题转化为伊辛优化问题的新方法。传统剪枝方法通常依赖启发式规则或逐层重要性评估，难以捕捉块之间的复杂交互。该工作受统计物理启发，把每个Transformer块的保留或移除建模为二元自旋变量，块之间的联合影响则编码为伊辛模型的耦合项，从而将剪枝目标转化为寻找最低能量态的组合优化问题。作者利用专用硬件或求解器（如模拟退火、量子退火）来高效求解该伊辛问题，以确定在给定稀疏度下最优的块移除集合。文章展示了该方法在保持模型性能的同时实现更高压缩率的潜力，并讨论了将物理优化范式引入LLM压缩领域的优势与挑战。整体而言，该研究为结构化剪枝提供了跨学科的新视角，有望推动更高效、更自动化的模型压缩技术发展。",
+  "tags": [
+    "LLM剪枝",
+    "伊辛模型",
+    "结构化剪枝",
+    "组合优化",
+    "模型压缩"
+  ],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-09-21T14:41:06+00:00",
+  "analyzed_at": "2026-09-21T14:41:06+00:00",
+  "summary_en": "This article presents a novel approach that formulates block removal in structured pruning of large language models (LLMs) as an Ising optimization problem. Traditional pruning methods often rely on heuristics or layer-wise importance scores, which struggle to capture complex interactions among blocks. Inspired by statistical physics, the work models the keep-or-remove decision for each Transformer block as a binary spin variable, and encodes the joint effects between blocks as coupling terms in an Ising model, turning the pruning objective into a combinatorial optimization problem of finding the lowest-energy state. The authors leverage specialized hardware or solvers (e.g., simulated annealing, quantum annealing) to efficiently solve the Ising problem and determine the optimal set of blocks to remove under a given sparsity constraint. The article demonstrates the potential of this method to achieve higher compression rates while maintaining model performance, and discusses the advantages and challenges of bringing physics-based optimization paradigms into LLM compression. Overall, this research offers a cross-disciplinary perspective on structured pruning and may advance more efficient and automated model compression techniques.",
+  "score": 7
+}

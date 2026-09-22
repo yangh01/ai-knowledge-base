@@ -1,0 +1,20 @@
+{
+  "id": "24fc4c9f-aafe-4595-8d20-cd99219e40a0",
+  "title": "OpenAI成立数学与人工智能咨询小组",
+  "source": "hacker_news",
+  "source_url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+  "summary": "OpenAI宣布与一个独立的数学与人工智能咨询小组合作，旨在指导和审查新兴AI成果的评审与传播。该咨询小组由外部专家组成，将协助OpenAI评估AI在数学领域产生的新结果，并确保这些结果的沟通准确、透明。此举反映了OpenAI对AI在数学等基础科学领域日益增长的影响力的重视，以及通过独立专家监督来提升研究可信度的努力。咨询小组的成立可能有助于应对AI生成数学证明或发现新数学猜想等前沿挑战，促进AI与数学社区的协作。",
+  "tags": [
+    "OpenAI",
+    "数学",
+    "人工智能",
+    "咨询小组",
+    "AI治理"
+  ],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-09-22T12:55:42+00:00",
+  "analyzed_at": "2026-09-22T12:55:42+00:00",
+  "summary_en": "OpenAI is collaborating with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results. The advisory group, composed of external experts, will assist OpenAI in evaluating new results produced by AI in mathematics and ensure accurate and transparent communication. This move reflects OpenAI's recognition of AI's growing impact on fundamental sciences like mathematics and its effort to enhance research credibility through independent expert oversight. The group may help address frontier challenges such as AI-generated mathematical proofs or new conjectures, fostering collaboration between AI and the mathematics community.",
+  "score": 6
+}

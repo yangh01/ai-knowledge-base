@@ -1,0 +1,20 @@
+{
+  "id": "b74fa3b5-9c08-4b82-a0af-13874948cacb",
+  "title": "oMLX 创建者 Jun Kim 加入 Hugging Face，支持 MLX 社区发展",
+  "source": "hacker_news",
+  "source_url": "https://huggingface.co/blog/omlx",
+  "summary": "Hugging Face 宣布，oMLX 项目的创建者兼维护者 Jun Kim 已加入 Hugging Face 团队，将专注于支持 MLX 社区。MLX 是苹果公司推出的面向 Apple Silicon 芯片的机器学习框架，旨在为 Mac 设备提供高效的模型训练与推理能力。oMLX 则是基于 MLX 构建的开源项目，致力于简化大语言模型在苹果生态中的部署与运行。Jun Kim 作为 oMLX 的核心开发者，在 MLX 社区中具有重要影响力。此次加入 Hugging Face，意味着 Hugging Face 将进一步加大对 MLX 生态的投入，推动更多模型和工具在 Apple Silicon 平台上的适配与优化。对于开发者而言，这有望带来更完善的 MLX 工具链、更丰富的模型支持以及更活跃的社区协作。此举也反映出 Hugging Face 对多硬件平台战略的重视，继 CUDA、ROCm 等生态之后，MLX 正成为其重点关注的推理与训练后端之一。",
+  "tags": [
+    "MLX",
+    "Hugging Face",
+    "Apple Silicon",
+    "开源社区",
+    "大语言模型"
+  ],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-09-22T12:55:42+00:00",
+  "analyzed_at": "2026-09-22T12:55:42+00:00",
+  "summary_en": "Hugging Face has announced that Jun Kim, creator and maintainer of the oMLX project, has joined the company to support the MLX community. MLX is Apple's machine learning framework designed for Apple Silicon, enabling efficient model training and inference on Mac devices. oMLX is an open-source project built on MLX that aims to simplify the deployment and execution of large language models within the Apple ecosystem. As a core developer of oMLX, Jun Kim has been an influential figure in the MLX community. His move to Hugging Face signals a deeper investment in the MLX ecosystem, promising better tooling, broader model support, and more active community collaboration for developers working on Apple Silicon. This also highlights Hugging Face's multi-platform strategy, positioning MLX alongside CUDA and ROCm as a key backend for inference and training.",
+  "score": 7
+}

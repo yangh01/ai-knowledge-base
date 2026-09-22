@@ -1,0 +1,20 @@
+{
+  "id": "32635149-2c80-41b1-a0ca-5c63d9b7c52a",
+  "title": "我说不，苹果却答应了：Apple Intelligence 的隐私争议",
+  "source": "hacker_news",
+  "source_url": "https://dbushell.com/2026/09/22/apple-intelligence/",
+  "summary": "这篇文章来自开发者 dbushell.com 的博客，标题为《I said no and Apple said yes》，在 Hacker News 上获得 299 分和 222 条评论，引发广泛讨论。文章围绕 Apple Intelligence 展开，核心是作者对苹果 AI 功能中数据使用与隐私授权机制的质疑：用户明确表示拒绝（said no），但苹果的系统或服务却仍然以某种方式接受了数据或启用了相关功能（said yes），形成一种“用户拒绝无效”的隐私悖论。作者可能通过实际测试或系统行为观察，指出 Apple Intelligence 在默认开启、数据收集、模型训练或第三方共享等方面存在与用户预期不符的设计，从而质疑苹果一贯宣传的隐私保护承诺。HN 评论区的热烈讨论进一步放大了这一争议，涉及用户知情权、默认设置伦理、AI 功能边界以及大厂隐私声明的可信度等议题。该文的技术价值在于以具体案例揭示 AI 产品中隐私控制的实际失效，提醒开发者和用户关注系统级 AI 集成的透明度与可选择性。",
+  "tags": [
+    "Apple Intelligence",
+    "隐私",
+    "用户授权",
+    "AI伦理",
+    "Hacker News"
+  ],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-09-22T12:55:42+00:00",
+  "analyzed_at": "2026-09-22T12:55:42+00:00",
+  "summary_en": "This article, titled \"I said no and Apple said yes\" from dbushell.com, sparked a heated discussion on Hacker News with 299 points and 222 comments. It centers on Apple Intelligence and the author's concern that despite explicitly declining or opting out, Apple's system or services still proceeded to accept data or enable certain AI features—a privacy paradox where user refusal appears ineffective. The author likely documents observed system behavior or testing that suggests Apple Intelligence may default to enabling data collection, model training, or third-party sharing in ways that contradict user expectations, challenging Apple's long-standing privacy claims. The HN discussion amplifies issues around informed consent, default-setting ethics, AI feature boundaries, and the credibility of big-tech privacy statements. Its technical value lies in using a concrete case to expose the practical failure of privacy controls in AI products, urging developers and users to scrutinize the transparency and opt-out mechanisms of system-level AI integration.",
+  "score": 7
+}

@@ -1,0 +1,20 @@
+{
+  "id": "59da7909-ade1-456f-896e-e97575321f2d",
+  "title": "OpenAI 招募 Patreon 前高管团队，加码创作者产品战略",
+  "source": "hacker_news",
+  "source_url": "https://www.theverge.com/ai-artificial-intelligence/999249/openai-creators-patreon-execs-hire-sam-yam",
+  "summary": "OpenAI 已聘请三位前 Patreon 高管，以加强其面向创作者的产品战略。Patreon 联合创始人兼技术总监 Sam Yam 在 X 上宣布，他将加入 OpenAI 领导创作者产品部门。Yam 于 13 年前共同创立了创作者订阅平台 Patreon，此次他还将带来 Patreon 的前产品负责人。此举发生在 OpenAI 即将发布新公告之前，表明该公司正积极布局创作者经济领域，可能推出面向内容创作者的 AI 工具或订阅服务。通过引入在创作者订阅和平台运营方面经验丰富的高管，OpenAI 旨在构建更完善的创作者生态系统，与现有平台竞争或合作。这一人事变动反映了 AI 公司对创作者市场的重视，以及将生成式 AI 技术应用于内容创作、分发和变现的趋势。",
+  "tags": [
+    "OpenAI",
+    "创作者经济",
+    "人事变动",
+    "产品战略",
+    "Patreon"
+  ],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-09-23T13:07:21+00:00",
+  "analyzed_at": "2026-09-23T13:07:21+00:00",
+  "summary_en": "OpenAI has hired three former Patreon executives to anchor its product strategy for creators. Sam Yam, co-founder and technology chief of Patreon, announced on X that he is joining OpenAI to lead Creator Product. He is also bringing Patreon's former product lead. This move comes ahead of an upcoming OpenAI announcement, signaling the company's push into the creator economy. By bringing in executives with deep experience in creator subscriptions and platform operations, OpenAI aims to build a robust creator ecosystem, potentially offering AI tools or subscription services for content creators. The hires reflect the growing importance of the creator market for AI companies and the trend of applying generative AI to content creation, distribution, and monetization.",
+  "score": 7
+}

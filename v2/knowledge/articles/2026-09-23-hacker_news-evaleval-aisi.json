@@ -1,0 +1,20 @@
+{
+  "id": "7a1a3a32-284f-4c72-9ba6-5f2fbfcf00ca",
+  "title": "英国AISI与EvalEval如何让基准测试结果可复现",
+  "source": "hacker_news",
+  "source_url": "https://huggingface.co/blog/evaleval-aisi",
+  "summary": "本文介绍了英国人工智能安全研究所（UK AISI）与EvalEval合作，推动AI基准测试结果可复现的工作。文章指出，当前AI评估领域面临基准测试结果难以复现的问题，不同团队在相同基准上得到的结果往往存在差异，原因包括提示词格式、评分方法、模型版本等细节不透明。为此，双方合作开发了标准化工具和流程，通过记录完整的评估配置、提供可复现的评估框架以及共享最佳实践，使基准测试结果能够被独立验证。文章还讨论了可复现性对AI安全评估的重要性，尤其是在模型能力与风险判断方面，只有结果可复现，才能建立可信的评估体系。该工作为AI评估社区提供了可操作的规范，有助于提升基准测试的透明度和可比性。",
+  "tags": [
+    "AI基准测试",
+    "可复现性",
+    "AI安全",
+    "评估框架",
+    "UK AISI"
+  ],
+  "importance": "high",
+  "status": "analyzed",
+  "fetched_at": "2026-09-23T13:07:21+00:00",
+  "analyzed_at": "2026-09-23T13:07:21+00:00",
+  "summary_en": "This article discusses how the UK AI Safety Institute (UK AISI) and EvalEval are collaborating to make AI benchmark results reproducible. It highlights that current AI evaluations often suffer from irreproducibility due to opaque details such as prompt formats, scoring methods, and model versions. The partnership develops standardized tools and processes, including recording full evaluation configurations, providing reproducible evaluation frameworks, and sharing best practices, so that benchmark results can be independently verified. The article also emphasizes the importance of reproducibility for AI safety assessments, arguing that trustworthy evaluation systems require reproducible results. This work offers actionable guidelines for the AI evaluation community, improving transparency and comparability of benchmarks.",
+  "score": 8
+}

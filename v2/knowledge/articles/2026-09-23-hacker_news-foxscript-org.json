@@ -1,0 +1,20 @@
+{
+  "id": "26bc7bf8-b313-42a7-a26b-6de02ed60184",
+  "title": "微软2007年终止FoxPro，如今有人将其复活",
+  "source": "hacker_news",
+  "source_url": "https://foxscript.org/",
+  "summary": "Visual FoxPro 在 2007 年停止于版本 9，但大量基于它的 32 位业务应用至今仍在运行，因为重写一个已有 20 年历史的企业应用往往意味着失去业务。一位客户希望在未来可预见的时间内继续使用其应用，于是该项目应运而生：在全新的运行时上运行相同的语言。该项目名为 FoxScript，目标是在不改变原有 FoxPro 语言的前提下，提供现代化的运行时环境，使旧有应用能够继续运行并可能获得新的生命力。这反映了企业软件领域一个普遍现象：老旧技术栈因迁移成本高昂而长期存活，而兼容性方案则成为延续其生命的关键途径。",
+  "tags": [
+    "Visual FoxPro",
+    "遗留系统",
+    "运行时",
+    "企业应用",
+    "兼容性"
+  ],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-09-23T13:07:21+00:00",
+  "analyzed_at": "2026-09-23T13:07:21+00:00",
+  "summary_en": "Visual FoxPro stopped at version 9 in 2007, yet a surprising amount of it is still running in 32 bits because rewriting a 20-year-old business app is how you lose the business. A customer wanted to keep milking their app for the foreseeable future, so here it is: the same language on a new runtime. The project, called FoxScript, aims to provide a modern runtime for the FoxPro language without changing it, allowing legacy applications to continue running and potentially gain new life. This reflects a common phenomenon in enterprise software: old tech stacks survive due to high migration costs, and compatibility solutions become key to extending their lifespan.",
+  "score": 6
+}

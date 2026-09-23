@@ -1,0 +1,20 @@
+{
+  "id": "ed041d57-9c4f-4e20-af7e-e6367311cffd",
+  "title": "OpenAI 将网络访问权限扩展至乌克兰用于民用防御",
+  "source": "hacker_news",
+  "source_url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+  "summary": "OpenAI 宣布将其 Daybreak 计划的访问权限扩展至乌克兰政府，以支持民用基础设施的网络防御。Daybreak 是 OpenAI 的一项网络安全相关计划，旨在为特定组织提供先进 AI 工具和资源，以增强其网络防御能力。此次扩展意味着乌克兰政府将能够利用 OpenAI 的技术来保护其民用基础设施免受网络攻击。这一举措是 OpenAI 在网络安全领域的最新动作，也反映了 AI 技术在国防和民用安全领域的应用趋势。目前，OpenAI 尚未披露具体的技术细节、访问范围或合作条款。该消息由 OpenAI 官方发布，来源链接为 https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense。",
+  "tags": [
+    "OpenAI",
+    "网络安全",
+    "乌克兰",
+    "民用防御",
+    "AI 安全"
+  ],
+  "importance": "medium",
+  "status": "analyzed",
+  "fetched_at": "2026-09-23T13:07:21+00:00",
+  "analyzed_at": "2026-09-23T13:07:21+00:00",
+  "summary_en": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure. Daybreak is OpenAI's cybersecurity-related initiative that provides select organizations with advanced AI tools and resources to enhance their cyber defense capabilities. This extension means the Ukrainian government will be able to use OpenAI's technology to protect its civilian infrastructure from cyberattacks. The move is OpenAI's latest action in the cybersecurity domain and reflects the growing trend of applying AI technology in defense and civilian security. Specific technical details, scope of access, and terms of cooperation have not been disclosed.",
+  "score": 6
+}

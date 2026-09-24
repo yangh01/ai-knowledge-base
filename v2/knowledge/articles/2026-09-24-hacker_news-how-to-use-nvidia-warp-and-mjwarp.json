@@ -1,0 +1,20 @@
+{
+  "id": "bc7d0644-e605-4aae-94a6-d0f648762e41",
+  "title": "如何使用 NVIDIA Warp 和 MjWarp 加速机器人仿真与学习工作流",
+  "source": "hacker_news",
+  "source_url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+  "summary": "本文介绍了 NVIDIA Warp 和 MjWarp 在机器人仿真与学习工作流中的应用。NVIDIA Warp 是一个面向 GPU 加速的 Python 框架，用于编写高性能仿真和空间计算代码，支持将 Python 函数即时编译为可在 CPU 或 GPU 上运行的高效内核。MjWarp 则是基于 Warp 实现的 MuJoCo 物理引擎 GPU 加速版本，能够大幅提升刚体、关节和接触动力学等机器人仿真的计算速度。文章说明了如何安装和配置 Warp 与 MjWarp，如何将 MuJoCo 模型加载到 MjWarp 中，并利用 GPU 并行执行仿真步骤。同时，文章还展示了如何将 MjWarp 与强化学习等学习工作流结合，通过批量并行仿真加速数据采集和策略训练。整体而言，该内容为机器人研究者提供了一条从传统 CPU 仿真迁移到 GPU 加速仿真的实用路径，有助于缩短训练时间并提升大规模并行仿真的效率。",
+  "tags": [
+    "NVIDIA Warp",
+    "MjWarp",
+    "机器人仿真",
+    "GPU加速",
+    "强化学习"
+  ],
+  "importance": "high",
+  "status": "analyzed",
+  "fetched_at": "2026-09-24T13:01:19+00:00",
+  "analyzed_at": "2026-09-24T13:01:19+00:00",
+  "summary_en": "This article explains how to use NVIDIA Warp and MjWarp to accelerate robotics simulation and learning workflows. NVIDIA Warp is a Python framework for GPU-accelerated simulation and spatial computing that just-in-time compiles Python functions into efficient kernels running on CPUs or GPUs. MjWarp is a Warp-based GPU implementation of the MuJoCo physics engine, significantly speeding up rigid-body, joint, and contact dynamics for robotics simulation. The article covers installing and configuring Warp and MjWarp, loading MuJoCo models into MjWarp, and running simulation steps in parallel on the GPU. It also shows how to integrate MjWarp with learning workflows such as reinforcement learning, using batched parallel simulation to accelerate data collection and policy training. Overall, it provides a practical path for robotics researchers to migrate from CPU-based simulation to GPU-accelerated simulation, helping reduce training time and improve the efficiency of large-scale parallel simulation.",
+  "score": 8
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "title": "openclaw/openclaw",
+    "url": "https://github.com/openclaw/openclaw",
+    "source": "github",
+    "popularity": {
+      "stars": 390377
+    },
+    "summary": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 "
+  },
+  {
+    "title": "obra/superpowers",
+    "url": "https://github.com/obra/superpowers",
+    "source": "github",
+    "popularity": {
+      "stars": 290997
+    },
+    "summary": "An agentic skills framework & software development methodology that works."
+  },
+  {
+    "title": "mattpocock/skills",
+    "url": "https://github.com/mattpocock/skills",
+    "source": "github",
+    "popularity": {
+      "stars": 268854
+    },
+    "summary": "Skills for Real Engineers. Straight from my .agents directory."
+  },
+  {
+    "title": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "source": "github",
+    "popularity": {
+      "stars": 266497
+    },
+    "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+  },
+  {
+    "title": "NousResearch/hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "source": "github",
+    "popularity": {
+      "stars": 248584
+    },
+    "summary": "The agent that grows with you"
+  },
+  {
+    "title": "Feds Target AI Critics as \"Foreign Agents\"",
+    "url": "https://www.kenklippenstein.com/p/feds-think-ai-critics-are-foreign",
+    "source": "rss",
+    "popularity": {},
+    "summary": "Article URL: https://www.kenklippenstein.com/p/feds-think-ai-critics-are-foreign\nComments URL: https://news.ycombinator.com/item?id=49824686\nPoints: 306\n# Comments: 316"
+  },
+  {
+    "title": "Two years of OpenAI Academy",
+    "url": "https://openai.com/index/two-years-of-openai-academy",
+    "source": "rss",
+    "popularity": {},
+    "summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities."
+  },
+  {
+    "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
+    "url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+    "source": "rss",
+    "popularity": {},
+    "summary": ""
+  },
+  {
+    "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
+    "url": "https://huggingface.co/blog/evaleval-aisi",
+    "source": "rss",
+    "popularity": {},
+    "summary": ""
+  },
+  {
+    "title": "OpenAI agents hacked an Australian government website in search for data",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/999874/openai-agents-hacked-an-australian-government-website-in-search-for-data",
+    "source": "rss",
+    "popularity": {},
+    "summary": "OpenAI's artificial intelligence agents hacked an Australian government website and attempted to breach numerous other government and university websites. The attack appears to be the first confirmed instance of a rogue AI agent breaching a government website, adding fuel to rapidly intensifying con"
+  }
+]

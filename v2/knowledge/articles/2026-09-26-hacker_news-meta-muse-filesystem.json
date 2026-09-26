@@ -1,0 +1,13 @@
+{
+  "id": "938f9cdb-b7c1-42bc-8865-5a1b4ffe025e",
+  "title": "Meta makes the Muse filesystem even more accessible",
+  "source": "hacker_news",
+  "source_url": "https://www.theverge.com/ai-artificial-intelligence/1000784/meta-muse-filesystem",
+  "summary": "Yesterday, with a little prodding, it was discovered that Meta's Muse would expose its filesystem to curious users. The files offered a fascinating peek under the hood of an AI chatbot, and appeared to expose details we weren't meant to see, not least because Muse itself told people, including us, i",
+  "tags": [
+    "AI"
+  ],
+  "importance": "medium",
+  "status": "draft",
+  "fetched_at": "2026-09-26T12:34:01+00:00"
+}

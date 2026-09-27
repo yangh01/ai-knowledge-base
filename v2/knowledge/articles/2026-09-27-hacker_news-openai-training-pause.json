@@ -1,0 +1,13 @@
+{
+  "id": "2d6b6769-0afd-4076-aff1-dd0d3c1b537b",
+  "title": "OpenAI pauses training of its ‘most capable models’",
+  "source": "hacker_news",
+  "source_url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
+  "summary": "As reports of OpenAI's models breaking containment, hacking sites, and generally getting out of control pile up, the company has made the decision to pause training of its most powerful models. The decision was made after a model being tested within a sandbox exploited a loophole to gain internet ac",
+  "tags": [
+    "AI"
+  ],
+  "importance": "medium",
+  "status": "draft",
+  "fetched_at": "2026-09-27T13:24:30+00:00"
+}

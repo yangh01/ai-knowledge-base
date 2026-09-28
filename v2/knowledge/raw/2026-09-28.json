@@ -1,0 +1,82 @@
+[
+  {
+    "title": "openclaw/openclaw",
+    "url": "https://github.com/openclaw/openclaw",
+    "source": "github",
+    "popularity": {
+      "stars": 390715
+    },
+    "summary": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 "
+  },
+  {
+    "title": "obra/superpowers",
+    "url": "https://github.com/obra/superpowers",
+    "source": "github",
+    "popularity": {
+      "stars": 292428
+    },
+    "summary": "An agentic skills framework & software development methodology that works."
+  },
+  {
+    "title": "mattpocock/skills",
+    "url": "https://github.com/mattpocock/skills",
+    "source": "github",
+    "popularity": {
+      "stars": 271175
+    },
+    "summary": "Skills for Real Engineers. Straight from my .agents directory."
+  },
+  {
+    "title": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "source": "github",
+    "popularity": {
+      "stars": 268773
+    },
+    "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+  },
+  {
+    "title": "NousResearch/hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "source": "github",
+    "popularity": {
+      "stars": 249714
+    },
+    "summary": "The agent that grows with you"
+  },
+  {
+    "title": "Coding Is Not Solved",
+    "url": "https://blog.alexewerlof.com/p/coding-is-not-solved",
+    "source": "rss",
+    "popularity": {},
+    "summary": "Article URL: https://blog.alexewerlof.com/p/coding-is-not-solved\nComments URL: https://news.ycombinator.com/item?id=49877988\nPoints: 215\n# Comments: 204"
+  },
+  {
+    "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+    "url": "https://openai.com/index/proaction",
+    "source": "rss",
+    "popularity": {},
+    "summary": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster."
+  },
+  {
+    "title": "Holo4: powering generalist computer-use agents",
+    "url": "https://huggingface.co/blog/Hcompany/holo4",
+    "source": "rss",
+    "popularity": {},
+    "summary": ""
+  },
+  {
+    "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+    "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+    "source": "rss",
+    "popularity": {},
+    "summary": ""
+  },
+  {
+    "title": "The SaaSpocalypse that wasn&#8217;t, with Atlassian CEO Mike Cannon-Brookes",
+    "url": "https://www.theverge.com/podcast/1000914/atlassian-ceo-mike-cannon-brookes-saaspocalypse-ai-enterprise-software-trello-jira",
+    "source": "rss",
+    "popularity": {},
+    "summary": "Today, I’m talking with Mike Cannon-Brookes, who is cofounder and CEO of Atlassian.&#160; Atlassian is one of those companies that every other company runs on — it makes important platform tools like Jira and Trello that allow people to organize and manage big teams, create shared databases of compa"
+  }
+]

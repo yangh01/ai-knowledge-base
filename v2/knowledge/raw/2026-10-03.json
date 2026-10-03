@@ -1,0 +1,82 @@
+[
+  {
+    "title": "openclaw/openclaw",
+    "url": "https://github.com/openclaw/openclaw",
+    "source": "github",
+    "popularity": {
+      "stars": 391219
+    },
+    "summary": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 "
+  },
+  {
+    "title": "obra/superpowers",
+    "url": "https://github.com/obra/superpowers",
+    "source": "github",
+    "popularity": {
+      "stars": 294703
+    },
+    "summary": "An agentic skills framework & software development methodology that works."
+  },
+  {
+    "title": "mattpocock/skills",
+    "url": "https://github.com/mattpocock/skills",
+    "source": "github",
+    "popularity": {
+      "stars": 275051
+    },
+    "summary": "Skills for Real Engineers. Straight from my .agents directory."
+  },
+  {
+    "title": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "source": "github",
+    "popularity": {
+      "stars": 271801
+    },
+    "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+  },
+  {
+    "title": "NousResearch/hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "source": "github",
+    "popularity": {
+      "stars": 250891
+    },
+    "summary": "The agent that grows with you"
+  },
+  {
+    "title": "Extra Big Ass Intelligence",
+    "url": "https://www.extrabigassintelligence.com/",
+    "source": "rss",
+    "popularity": {},
+    "summary": "Article URL: https://www.extrabigassintelligence.com/\nComments URL: https://news.ycombinator.com/item?id=49941114\nPoints: 320\n# Comments: 72"
+  },
+  {
+    "title": "A model guide for the GPT-6 family",
+    "url": "https://openai.com/index/practical-guide-building-gpt-6",
+    "source": "rss",
+    "popularity": {},
+    "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production."
+  },
+  {
+    "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+    "url": "https://huggingface.co/blog/allenai/astabrief",
+    "source": "rss",
+    "popularity": {},
+    "summary": ""
+  },
+  {
+    "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
+    "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+    "source": "rss",
+    "popularity": {},
+    "summary": ""
+  },
+  {
+    "title": "Meta open sources code to let you make Muse AI gadgets",
+    "url": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
+    "source": "rss",
+    "popularity": {},
+    "summary": "Meta now lets you make your own Muse gadgets that feature the company's new AI agent with code that the company open sourced. The company suggests projects like loading Muse on a color E Ink display to show reminders, adding it to an HDMI stick so you can display Muse on a big screen, or [&#8230;]"
+  }
+]

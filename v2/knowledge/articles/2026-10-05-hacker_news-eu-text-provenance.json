@@ -1,0 +1,13 @@
+{
+  "id": "967a970e-9055-436c-ae4a-875494eb8216",
+  "title": "Our approach to EU text provenance rules",
+  "source": "hacker_news",
+  "source_url": "https://openai.com/index/eu-text-provenance",
+  "summary": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
+  "tags": [
+    "AI"
+  ],
+  "importance": "medium",
+  "status": "draft",
+  "fetched_at": "2026-10-05T16:35:39+00:00"
+}

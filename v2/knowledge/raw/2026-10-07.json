@@ -1,0 +1,82 @@
+[
+  {
+    "title": "openclaw/openclaw",
+    "url": "https://github.com/openclaw/openclaw",
+    "source": "github",
+    "popularity": {
+      "stars": 391567
+    },
+    "summary": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 "
+  },
+  {
+    "title": "obra/superpowers",
+    "url": "https://github.com/obra/superpowers",
+    "source": "github",
+    "popularity": {
+      "stars": 296251
+    },
+    "summary": "An agentic skills framework & software development methodology that works."
+  },
+  {
+    "title": "mattpocock/skills",
+    "url": "https://github.com/mattpocock/skills",
+    "source": "github",
+    "popularity": {
+      "stars": 279057
+    },
+    "summary": "Skills for Real Engineers. Straight from my .agents directory."
+  },
+  {
+    "title": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "source": "github",
+    "popularity": {
+      "stars": 274660
+    },
+    "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+  },
+  {
+    "title": "NousResearch/hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "source": "github",
+    "popularity": {
+      "stars": 251842
+    },
+    "summary": "The agent that grows with you"
+  },
+  {
+    "title": "Strands Decider 2B: a small, open-source, decision model",
+    "url": "https://strandsagents.com/blog/introducing-strands-decider/",
+    "source": "rss",
+    "popularity": {},
+    "summary": "Article URL: https://strandsagents.com/blog/introducing-strands-decider/\nComments URL: https://news.ycombinator.com/item?id=49987076\nPoints: 230\n# Comments: 68"
+  },
+  {
+    "title": "How Jump Trading is scaling quant research with ChatGPT",
+    "url": "https://openai.com/index/jump-trading",
+    "source": "rss",
+    "popularity": {},
+    "summary": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review."
+  },
+  {
+    "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
+    "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+    "source": "rss",
+    "popularity": {},
+    "summary": ""
+  },
+  {
+    "title": "The Agent Said It Was Done. The Database Disagreed.",
+    "url": "https://huggingface.co/blog/microsoft/thinkingbox",
+    "source": "rss",
+    "popularity": {},
+    "summary": ""
+  },
+  {
+    "title": "Google invests millions in Mark Zuckerberg’s efforts to create a ‘virtual cell’",
+    "url": "https://www.theverge.com/tech/1006766/google-meta-biohub-investment-virtual-cell",
+    "source": "rss",
+    "popularity": {},
+    "summary": "Google DeepMind, Meta, and AI drug discovery startup Isomorphic Labs are jointly investing $300 million into Biohub, the nonprofit biomedical research organization founded by Mark Zuckerberg and his wife, Priscilla Chan, as reported by Reuters. The funding is part of a $1.8 billion initiative to bui"
+  }
+]

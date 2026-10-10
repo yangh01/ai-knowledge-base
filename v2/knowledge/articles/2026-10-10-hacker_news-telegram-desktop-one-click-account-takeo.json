@@ -1,0 +1,13 @@
+{
+  "id": "7f061119-c556-4d30-8045-e96b59930e94",
+  "title": "Telegram Desktop vulnerability allowed any user's file to be stolen",
+  "source": "hacker_news",
+  "source_url": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
+  "summary": "Article URL: https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/\nComments URL: https://news.ycombinator.com/item?id=50029123\nPoints: 229\n# Comments: 116",
+  "tags": [
+    "AI"
+  ],
+  "importance": "medium",
+  "status": "draft",
+  "fetched_at": "2026-10-10T14:05:58+00:00"
+}

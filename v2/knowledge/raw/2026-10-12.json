@@ -1,0 +1,82 @@
+[
+  {
+    "title": "openclaw/openclaw",
+    "url": "https://github.com/openclaw/openclaw",
+    "source": "github",
+    "popularity": {
+      "stars": 391774
+    },
+    "summary": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 "
+  },
+  {
+    "title": "obra/superpowers",
+    "url": "https://github.com/obra/superpowers",
+    "source": "github",
+    "popularity": {
+      "stars": 298078
+    },
+    "summary": "An agentic skills framework & software development methodology that works."
+  },
+  {
+    "title": "mattpocock/skills",
+    "url": "https://github.com/mattpocock/skills",
+    "source": "github",
+    "popularity": {
+      "stars": 287568
+    },
+    "summary": "Skills for Real Engineers. Straight from my .agents directory."
+  },
+  {
+    "title": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ECC",
+    "source": "github",
+    "popularity": {
+      "stars": 277703
+    },
+    "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+  },
+  {
+    "title": "NousResearch/hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "source": "github",
+    "popularity": {
+      "stars": 253044
+    },
+    "summary": "The agent that grows with you"
+  },
+  {
+    "title": "Why aren't AI companies being charged for hacking?",
+    "url": "https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking/",
+    "source": "rss",
+    "popularity": {},
+    "summary": "Article URL: https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking/\nComments URL: https://news.ycombinator.com/item?id=50057278\nPoints: 235\n# Comments: 206"
+  },
+  {
+    "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+    "url": "https://openai.com/index/sophos",
+    "source": "rss",
+    "popularity": {},
+    "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight."
+  },
+  {
+    "title": "Impactful scheduling for GPU clusters",
+    "url": "https://huggingface.co/blog/allenai/impactful-scheduling",
+    "source": "rss",
+    "popularity": {},
+    "summary": ""
+  },
+  {
+    "title": "The model that didn&apos;t exist, so you made it yourself",
+    "url": "https://huggingface.co/blog/building-with-ml-intern",
+    "source": "rss",
+    "popularity": {},
+    "summary": ""
+  },
+  {
+    "title": "Meta has some Wonder Full new AI models",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model",
+    "source": "rss",
+    "popularity": {},
+    "summary": "Meta is making up for lost time in the AI race. After launching Muse Spark, the first model from its revamped Superintelligence Labs division, and buzzy AI agent Muse, it's now launching two new models it claims can go toe-to-toe with the industry's best. The new models, Muse Wonder and Muse Wonder "
+  }
+]

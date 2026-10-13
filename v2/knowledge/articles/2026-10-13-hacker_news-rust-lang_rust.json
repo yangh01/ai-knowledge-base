@@ -1,0 +1,13 @@
+{
+  "id": "cd25dcfc-c1fa-43d3-9f48-de8fc9c17057",
+  "title": "11 year old unsoundness bugs found in Rust borrow checker",
+  "source": "hacker_news",
+  "source_url": "https://github.com/rust-lang/rust/issues/164250",
+  "summary": "Article URL: https://github.com/rust-lang/rust/issues/164250\nComments URL: https://news.ycombinator.com/item?id=50069499\nPoints: 443\n# Comments: 240",
+  "tags": [
+    "AI"
+  ],
+  "importance": "medium",
+  "status": "draft",
+  "fetched_at": "2026-10-13T15:24:19+00:00"
+}
